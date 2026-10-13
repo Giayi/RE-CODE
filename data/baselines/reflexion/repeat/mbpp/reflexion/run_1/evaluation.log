@@ -1,0 +1,8 @@
+$ /opt/conda/envs/reflexion_env/bin/python evaluate_public_mbpp.py --results /workspace/Output/repeat/mbpp/reflexion/run_1/gen/mbpp_public_test._reflexion_10_gpt-4o-mini_pass_at_k_1_py.jsonl --public-test ./benchmarks/mbpp/mbpp_public_test.jsonl --output /workspace/Output/repeat/mbpp/reflexion/run_1/public_eval.jsonl
+cwd=/workspace/programming_runs
+started=2026-10-12T00:54:54+08:00
+
+Public test Pass@1: 268/427 = 0.6276
+Per-problem results: /workspace/Output/repeat/mbpp/reflexion/run_1/public_eval.jsonl
+Summary: /workspace/Output/repeat/mbpp/reflexion/run_1/public_eval_summary.json
+Missing solutions: 2

@@ -1,0 +1,7 @@
+{
+    "father node": 1,
+    "modification": "modify the graph to include the ScEnsemble operator for better solution selection",
+    "before": 0.12626262626262627,
+    "after": 0.8,
+    "succeed": true
+}

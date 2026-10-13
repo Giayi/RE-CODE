@@ -1,0 +1,6 @@
+{
+  "problems": "/data/llm/zjy/OpenHands-main/humaneval/human-eval.jsonl",
+  "public_tests": "/data/llm/zjy/OpenHands-main/humaneval/humaneval_public_test.jsonl",
+  "num_problems": 159,
+  "run_id": "run_02"
+}

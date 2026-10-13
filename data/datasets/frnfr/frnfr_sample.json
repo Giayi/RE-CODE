@@ -1,0 +1,1602 @@
+[
+  {
+    "requirement": "The game shall only display the current block positions and not positions from canceled movements.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The product will be as secure as the web browser that will run the product.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to generate mark sheets for students.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall enforce strong password management, requiring users to keep passwords confidential and unique for each service.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System must maintain audit trail for at least the life of associated cases and make it accessible on request.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall allow recruiters to post job advertisements.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall comply with Standard ISO 9241 for user interface design.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall expect Weeble to load within 20 seconds for 90% of the time.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall be restarted by the administrator in the event of a failure.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Customers shall browse categories and products easily.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall be able to submit feedback by entering their name, address, contact number, and feedback, and receive confirmation of successful submission.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall modify or branch experimental protocols while retaining the original.",
+    "label": "FR"
+  },
+  {
+    "requirement": "A user researcher shall recruit for the last round of user research.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall be able to save videos offline in the mobile app by clicking \"Save Offline\" and receive confirmation that the video was saved.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall not be able to view other users' details for privacy and security reasons.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The platform shall allow embedded viewer styling customization.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to recover their password using the forgot password function.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall scale to accommodate the existing 1,000 users and a projected 5x growth within the next year.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Upon successful login, the system shall create a secure session for the user.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow donor representatives to submit incremental accruals to collections.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The displayed number of total ideas shall be updated frequently.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system (PowerPoint) shall allow users to create and edit text content for slides.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall prevent malicious attacks, including denial of service.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The BE shall be able to initiate a processing task on any Backend processor.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall be reliable and function consistently with minimal downtime.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to associate an Instance with a Container.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Radford University students shall use their RU credentials to access automatic class schedule and assignment sharing.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall allow users to create new forms with various question types (e.g., multiple choice, Likert scale).",
+    "label": "FR"
+  },
+  {
+    "requirement": "The LMS shall allow searching for items by author, title, or keywords.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow a user to define the time segments",
+    "label": "FR"
+  },
+  {
+    "requirement": "Candidates shall be able to opt-in and create Job Agents to receive daily notifications of matching jobs.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall utilize sessions for transactions to ensure data consistency.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall create slideshows with additional text art, animated texts, and Photoshop features.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall provide professional video and photo editing tools within the VivaVideo app.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Testing of Stock Master shall include traversing all forms, stress testing, and Authorization tests.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The user shall be able to add the Module name for the class.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall provide basic usage metrics for administrators",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall be compatible with Intel-based Mac computers and Windows 10/11 ARM-based PCs.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall allow users to create a presentation by adding slides, defining content, and applying formatting.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall ensure correctness in displaying blog details and content, preventing inaccuracies.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall never include unauthorized records in search results.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "FABS user shall have submission errors accurately represent FABS errors.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall display the search page as the first page once the user is logged in, enabling them to search for other users based on their preferences.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Employees shall be able to check online bookings.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System components shall be reusable in other applications.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "A Program of Study shall consist of a program name and listing of required classes (both clinical and non-clinical) that must be completed.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall validate email and phone numbers during signup to ensure uniqueness.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The user shall be able to select a due date by tapping on the Date field and choosing a date from the pop-up calendar.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow prospective applicants to research requirements and select relevant services or applications to initiate online.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The product must comply with Sarbanes-Oxley.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall utilize SSL (Secured Socket Layer) certificate for protection.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall implement anti-theft measures, such as bolting it to the floor, to prevent unauthorized removal.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall be able to detect and alert users to unusual or suspicious account activities automatically.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall find the user interface of the software simple yet efficient, suitable for users with varying levels of technical expertise.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall have access to continuous performance monitoring and profiling to identify and address performance bottlenecks proactively, ensuring optimal system efficiency.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall allow users to rename scores they own.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The product shall be used in office environments.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall maintain backward compatibility and smooth dependency installation.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall post questions, comments, or discussions related to examinations.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall receive automatic updates for downloaded language packs to ensure access to the latest translations and language improvements.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall protect user data from unauthorized access or modification.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall only enable the Logout menu item in the File menu if the current user is authenticated as the administrator.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The following utilities shall be available on the server: tar, wget (or curl), dd, chmod, test, mkdir, echo, mv, uname, command, and gzip.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The user interface shall be intuitive and user-friendly, catering to users of varying technical abilities.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall allow authorized users to add new car information.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow users to validate Data Packages to ensure data conformity.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow curators to move items between collections.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Accounts managers shall track payment transactions and update payment information.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall require a good internet connection for optimal performance.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall send alerts (e.g., email, SMS) to users regarding actions taken on alerts upon user request.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The product shall implement access control to distinguish between authorized and unauthorized users in all access attempts.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall provide efficient storage and retrieval mechanisms for large files and datasets.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "A Drexel University Web API is being designed to answer questions about campus facilities, staff, policies, dining, and food trucks, with accuracy ranging from 40% for food trucks to 80% for generic question construction.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall be accessible to users with disabilities.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall handle commands entered by users and execute them based on the specified parameters, ensuring proper feedback and response to user actions.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The user can manipulate and view designation details, including designation and description.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall perform automatic worm motion analysis to reduce video duration in Worm Watch Lab.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall accept file deposits without requiring complex format conversion and support direct submission of files.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system user interface shall be user-friendly and easy to navigate.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall view the header information box showing the updated date and time.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The user shall be able to navigate the app intuitively, without requiring external instructions.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "This software shall be a great means for the ecosystem.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The APAF system web server shall be password protected where appropriate to allow only pertinent ASPERA-3 team members access.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall ensure protection against various types of failures, damage, or harm, including physical, social, financial, and psychological.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system will notify affected parties when changes occur affecting classes including but not limited to class cancellations class section detail changes and changes to class offerings for a given quarter.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The feature of the application shall provide the optimized route for the given addresses",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall input current location for displaying today's Panchang.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system must allow a member of the network to send requests to a particular or all the other members about possible delivery of a driver's smart card to a similar person.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow publishers to restore deleted data packages using the command-line interface.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Delivery boys shall receive customer details from restaurants.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall generate reports including student lists for each year, student subject choice lists for each batch year, semester-wise mark lists, and rank-wise lists.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall be able to search for the to-location by the address of a building.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall track changes made to metadata over time.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall restrict broadcast message transmission to authorized administrators only.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall be able to function in extreme temperatures to ensure reliability in adverse environmental conditions.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to add/remove products in the shopping cart.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall integrate with Gmail and Outlook to provide access to sales productivity tools within user inboxes.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall segment view and download statistics by country and sector to demonstrate broader impact.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall/will access the system using a login/user-id and password managed securely.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Only admin shall know the number of bidders bidding on teams and their details.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall be able to process the authorization message and send \"authorization successful\" to the central system.",
+    "label": "FR"
+  },
+  {
+    "requirement": "For non-programmers, the system shall allow customization of the application's visual style (colors and icons) for easy maintenance.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall use AJAX calls for shortlisting properties, employing jQuery on the client side.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall be compatible with specified platforms.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall/will be able to generate and download account statements.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall enjoy a versatile editing experience with various editing features including video collages, themes, music bank, and sound effects.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The response shall be fast enough to avoid interrupting the user’s flow of thought. 90% of tasks shall complete within 5 seconds. 98% of tasks shall complete within 8 seconds.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall be able to personalize generic responses by inserting specific data.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall be able to book LPG cylinder online by registering on the website and selecting the company to be redirected to their portal for booking.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Users shall be able to view the profiles of doctors within the PRACTO network and fetch their complete profiles in a single request, returning multiple results for convenient search.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Crafty kids corner shall implement backup and disaster recovery measures to prevent data loss in case of unforeseen events.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall allow applicants to resubmit revised plans.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Admin shall be able to schedule matches by specifying the date, time, and location, as well as reschedule matches due to bad weather conditions.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall have a user-friendly and intuitive interface.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall have the option to rate or review content.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall select the type of passport (Tatkaal or normal).",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall prioritize usability, aiming for easy use and quick familiarity for end users without the need for training or assistance.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall display the transaction number for reference.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall support privileged access management to enable efficient collaboration among depositors and collaborators.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall have descriptive and easily understandable error messages.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall interface with the student master server.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Admin shall be able to add promo code/offers.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Adobe Illustrator shall be compatible with a minimum processor of Intel Pentium 4 or AMD Athlon 64.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System must provide reports for actions on cases organized by case, user, and in chronological sequence.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall display the user's profile with options to edit information.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system is not designed for emergency medical use; in case of an emergency, users should contact emergency services such as 108 or their primary doctor.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to enroll a student's biometric data using fingerprint scanning.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall have access to the website 24/7, except during maintenance periods.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Lab in-charge shall be able to view open lab requests, update the status, and perform actual sample collection and lab tests offline, with reports submitted to patients offline.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall be protected by a password.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall group similar whale calls.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall allow users to examine deposited files and metadata to assess usefulness without downloading entire datasets.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall implement comprehensive security measures to safeguard users from harm.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall strive for accessibility compliance (Developer).",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The graphics card shall support features utilizing GPU Performance (optional).",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall remotely monitor the status and operational changes of wind power plant and network devices.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall secure all information in the library database and transactions, providing authentication for all users and restricting access to authenticated users only.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall be scalable to accommodate a growing user base.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Full lists of job seekers and employers along with their contact information can be printed.",
+    "label": "FR"
+  },
+  {
+    "requirement": "100% of saved user preferences shall be restored when system comes back online.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The product will require collaboration with a database management system (DBMS). The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Regular maintenance and monitoring procedures shall be established to identify and address potential reliability issues proactively.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall ensure seamless integration with external tools and services, such as Twitter and Google Calendar.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall have a disaster recovery plan to ensure data integrity and system functionality in case of outages.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall have an availability of 99.99%.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall allow users to select other TU/e related Facebook sites from a list upon starting the Facebook app.",
+    "label": "FR"
+  },
+  {
+    "requirement": "If the validation succeeds, user shall be redirected to the \"Password reset\" page.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Customer shall be able to favorite the restaurant.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall display a confirmation message upon successful registration of the LeetCode account.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall allow qualified programmers to extend functionality through adding sub-apps and launchers.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Administrator shall have exclusive editing access to databases.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall authenticate user credentials from the database upon sign in.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Administrators shall be able to modify the list of English news RSS feeds.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall provide hardware specifications and limitations.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall require minimum 40 kbps internet speed for optimal performance.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall be able, in accordance with the rules on delays for each transaction, to automatically transmit alert messages to senders/replier/administrator when, f.i. a onstraint on delay for reply is not fulfilled.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow deleting items from the estimation list.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall be able to initialize the ATM with a specified amount of cash and other parameters.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall display the customer homepage for online car booking, showcasing available cars and enabling selection for specific time spans.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall provide CRUD functionality for archival descriptions.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The website shall support screen reader software for disabled users and comply with 508 standards.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall be able to scale to accommodate an increasing number of users and forms.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall receive form validation for the input of name, email, and password, with a confirmation message if the inputs are valid.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The Teams app shall be designed for high availability, ensuring minimal disruption in case of individual service outages.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The campus map shall cover the campus of the TU/e.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall utilize a commercial database for database maintenance, with the application server managing the site.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User will be notified if the barcode output is not generated due to an issue, prompting them to retry or seek assistance if needed.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The MultiMahjongClient will inform the user of legal Chow/Pung/Kong/Mahjong options under Chinese rules and send chosen actions to the MultiMahjongServer.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall sign up or sign in using their email ID and password.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall be able to enter URL to access the homepage.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall provide redundant storage of all databases on automatic switchover computers to ensure reliability.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall allow initiating a two-minute countdown timer visible to all participants.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall utilise periodic 30-second keep-alive messages between tablets and the server to monitor tablet operational status.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The program shall be free software for maximum public benefit through unrestricted redistribution.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall be able to manage check book allotment requests.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Email input shall be optional during sign-up.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow administrators to approve/reject applications for Certified Scrum Practitioner (CSP) and Certified Scrum Trainer (CST) status.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Admin shall communicate directly with facilities to keep them updated about website features.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The user shall be able to set the class which an assignment belongs to.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall be scalable to accommodate future growth in the number of users, medicines, and transactions.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall provide a calendar view of available appointment slots for each healthcare provider.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system will offer defense against widespread online vulnerabilities like cross-site scripting (XSS) and SQL injection.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to know exactly what ALFRED does with their personal data and share it only with specific permission.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow users to import/export data from MS-SQL databases using Data Packages.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall store the user's details in the database for account creation.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall/will be able to view reports such as doctor-wise appointment files and revenue earned per month/quarter/year.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The user interface shall be responsive, adapting to various devices and browsers.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The software part of the system shall be able to perform without total system restart due to internal failure between array maintenance windows.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User satisfaction with the product is targeted at 85%.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The game shall be closed upon user interaction with the exit icon or the phone's back buttons.",
+    "label": "FR"
+  },
+  {
+    "requirement": "All users shall be able to navigate to the Catalogue using the sub navigation icons.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Performance must meet specified requirements even under high user load.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall provide all examination category pages.",
+    "label": "FR"
+  },
+  {
+    "requirement": "A customer shall be able to create an empty pending order through their engaged menu.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall generate dedicated pages for each training class.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to submit their solutions to coding problems.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Restaurants shall be able to view payments.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall experience a consistent look and feel across all web pages of the e-store.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall support a high data transfer rate to facilitate real-time communication and quick response to user commands.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall access the system through a web browser, subject to server downtime.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall allow defining user roles and permissions for form access (e.g., create, edit, view).",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall allow only one antivirus to be installed on a single device at a time.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Users shall be able to vote for any individual idea or an idea group.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall login to access the examiner portal.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Users shall be able to resize text using built-in functions or appropriate methods.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Administrator shall be able to generate reports, log files, and backup/recover data at any time.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall be able to search for job opportunities in Netflix.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall ensure continuous availability, allowing users to control and monitor devices 24/7 without interruptions.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes.",
+    "label": "FR"
+  },
+  {
+    "requirement": "An employee will be able to successfully use the product within a few minutes.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Users will be able to Undo their last move if playing in single player mode.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow applicants to complete building development projects and receive posted bonds or occupancy permits.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall be able to enforce transaction limits.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall support re-initialization in case of failure, and its software design shall prioritize modularity for efficient maintainability.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Administrator shall be able to check feedbacks.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall ensure that projected Event/Activity data is readable by 90% of viewers on a 10x10 projection screen from a 30-foot viewing distance.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall employ easy to locate buttons",
+    "label": "NFR"
+  },
+  {
+    "requirement": "An API User shall be able to convert monetary measures to different currencies.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall process the payment and save the transaction number to the database.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The user shall be able to select a catalogue from Spring 2013 or Winter 2013.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall offer quick access to training options from the home page.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall use a best-effort multicast/broadcast approach, where delivery of packets to all specified agents is not guaranteed.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The APAF system shall acquire from ESOC the telemetry data of the ASPERA-3 Experiment and Mars Express Orbit/Attitude.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Users shall remain authenticated until they choose to log out.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The product shall use a standard navigation menu familiar to most web users.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall use the current stock value in calculations.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow users to skip the splash screen if one is present.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "WhatsApp shall distinguish between Wi-Fi and mobile data networks for media download operations.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Agenda will be restricted to what is available in the feeds on the list of agenda RSS-feeds.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall integrate with Primo for unified search functionality across books, articles, and datasets.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The user shall be able to configure and operate a TCP/IP server.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The user shall be able to add or make changes to the Subject Name.",
+    "label": "FR"
+  },
+  {
+    "requirement": "HPIMS shall generate patient reports including patient’s PHN, name, ward name, bed number, and assigned doctor’s name.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The user shall be able to choose a restaurant type from a list and see the results on a map.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The application shall be available for download on the Google Play Store, allowing users to access it at any time.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The Khan Academy platform shall offer instructional resources in mathematics.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall utilize a relational database (MetadataDB) for storing structured video metadata like title, language, size, and duration.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall allow camp administrators to store their information for future reference.",
+    "label": "FR"
+  },
+  {
+    "requirement": "JavaScript code includes error handling functionality to ensure a smooth user experience.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall be able to allow help-desk users to view reports on submitted defects and enhancement requests categorized by type, status, and submission time.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall be able to allow continued gameplay upon encountering a non-fatal error.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to select a channel and view content from that channel.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Admin accounts will be secured by a 30-minute lockout following three failed login attempts, preventing access from that IP address during the lockout period.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall be compatible with Windows CE and Palm operating systems.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Administrators can update categories, products, and product details.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall require users to comply with applicable laws and regulations governing data privacy, security, and intellectual property rights, including legal notices related to licensing, copyrights, trademarks, and usage restrictions in production environments.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The vertical axis of the color map of the history window shall indicate hour of the day and the horizontal axis shall indicate the absolute date and the day of week.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The Khan Academy platform shall be reliable and available for use during school hours.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall have a \"check\" option corresponding to every passport.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall ensure reliability, earning users' trust with their information.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be required to register the software with a serial key provided in the kit.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall/will have passwords stored securely using industry-standard hashing algorithms.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to interact with the text-based command-line interface of the system.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall perform drug interaction checks to ensure patient safety.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall maintain database availability through failover mechanisms in case of server failures.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The estimator shall not apply recycled parts to the collision estimate if no available parts are returned.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The overall accuracy of the Web API’s response will be measured using a developer-made testing set.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall be designed with better component design to ensure better performance during peak times.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall verify the user's social media account details and share the video link.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall be able to anonymize text by replacing identified keywords with generic terms and provide a mapping between them.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow inspection staff to create inspections.",
+    "label": "FR"
+  },
+  {
+    "requirement": "If user answers positive then this task will be deleted else the deleted command will be cancelled.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow authorized users to delete car information.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Applicants shall be advised to change their passwords monthly.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Photos and Cover Letters will be added to profiles and job applications.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow repository managers to associate content files with objects and components.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The user shall be able to add the Time and Duration of their Class.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall display a registration window containing text fields for customer information and a register button for deposit submission.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The database of Webble shall reliably support up to 20 user accounts and associated data.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User details and data should be stored securely in a database provided by the server.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The ride coordination system shall prioritize a user-friendly, secure, and reliable experience.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall be able to call the seller or buyer to schedule an appointment.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow users to chat with other users who are collaborating on a score.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall provide timely responses to user inputs.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "In-game option to halt gameplay shall be provided, allowing access to fields displayed on the title screen.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Tasks shall be CRUDable (Create, Read, Update, Delete) across Windows PC, mobile apps (future implementation), and car systems (future implementation), with primary focus on the Windows PC experience.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall support basic archival description creation and updates.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Adobe Photoshop shall be designed to achieve a rapid operational restart, minimizing customer inconvenience.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall have access to version control systems for tracking code changes and updates.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "ATM shall be manually restarted by maintenance personnel after an abnormal shutdown.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to maintain chemists and labs details.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall support multiple languages for user interface elements, potentially including multilingual ebooks.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "ReCaptcha shall be implemented to enhance security during authentication.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall be portable and operable on Windows 8 and Mac X operating systems.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The TCS shall notify the operator of all discrepancies found during the mission plan check as well as indicate successful completion of the mission plan check.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall dissolve details from both tables into a single form or make them accessible from one form.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall/will be presented with a login screen featuring fields for username, password, and role selection (Administrator, Student, Teacher).",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to search for items by price, location, or category.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User database shall persist membership, trajectories, and karma.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The Khan Academy platform shall provide students with opportunities to practice and refine math skills.",
+    "label": "FR"
+  },
+  {
+    "requirement": "A display shall not require a user to log in.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Crafty kids corner shall have the ability to accommodate increasing numbers of users as the website grows in popularity.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Clients shall receive notification email of booking confirmation.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall be able to assign Location information to a Container.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall be capable of handling a large number of simultaneous users without significant performance degradation.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Agency user shall have a landing page to navigate to either FABS or DABS pages for easy access to different functionalities.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The search response time for the system must consistently be within two seconds, with an ideal goal of one second, based on measurments from 1000 searches during testing.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to store a limited number of snaps using Memories.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Reliability shall be ensured to prevent data loss in case of server failure during ongoing operations.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to use the application in both English and French languages.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall prioritize continuous operation and ensure that any interruptions can be demonstrably attributed to a trusted operating system issue.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall facilitate easy sponsorship registration and payment.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The code shall be accompanied by proper test cases to identify and address any errors during production.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The supermarket staff shall add new items to the inventory.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall provide a seamless and reliable installation process for the Neurohub node.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall secure in-app purchases via encryption and use a reliable payment gateway.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The search for the preferred repair facility should be completed within 8 seconds.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to delete a doctor, only if no new patient consultation requests are pending.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall process up to 10,000 transactions per minute during normal workload conditions.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall integrate with various third-party applications (e.g., SurveyMonkey, Eventbrite) to enhance functionality.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall provide feedback on invalid data points within Data Packages.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Information on remaining job posting time and CV access shall be reportable.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall support a dedicated graphics card (GPU) for rendering complex graphics and smooth on-screen navigation.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall support efficient filtering and management of trainee information for admins.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "ASPERA-3 data shall be provided to NASA PDS no later than 6 months after acquisition.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall allow users to search for blogs based on a query string, displaying matching results.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall comply with healthcare regulations as defined by the Government of India.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall protect private information in accordance with the organizations information policy.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The user shall be able to set the description of an assignment.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall complete data processing tasks within 5 seconds under peak workload conditions.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Envelope depository shall meet specified dimensions.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall support concurrent user access without experiencing performance degradation.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "VS Code shall require GLIBC version 2.28 or later.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Shop owners shall consult with the administrator regarding product quality and advertisements.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System must show any task that is completed in the task list.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall integrate cancellation deadlines into registration workflows.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Users shall be able to log in to the mobile application with credentials stored on the phone for automatic future login.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Maintainers are responsible for connecting new users to the PayPal Payment System network and maintaining records of all users and transaction status for maintainability purposes.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The session shall conclude after the specified amount of time has passed.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall be user-friendly and easy to navigate.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system performance shall be responsive for uploading, searching, and downloading files.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall experience portability between Microsoft Windows and Linux platforms for both intranet and internet versions of the system.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Users shall be able to participate in discussion forums within the system.",
+    "label": "FR"
+  },
+  {
+    "requirement": "A display shall offer delivery boys all system functionality.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall proceed with the authorization process if the password and serial number are correct.",
+    "label": "FR"
+  },
+  {
+    "requirement": "All software modules shall be designed for easy debugging by allowing simulation of inputs and outputs.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The user shall be able to initiate the game by clicking a button or learn more by following a link to the Denominators' web page.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall send a \"bad password\" message to the ATM if the password is invalid and update the invalid password count.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall ensure that database data remains intact and is only modified through authorized updates.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall prompt customers to log out of the site after completing their purchases.",
+    "label": "FR"
+  },
+  {
+    "requirement": "There shall be no data loss or loss of data integrity during share buying or selling transactions.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Load balancing techniques shall be employed to distribute incoming traffic evenly across multiple servers and prevent server overload.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall ensure compatibility and adaptability across various platforms.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall read initialization data to derive definitions of heating and cooling units.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The TCS shall have the functionality to transmit UAV mission plans to other TCSs.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall allow for the addition of new servers or resources as the system grows.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Adequate RAM shall enable faster rendering, smoother zooming, and an overall improved user experience.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "All of the users shall be able to use the system after one day of training.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Citizens can file complaints with the police.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall send an \"account ok\" message to the ATM if the cash card, password, and account are valid.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall view overall result rankings for examinations.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall create log book page templates with bespoke metadata fields as a lab administrator.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall track the usage of internal camp facilities to avoid scheduling conflicts.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Reliability of the system depends on the reliability of its separate components.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Only eligible students shall apply for scholarships, which shall be verified by the admin.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "While flying two MAE AVs Beyond Line Of Sight (BLOS), the TCS shall provide full control functionality of each AV.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall be able to return items to the seller if not satisfied and provide feedback.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall allow the user to change the password.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The server shall have at least 8 GB RAM.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall ensure reliability by storing user accounts in the database, preventing users from suffering from errors and maintaining consistent data.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall move multiple files using the Neurohub file browser.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The APAF ground data system shall have built-in error handling.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall allow camp administrators to suspend campers for behavioral issues.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall be able to change the text elements used in the user interfaces of the sub-apps and main application, excluding external resources.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall allow users to update their profile details, including name, email, password, mobile number, address, and date of birth, with successful updates confirmed.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall automatically log out inactive users.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall allow researchers to generate citations and share links to files.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Users shall select the examination and choose the answer key option.",
+    "label": "FR"
+  },
+  {
+    "requirement": "User shall/will have access to a simple and intuitive user interface designed for ease of use, especially for elderly patients.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall display options for Home, Trending, and Subscription upon selecting the navigation section.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall enable users to search and book hotels by specifying place and date, providing a list of available hotels with cost information, and redirecting to the payment gateway when booking.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall use two levels of security: ATM card and PIN verification authenticated by CMS software.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The System must allow changes to security attributes for groups or users (such as access rights, security level, privileges, password allocation and management) to be made only by super-user.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall automatically move some emails to the spam folder and may block the sender of spam messages.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The user shall be able to search by price and destination, entering integers for their desired values, and be informed if they enter an invalid input.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall provide the administrator with access to view all employee details and manage the site.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall provide an intuitive blog creation interface for administrators.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall be able to respond to critical processes within defined time limits, including patient registration, consultation requests, and prescription lookup.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall display user-friendly, one-click selectable results in the list view.",
+    "label": "FR"
+  },
+  {
+    "requirement": "System shall enable users to export their stories to their gallery and share them directly to social media platforms with ease.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to update student details.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Users are advised to change their passwords regularly and not share their user ID and password with anyone.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall be able to display a dialogue box explaining the nature of the error for non-fatal errors.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to connect via IP address.",
+    "label": "FR"
+  },
+  {
+    "requirement": "Crafty kids corner shall include accessibility features such as easy navigation, clear labels, and high contrast for readability.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall use SSL (secured socket layer) in all transactions involving confidential customer information.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Users shall be able to access functionalities based on their assigned roles.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "User shall be able to download videos by clicking the download button and view them afterward.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The graphics card should have at least 1 GB of VRAM and support OpenGL version 4.0 for enabling GPU Performance (optional feature for enhanced performance with graphic-intensive tasks).",
+    "label": "NFR"
+  },
+  {
+    "requirement": "Authorized healthcare providers shall have access to view and update patient EHRs.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall display a launcher to the Map-app version 3.1.3 on the main menu.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The system shall resolve the zipcode for the street address, city, and state if zipcode is unknown.",
+    "label": "FR"
+  },
+  {
+    "requirement": "All software processes shall be killable, restartable, debuggable and testable with minimal impact on normal system operations.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "The system shall maintain availability 24/7.",
+    "label": "NFR"
+  },
+  {
+    "requirement": "System shall include a fast/slow motion editor for users to choose the best video speed.",
+    "label": "FR"
+  },
+  {
+    "requirement": "The user shall be able to enter details about the new task in the Detail field.",
+    "label": "FR"
+  }
+]

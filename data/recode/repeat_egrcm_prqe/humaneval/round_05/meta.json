@@ -1,0 +1,55 @@
+{
+  "round": 5,
+  "dataset": "humaneval",
+  "dataset_label": "HumanEval",
+  "method": "metagpt_egrcm_prqe",
+  "model": "gpt-4o-mini",
+  "n_expected": 159,
+  "status": "completed",
+  "generation": {
+    "elapsed_s": 743.984,
+    "attempts": [
+      {
+        "attempt": 1,
+        "started_at": "2026-10-11T15:16:10+08:00",
+        "finished_at": "2026-10-11T15:28:34+08:00",
+        "elapsed_s": 743.984,
+        "returncode": 0
+      }
+    ]
+  },
+  "evaluation": {
+    "started_at": "2026-10-11T15:28:34+08:00",
+    "finished_at": "2026-10-11T15:28:35+08:00",
+    "elapsed_s": 0.744,
+    "returncode": 0
+  },
+  "n_samples": 159,
+  "n_error_completions": 0,
+  "tokens": {
+    "n_problems": 159,
+    "prompt_tokens": 79750,
+    "completion_tokens": 39151,
+    "total_tokens": 118901,
+    "llm_calls": 244,
+    "avg_tokens_per_problem": 747.81,
+    "avg_llm_calls_per_problem": 1.535,
+    "est_cost_usd": 0.035453,
+    "pricing_usd_per_million": {
+      "input": 0.15,
+      "output": 0.6
+    }
+  },
+  "passed": 148,
+  "total": 159,
+  "pass_at_1": 0.9308176100628931,
+  "pass_at_1_percent": 93.081761,
+  "total_elapsed_s": 744.728,
+  "files": {
+    "samples": "results/repeat experiment/humaneval/round_05/metagpt_egrcm_prqe/samples_gpt-4o-mini.jsonl",
+    "token_usage": "results/repeat experiment/humaneval/round_05/metagpt_egrcm_prqe/token_usage_gpt-4o-mini.json",
+    "eval": "results/repeat experiment/humaneval/round_05/eval_pass1.json",
+    "generation_log": "results/repeat experiment/humaneval/round_05/generation.log",
+    "evaluation_log": "results/repeat experiment/humaneval/round_05/evaluation.log"
+  }
+}

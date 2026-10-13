@@ -1,0 +1,45 @@
+{
+  "note": "HumanEval: prompts from human-eval.jsonl joined with humaneval_public_test.jsonl (159). MBPP: prompts from mbpp-new.jsonl joined with mbpp_public_test.jsonl (424 unique of 427 lines).",
+  "model": "gpt-4o-mini",
+  "framework": "OpenHands CodeAct (k=1)",
+  "summaries": [
+    {
+      "dataset": "humaneval",
+      "model": "gpt-4o-mini",
+      "framework": "OpenHands",
+      "k_value": 1,
+      "num_problems": 159,
+      "num_passed": 141,
+      "pass_at_1": 88.6792,
+      "completed": 159,
+      "token_usage": {
+        "prompt_tokens": 122822,
+        "completion_tokens": 48065,
+        "total_tokens": 170887,
+        "api_calls": 291
+      },
+      "elapsed_sec": 848.892,
+      "output_file": "/data/llm/zjy/OpenHands-main/Output/humaneval_gpt-4o-mini_openhands_k1_results.json"
+    },
+    {
+      "dataset": "mbpp",
+      "model": "gpt-4o-mini",
+      "framework": "OpenHands",
+      "k_value": 1,
+      "num_problems": 424,
+      "num_passed": 274,
+      "pass_at_1": 64.6226,
+      "completed": 424,
+      "token_usage": {
+        "prompt_tokens": 218107,
+        "completion_tokens": 98618,
+        "total_tokens": 316725,
+        "api_calls": 693
+      },
+      "elapsed_sec": 1880.567,
+      "output_file": "/data/llm/zjy/OpenHands-main/Output/mbpp_gpt-4o-mini_openhands_k1_results.json",
+      "num_problems_raw_jsonl": 427,
+      "num_duplicate_task_ids_skipped": 3
+    }
+  ]
+}

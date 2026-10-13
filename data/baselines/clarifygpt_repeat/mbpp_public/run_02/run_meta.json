@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "dataset": "mbpp_public",
+  "run_index": 2,
+  "model": "gpt-4o-mini",
+  "k_value": 1,
+  "resumed": false,
+  "num_problems": 427,
+  "num_passed": 331,
+  "pass_at_1": 77.5176,
+  "num_clarified": 154,
+  "token_usage": {
+    "prompt_tokens": 593325,
+    "completion_tokens": 100939,
+    "total_tokens": 694264,
+    "api_calls": 889
+  },
+  "wall_clock_sec": 1564.467,
+  "problem_elapsed_sec": 1545.311,
+  "finished_at": "2026-10-11T17:22:30+08:00",
+  "results_file": "/data/llm/zjy/ClarifyGPT-main/output1/repeatout/mbpp_public/run_02/mbpp_public_gpt-4o-mini_clarifygpt_k1_results.json",
+  "summary_file": "/data/llm/zjy/ClarifyGPT-main/output1/repeatout/mbpp_public/run_02/mbpp_public_gpt-4o-mini_clarifygpt_k1_summary.json"
+}

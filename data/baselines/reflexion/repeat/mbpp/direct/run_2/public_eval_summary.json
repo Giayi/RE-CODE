@@ -1,0 +1,12 @@
+{
+  "results_path": "/workspace/Output/repeat/mbpp/direct/run_2/gen/mbpp_public_test._simple_10_gpt-4o-mini_pass_at_k_1_py.jsonl",
+  "public_test_path": "./benchmarks/mbpp/mbpp_public_test.jsonl",
+  "output_path": "/workspace/Output/repeat/mbpp/direct/run_2/public_eval.jsonl",
+  "passed": 261,
+  "total": 427,
+  "pass_at_1": 0.6112,
+  "missing_solutions": [
+    "pair_xor_Sum",
+    "check_answer"
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  "{'requirement': 'The game shall only display the current block positions and not positions from canceled movements.', 'label': 'FR'}",
+  "{'requirement': 'The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.', 'label': 'NFR'}",
+  "{'requirement': 'Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.', 'label': 'NFR'}",
+  "{'requirement': 'The product will be as secure as the web browser that will run the product.', 'label': 'NFR'}",
+  "{'requirement': 'User shall be able to generate mark sheets for students.', 'label': 'FR'}",
+  "{'requirement': 'The system shall enforce strong password management, requiring users to keep passwords confidential and unique for each service.', 'label': 'NFR'}",
+  "{'requirement': 'System must maintain audit trail for at least the life of associated cases and make it accessible on request.', 'label': 'NFR'}",
+  "{'requirement': 'The system shall allow recruiters to post job advertisements.', 'label': 'FR'}",
+  "{'requirement': 'The system shall comply with Standard ISO 9241 for user interface design.', 'label': 'NFR'}",
+  "{'requirement': 'User shall expect Weeble to load within 20 seconds for 90% of the time.', 'label': 'NFR'}"
+]

@@ -1,0 +1,1133 @@
+{
+  "method": "metagpt_egrcm_prqe",
+  "model": "gpt-4o-mini",
+  "dataset": "HumanEval",
+  "n_problems": 159,
+  "prompt_tokens": 81807,
+  "completion_tokens": 43047,
+  "total_tokens": 124854,
+  "llm_calls": 249,
+  "avg_tokens_per_problem": 785.25,
+  "avg_llm_calls_per_problem": 1.566,
+  "est_cost_usd": 0.038099,
+  "pricing_usd_per_million": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "note": "Recorded from live response.usage during generation.",
+  "problems": [
+    {
+      "task_id": "HumanEval/0",
+      "prompt_tokens": 294,
+      "completion_tokens": 73,
+      "total_tokens": 367,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/1",
+      "prompt_tokens": 284,
+      "completion_tokens": 152,
+      "total_tokens": 436,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/2",
+      "prompt_tokens": 254,
+      "completion_tokens": 119,
+      "total_tokens": 373,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/3",
+      "prompt_tokens": 287,
+      "completion_tokens": 48,
+      "total_tokens": 335,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/4",
+      "prompt_tokens": 287,
+      "completion_tokens": 62,
+      "total_tokens": 349,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/5",
+      "prompt_tokens": 267,
+      "completion_tokens": 62,
+      "total_tokens": 329,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/6",
+      "prompt_tokens": 279,
+      "completion_tokens": 105,
+      "total_tokens": 384,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/7",
+      "prompt_tokens": 262,
+      "completion_tokens": 100,
+      "total_tokens": 362,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/8",
+      "prompt_tokens": 279,
+      "completion_tokens": 62,
+      "total_tokens": 341,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/9",
+      "prompt_tokens": 269,
+      "completion_tokens": 56,
+      "total_tokens": 325,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/10",
+      "prompt_tokens": 1036,
+      "completion_tokens": 295,
+      "total_tokens": 1331,
+      "llm_calls": 5
+    },
+    {
+      "task_id": "HumanEval/11",
+      "prompt_tokens": 247,
+      "completion_tokens": 120,
+      "total_tokens": 367,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/12",
+      "prompt_tokens": 271,
+      "completion_tokens": 62,
+      "total_tokens": 333,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/13",
+      "prompt_tokens": 240,
+      "completion_tokens": 84,
+      "total_tokens": 324,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/14",
+      "prompt_tokens": 228,
+      "completion_tokens": 46,
+      "total_tokens": 274,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/15",
+      "prompt_tokens": 238,
+      "completion_tokens": 79,
+      "total_tokens": 317,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/16",
+      "prompt_tokens": 243,
+      "completion_tokens": 29,
+      "total_tokens": 272,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/17",
+      "prompt_tokens": 339,
+      "completion_tokens": 80,
+      "total_tokens": 419,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/18",
+      "prompt_tokens": 258,
+      "completion_tokens": 66,
+      "total_tokens": 324,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/19",
+      "prompt_tokens": 274,
+      "completion_tokens": 218,
+      "total_tokens": 492,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/20",
+      "prompt_tokens": 337,
+      "completion_tokens": 118,
+      "total_tokens": 455,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/21",
+      "prompt_tokens": 294,
+      "completion_tokens": 80,
+      "total_tokens": 374,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/22",
+      "prompt_tokens": 263,
+      "completion_tokens": 102,
+      "total_tokens": 365,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/23",
+      "prompt_tokens": 213,
+      "completion_tokens": 42,
+      "total_tokens": 255,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/24",
+      "prompt_tokens": 222,
+      "completion_tokens": 85,
+      "total_tokens": 307,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/25",
+      "prompt_tokens": 295,
+      "completion_tokens": 63,
+      "total_tokens": 358,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/26",
+      "prompt_tokens": 253,
+      "completion_tokens": 59,
+      "total_tokens": 312,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/27",
+      "prompt_tokens": 218,
+      "completion_tokens": 48,
+      "total_tokens": 266,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/28",
+      "prompt_tokens": 226,
+      "completion_tokens": 69,
+      "total_tokens": 295,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/29",
+      "prompt_tokens": 257,
+      "completion_tokens": 95,
+      "total_tokens": 352,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/30",
+      "prompt_tokens": 283,
+      "completion_tokens": 121,
+      "total_tokens": 404,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/31",
+      "prompt_tokens": 269,
+      "completion_tokens": 139,
+      "total_tokens": 408,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/33",
+      "prompt_tokens": 969,
+      "completion_tokens": 2057,
+      "total_tokens": 3026,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "HumanEval/34",
+      "prompt_tokens": 243,
+      "completion_tokens": 73,
+      "total_tokens": 316,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/35",
+      "prompt_tokens": 252,
+      "completion_tokens": 116,
+      "total_tokens": 368,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/36",
+      "prompt_tokens": 249,
+      "completion_tokens": 52,
+      "total_tokens": 301,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/37",
+      "prompt_tokens": 293,
+      "completion_tokens": 178,
+      "total_tokens": 471,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/39",
+      "prompt_tokens": 266,
+      "completion_tokens": 139,
+      "total_tokens": 405,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/40",
+      "prompt_tokens": 329,
+      "completion_tokens": 111,
+      "total_tokens": 440,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/41",
+      "prompt_tokens": 3102,
+      "completion_tokens": 2081,
+      "total_tokens": 5183,
+      "llm_calls": 7
+    },
+    {
+      "task_id": "HumanEval/42",
+      "prompt_tokens": 279,
+      "completion_tokens": 115,
+      "total_tokens": 394,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/43",
+      "prompt_tokens": 327,
+      "completion_tokens": 37,
+      "total_tokens": 364,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/44",
+      "prompt_tokens": 261,
+      "completion_tokens": 132,
+      "total_tokens": 393,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/45",
+      "prompt_tokens": 216,
+      "completion_tokens": 69,
+      "total_tokens": 285,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/46",
+      "prompt_tokens": 340,
+      "completion_tokens": 149,
+      "total_tokens": 489,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/47",
+      "prompt_tokens": 735,
+      "completion_tokens": 1450,
+      "total_tokens": 2185,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "HumanEval/48",
+      "prompt_tokens": 241,
+      "completion_tokens": 73,
+      "total_tokens": 314,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/49",
+      "prompt_tokens": 276,
+      "completion_tokens": 110,
+      "total_tokens": 386,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/51",
+      "prompt_tokens": 285,
+      "completion_tokens": 134,
+      "total_tokens": 419,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/52",
+      "prompt_tokens": 249,
+      "completion_tokens": 92,
+      "total_tokens": 341,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/53",
+      "prompt_tokens": 669,
+      "completion_tokens": 599,
+      "total_tokens": 1268,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "HumanEval/54",
+      "prompt_tokens": 308,
+      "completion_tokens": 26,
+      "total_tokens": 334,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/55",
+      "prompt_tokens": 222,
+      "completion_tokens": 111,
+      "total_tokens": 333,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/56",
+      "prompt_tokens": 263,
+      "completion_tokens": 140,
+      "total_tokens": 403,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/57",
+      "prompt_tokens": 256,
+      "completion_tokens": 146,
+      "total_tokens": 402,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/58",
+      "prompt_tokens": 284,
+      "completion_tokens": 120,
+      "total_tokens": 404,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/59",
+      "prompt_tokens": 233,
+      "completion_tokens": 110,
+      "total_tokens": 343,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/60",
+      "prompt_tokens": 264,
+      "completion_tokens": 113,
+      "total_tokens": 377,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/61",
+      "prompt_tokens": 261,
+      "completion_tokens": 89,
+      "total_tokens": 350,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/62",
+      "prompt_tokens": 277,
+      "completion_tokens": 137,
+      "total_tokens": 414,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/63",
+      "prompt_tokens": 317,
+      "completion_tokens": 117,
+      "total_tokens": 434,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/64",
+      "prompt_tokens": 1004,
+      "completion_tokens": 297,
+      "total_tokens": 1301,
+      "llm_calls": 5
+    },
+    {
+      "task_id": "HumanEval/65",
+      "prompt_tokens": 504,
+      "completion_tokens": 830,
+      "total_tokens": 1334,
+      "llm_calls": 2
+    },
+    {
+      "task_id": "HumanEval/66",
+      "prompt_tokens": 281,
+      "completion_tokens": 120,
+      "total_tokens": 401,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/67",
+      "prompt_tokens": 2100,
+      "completion_tokens": 425,
+      "total_tokens": 2525,
+      "llm_calls": 5
+    },
+    {
+      "task_id": "HumanEval/68",
+      "prompt_tokens": 482,
+      "completion_tokens": 106,
+      "total_tokens": 588,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/69",
+      "prompt_tokens": 335,
+      "completion_tokens": 79,
+      "total_tokens": 414,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/70",
+      "prompt_tokens": 294,
+      "completion_tokens": 93,
+      "total_tokens": 387,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/71",
+      "prompt_tokens": 291,
+      "completion_tokens": 87,
+      "total_tokens": 378,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/72",
+      "prompt_tokens": 395,
+      "completion_tokens": 46,
+      "total_tokens": 441,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/73",
+      "prompt_tokens": 327,
+      "completion_tokens": 50,
+      "total_tokens": 377,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/74",
+      "prompt_tokens": 363,
+      "completion_tokens": 66,
+      "total_tokens": 429,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/75",
+      "prompt_tokens": 251,
+      "completion_tokens": 151,
+      "total_tokens": 402,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/76",
+      "prompt_tokens": 312,
+      "completion_tokens": 44,
+      "total_tokens": 356,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/77",
+      "prompt_tokens": 560,
+      "completion_tokens": 184,
+      "total_tokens": 744,
+      "llm_calls": 2
+    },
+    {
+      "task_id": "HumanEval/78",
+      "prompt_tokens": 469,
+      "completion_tokens": 345,
+      "total_tokens": 814,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/79",
+      "prompt_tokens": 309,
+      "completion_tokens": 175,
+      "total_tokens": 484,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/80",
+      "prompt_tokens": 292,
+      "completion_tokens": 75,
+      "total_tokens": 367,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/81",
+      "prompt_tokens": 440,
+      "completion_tokens": 260,
+      "total_tokens": 700,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/82",
+      "prompt_tokens": 251,
+      "completion_tokens": 135,
+      "total_tokens": 386,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/84",
+      "prompt_tokens": 303,
+      "completion_tokens": 151,
+      "total_tokens": 454,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/85",
+      "prompt_tokens": 225,
+      "completion_tokens": 55,
+      "total_tokens": 280,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/86",
+      "prompt_tokens": 298,
+      "completion_tokens": 44,
+      "total_tokens": 342,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/87",
+      "prompt_tokens": 429,
+      "completion_tokens": 63,
+      "total_tokens": 492,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/88",
+      "prompt_tokens": 372,
+      "completion_tokens": 61,
+      "total_tokens": 433,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/89",
+      "prompt_tokens": 280,
+      "completion_tokens": 184,
+      "total_tokens": 464,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/90",
+      "prompt_tokens": 1596,
+      "completion_tokens": 348,
+      "total_tokens": 1944,
+      "llm_calls": 5
+    },
+    {
+      "task_id": "HumanEval/91",
+      "prompt_tokens": 277,
+      "completion_tokens": 51,
+      "total_tokens": 328,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/92",
+      "prompt_tokens": 305,
+      "completion_tokens": 169,
+      "total_tokens": 474,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/93",
+      "prompt_tokens": 837,
+      "completion_tokens": 1479,
+      "total_tokens": 2316,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "HumanEval/94",
+      "prompt_tokens": 455,
+      "completion_tokens": 391,
+      "total_tokens": 846,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/95",
+      "prompt_tokens": 339,
+      "completion_tokens": 67,
+      "total_tokens": 406,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/96",
+      "prompt_tokens": 315,
+      "completion_tokens": 221,
+      "total_tokens": 536,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/97",
+      "prompt_tokens": 268,
+      "completion_tokens": 125,
+      "total_tokens": 393,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/98",
+      "prompt_tokens": 242,
+      "completion_tokens": 125,
+      "total_tokens": 367,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/99",
+      "prompt_tokens": 978,
+      "completion_tokens": 999,
+      "total_tokens": 1977,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "HumanEval/100",
+      "prompt_tokens": 302,
+      "completion_tokens": 82,
+      "total_tokens": 384,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/101",
+      "prompt_tokens": 286,
+      "completion_tokens": 138,
+      "total_tokens": 424,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/102",
+      "prompt_tokens": 263,
+      "completion_tokens": 113,
+      "total_tokens": 376,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/103",
+      "prompt_tokens": 310,
+      "completion_tokens": 191,
+      "total_tokens": 501,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/104",
+      "prompt_tokens": 271,
+      "completion_tokens": 143,
+      "total_tokens": 414,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/106",
+      "prompt_tokens": 294,
+      "completion_tokens": 90,
+      "total_tokens": 384,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/107",
+      "prompt_tokens": 380,
+      "completion_tokens": 97,
+      "total_tokens": 477,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/108",
+      "prompt_tokens": 294,
+      "completion_tokens": 68,
+      "total_tokens": 362,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/109",
+      "prompt_tokens": 471,
+      "completion_tokens": 351,
+      "total_tokens": 822,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/110",
+      "prompt_tokens": 1101,
+      "completion_tokens": 849,
+      "total_tokens": 1950,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "HumanEval/111",
+      "prompt_tokens": 321,
+      "completion_tokens": 202,
+      "total_tokens": 523,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/112",
+      "prompt_tokens": 334,
+      "completion_tokens": 43,
+      "total_tokens": 377,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/113",
+      "prompt_tokens": 343,
+      "completion_tokens": 71,
+      "total_tokens": 414,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/114",
+      "prompt_tokens": 258,
+      "completion_tokens": 84,
+      "total_tokens": 342,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/115",
+      "prompt_tokens": 493,
+      "completion_tokens": 50,
+      "total_tokens": 543,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/116",
+      "prompt_tokens": 1020,
+      "completion_tokens": 459,
+      "total_tokens": 1479,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "HumanEval/117",
+      "prompt_tokens": 351,
+      "completion_tokens": 252,
+      "total_tokens": 603,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/118",
+      "prompt_tokens": 316,
+      "completion_tokens": 98,
+      "total_tokens": 414,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/119",
+      "prompt_tokens": 670,
+      "completion_tokens": 1009,
+      "total_tokens": 1679,
+      "llm_calls": 2
+    },
+    {
+      "task_id": "HumanEval/120",
+      "prompt_tokens": 774,
+      "completion_tokens": 175,
+      "total_tokens": 949,
+      "llm_calls": 2
+    },
+    {
+      "task_id": "HumanEval/121",
+      "prompt_tokens": 267,
+      "completion_tokens": 59,
+      "total_tokens": 326,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/122",
+      "prompt_tokens": 298,
+      "completion_tokens": 49,
+      "total_tokens": 347,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/123",
+      "prompt_tokens": 403,
+      "completion_tokens": 106,
+      "total_tokens": 509,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/124",
+      "prompt_tokens": 433,
+      "completion_tokens": 189,
+      "total_tokens": 622,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/125",
+      "prompt_tokens": 310,
+      "completion_tokens": 70,
+      "total_tokens": 380,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/126",
+      "prompt_tokens": 1257,
+      "completion_tokens": 1035,
+      "total_tokens": 2292,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "HumanEval/127",
+      "prompt_tokens": 4187,
+      "completion_tokens": 2205,
+      "total_tokens": 6392,
+      "llm_calls": 7
+    },
+    {
+      "task_id": "HumanEval/128",
+      "prompt_tokens": 292,
+      "completion_tokens": 86,
+      "total_tokens": 378,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/129",
+      "prompt_tokens": 566,
+      "completion_tokens": 214,
+      "total_tokens": 780,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/130",
+      "prompt_tokens": 1212,
+      "completion_tokens": 4105,
+      "total_tokens": 5317,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "HumanEval/131",
+      "prompt_tokens": 241,
+      "completion_tokens": 124,
+      "total_tokens": 365,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/132",
+      "prompt_tokens": 2864,
+      "completion_tokens": 1128,
+      "total_tokens": 3992,
+      "llm_calls": 7
+    },
+    {
+      "task_id": "HumanEval/133",
+      "prompt_tokens": 327,
+      "completion_tokens": 25,
+      "total_tokens": 352,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/134",
+      "prompt_tokens": 921,
+      "completion_tokens": 937,
+      "total_tokens": 1858,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "HumanEval/135",
+      "prompt_tokens": 273,
+      "completion_tokens": 145,
+      "total_tokens": 418,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/136",
+      "prompt_tokens": 312,
+      "completion_tokens": 86,
+      "total_tokens": 398,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/137",
+      "prompt_tokens": 1715,
+      "completion_tokens": 424,
+      "total_tokens": 2139,
+      "llm_calls": 5
+    },
+    {
+      "task_id": "HumanEval/138",
+      "prompt_tokens": 247,
+      "completion_tokens": 96,
+      "total_tokens": 343,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/139",
+      "prompt_tokens": 265,
+      "completion_tokens": 131,
+      "total_tokens": 396,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/140",
+      "prompt_tokens": 276,
+      "completion_tokens": 141,
+      "total_tokens": 417,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/141",
+      "prompt_tokens": 384,
+      "completion_tokens": 101,
+      "total_tokens": 485,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/142",
+      "prompt_tokens": 1017,
+      "completion_tokens": 666,
+      "total_tokens": 1683,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "HumanEval/143",
+      "prompt_tokens": 317,
+      "completion_tokens": 92,
+      "total_tokens": 409,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/144",
+      "prompt_tokens": 1789,
+      "completion_tokens": 410,
+      "total_tokens": 2199,
+      "llm_calls": 5
+    },
+    {
+      "task_id": "HumanEval/145",
+      "prompt_tokens": 855,
+      "completion_tokens": 484,
+      "total_tokens": 1339,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "HumanEval/146",
+      "prompt_tokens": 289,
+      "completion_tokens": 172,
+      "total_tokens": 461,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/147",
+      "prompt_tokens": 335,
+      "completion_tokens": 98,
+      "total_tokens": 433,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/148",
+      "prompt_tokens": 1143,
+      "completion_tokens": 1313,
+      "total_tokens": 2456,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "HumanEval/149",
+      "prompt_tokens": 357,
+      "completion_tokens": 218,
+      "total_tokens": 575,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/150",
+      "prompt_tokens": 256,
+      "completion_tokens": 126,
+      "total_tokens": 382,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/151",
+      "prompt_tokens": 1707,
+      "completion_tokens": 401,
+      "total_tokens": 2108,
+      "llm_calls": 5
+    },
+    {
+      "task_id": "HumanEval/152",
+      "prompt_tokens": 400,
+      "completion_tokens": 32,
+      "total_tokens": 432,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/153",
+      "prompt_tokens": 442,
+      "completion_tokens": 103,
+      "total_tokens": 545,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/154",
+      "prompt_tokens": 1764,
+      "completion_tokens": 532,
+      "total_tokens": 2296,
+      "llm_calls": 5
+    },
+    {
+      "task_id": "HumanEval/155",
+      "prompt_tokens": 238,
+      "completion_tokens": 127,
+      "total_tokens": 365,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/156",
+      "prompt_tokens": 275,
+      "completion_tokens": 142,
+      "total_tokens": 417,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/157",
+      "prompt_tokens": 278,
+      "completion_tokens": 43,
+      "total_tokens": 321,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/158",
+      "prompt_tokens": 1727,
+      "completion_tokens": 525,
+      "total_tokens": 2252,
+      "llm_calls": 5
+    },
+    {
+      "task_id": "HumanEval/159",
+      "prompt_tokens": 2670,
+      "completion_tokens": 694,
+      "total_tokens": 3364,
+      "llm_calls": 5
+    },
+    {
+      "task_id": "HumanEval/160",
+      "prompt_tokens": 378,
+      "completion_tokens": 46,
+      "total_tokens": 424,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/161",
+      "prompt_tokens": 277,
+      "completion_tokens": 45,
+      "total_tokens": 322,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/162",
+      "prompt_tokens": 246,
+      "completion_tokens": 30,
+      "total_tokens": 276,
+      "llm_calls": 1
+    },
+    {
+      "task_id": "HumanEval/163",
+      "prompt_tokens": 834,
+      "completion_tokens": 811,
+      "total_tokens": 1645,
+      "llm_calls": 3
+    }
+  ]
+}

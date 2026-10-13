@@ -1,0 +1,33 @@
+{
+  "dataset": "MBPP",
+  "method": "metagpt_egrcm",
+  "model": "gpt-4o-mini",
+  "n_problems": 427,
+  "passed": 326,
+  "pass_at_1": 0.7634660421545667,
+  "egrcm_skipped": 3,
+  "egrcm_run": 424,
+  "pass_at_1_skipped": 0.6666666666666666,
+  "pass_at_1_egrcm_run": 0.7641509433962265,
+  "avg_entropy_after": 0.342698,
+  "avg_entropy_delta": 0.652384,
+  "entropy_bins": [
+    {
+      "bin": 0,
+      "entropy_low": 0.3,
+      "entropy_high": 0.3086,
+      "n": 3,
+      "passed": 2,
+      "pass_at_1": 0.6666666666666666
+    },
+    {
+      "bin": 4,
+      "entropy_low": 0.3343999999999999,
+      "entropy_high": 0.3429999999999999,
+      "n": 424,
+      "passed": 324,
+      "pass_at_1": 0.7641509433962265
+    }
+  ],
+  "note": "entropy_score starts at 1.0 and multiplies by 0.7 per clarification round; skipped problems keep entropy_after=1.0 (gating heuristic)."
+}

@@ -1,0 +1,116 @@
+{
+  "dataset": "mbpp",
+  "n_runs": 5,
+  "pass_at_1_values": [
+    63.9151,
+    64.6226,
+    64.6226,
+    65.0943,
+    64.1509
+  ],
+  "pass_at_1_mean": 64.4811,
+  "pass_at_1_std": 0.4597,
+  "pass_at_1_mean_pm_std": "64.48 ± 0.46",
+  "token_usage": {
+    "total_tokens_per_run": [
+      322173,
+      319123,
+      321437,
+      315905,
+      317127
+    ],
+    "total_tokens_mean": 319153.0,
+    "total_tokens_std": 2692.22,
+    "prompt_tokens_per_run": [
+      221997,
+      218302,
+      222364,
+      217075,
+      217219
+    ],
+    "completion_tokens_per_run": [
+      100176,
+      100821,
+      99073,
+      98830,
+      99908
+    ],
+    "api_calls_per_run": [
+      701,
+      691,
+      702,
+      691,
+      691
+    ],
+    "total_tokens_sum_all_runs": 1595765
+  },
+  "time_usage": {
+    "elapsed_sec_per_run": [
+      1357.563,
+      1557.727,
+      1343.915,
+      1333.781,
+      1342.098
+    ],
+    "elapsed_sec_mean": 1387.017,
+    "elapsed_sec_std": 95.811,
+    "elapsed_sec_sum_all_runs": 6935.084
+  },
+  "per_run": [
+    {
+      "run_id": "run_01",
+      "pass_at_1": 63.9151,
+      "num_passed": 271,
+      "num_problems": 424,
+      "prompt_tokens": 221997,
+      "completion_tokens": 100176,
+      "total_tokens": 322173,
+      "api_calls": 701,
+      "elapsed_sec": 1357.563
+    },
+    {
+      "run_id": "run_02",
+      "pass_at_1": 64.6226,
+      "num_passed": 274,
+      "num_problems": 424,
+      "prompt_tokens": 218302,
+      "completion_tokens": 100821,
+      "total_tokens": 319123,
+      "api_calls": 691,
+      "elapsed_sec": 1557.727
+    },
+    {
+      "run_id": "run_03",
+      "pass_at_1": 64.6226,
+      "num_passed": 274,
+      "num_problems": 424,
+      "prompt_tokens": 222364,
+      "completion_tokens": 99073,
+      "total_tokens": 321437,
+      "api_calls": 702,
+      "elapsed_sec": 1343.915
+    },
+    {
+      "run_id": "run_04",
+      "pass_at_1": 65.0943,
+      "num_passed": 276,
+      "num_problems": 424,
+      "prompt_tokens": 217075,
+      "completion_tokens": 98830,
+      "total_tokens": 315905,
+      "api_calls": 691,
+      "elapsed_sec": 1333.781
+    },
+    {
+      "run_id": "run_05",
+      "pass_at_1": 64.1509,
+      "num_passed": 272,
+      "num_problems": 424,
+      "prompt_tokens": 217219,
+      "completion_tokens": 99908,
+      "total_tokens": 317127,
+      "api_calls": 691,
+      "elapsed_sec": 1342.098
+    }
+  ]
+}

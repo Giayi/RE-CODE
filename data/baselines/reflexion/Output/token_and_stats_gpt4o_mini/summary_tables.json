@@ -1,0 +1,106 @@
+{
+  "token_table": [
+    {
+      "dataset": "HumanEval",
+      "method": "direct",
+      "total_tokens": 56695,
+      "mean_tokens": 356.57,
+      "ci_lower": 339.21,
+      "ci_upper": 374.83,
+      "approx_cost_usd": 0.0192
+    },
+    {
+      "dataset": "HumanEval",
+      "method": "reflexion",
+      "total_tokens": 535512,
+      "mean_tokens": 3368.0,
+      "ci_lower": 2262.99,
+      "ci_upper": 4560.85,
+      "approx_cost_usd": 0.119
+    },
+    {
+      "dataset": "MBPP",
+      "method": "direct",
+      "total_tokens": 72161,
+      "mean_tokens": 170.19,
+      "ci_lower": 166.21,
+      "ci_upper": 174.35,
+      "approx_cost_usd": 0.0239
+    },
+    {
+      "dataset": "MBPP",
+      "method": "reflexion",
+      "total_tokens": 1836455,
+      "mean_tokens": 4331.26,
+      "ci_lower": 3646.0,
+      "ci_upper": 5024.88,
+      "approx_cost_usd": 0.3673
+    }
+  ],
+  "token_diff_table": [
+    {
+      "dataset": "HumanEval",
+      "mean_delta_tokens": 3011.43,
+      "ci_lower": 1930.39,
+      "ci_upper": 4238.82,
+      "p_value": 1e-06,
+      "cohens_d": 0.4028
+    },
+    {
+      "dataset": "MBPP",
+      "mean_delta_tokens": 4161.07,
+      "ci_lower": 3471.23,
+      "ci_upper": 4865.13,
+      "p_value": 0.0,
+      "cohens_d": 0.5667
+    }
+  ],
+  "pass_table": [
+    {
+      "dataset": "HumanEval",
+      "method": "direct",
+      "pass_at_1": 0.8742,
+      "ci_lower": 0.8137,
+      "ci_upper": 0.9171
+    },
+    {
+      "dataset": "HumanEval",
+      "method": "reflexion",
+      "pass_at_1": 0.8491,
+      "ci_lower": 0.7852,
+      "ci_upper": 0.8964
+    },
+    {
+      "dataset": "MBPP",
+      "method": "direct",
+      "pass_at_1": 0.6159,
+      "ci_lower": 0.569,
+      "ci_upper": 0.6608
+    },
+    {
+      "dataset": "MBPP",
+      "method": "reflexion",
+      "pass_at_1": 0.6136,
+      "ci_lower": 0.5666,
+      "ci_upper": 0.6586
+    }
+  ],
+  "pass_diff_table": [
+    {
+      "dataset": "HumanEval",
+      "delta_pass_at_1": -0.0252,
+      "ci_lower": -0.0692,
+      "ci_upper": 0.0189,
+      "p_value": 0.387695,
+      "cohens_d": -0.0917
+    },
+    {
+      "dataset": "MBPP",
+      "delta_pass_at_1": -0.0023,
+      "ci_lower": -0.0258,
+      "ci_upper": 0.0211,
+      "p_value": 1.0,
+      "cohens_d": -0.0093
+    }
+  ]
+}

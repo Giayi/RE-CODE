@@ -1,0 +1,5 @@
+{
+  "problems": "/data/llm/zjy/OpenHands-main/mbpp/mbpp-new.jsonl",
+  "public_tests": "/data/llm/zjy/OpenHands-main/mbpp/mbpp_public_test.jsonl",
+  "num_problems": 427
+}

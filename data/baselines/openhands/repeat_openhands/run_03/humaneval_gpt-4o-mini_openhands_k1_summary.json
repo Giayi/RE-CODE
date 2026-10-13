@@ -1,0 +1,20 @@
+{
+  "dataset": "humaneval",
+  "model": "gpt-4o-mini",
+  "framework": "OpenHands",
+  "k_value": 1,
+  "num_problems": 159,
+  "num_passed": 140,
+  "pass_at_1": 88.0503,
+  "completed": 159,
+  "token_usage": {
+    "prompt_tokens": 126148,
+    "completion_tokens": 47004,
+    "total_tokens": 173152,
+    "api_calls": 297
+  },
+  "elapsed_sec": 612.108,
+  "output_file": "/data/llm/zjy/OpenHands-main/Output/repeat/run_03/humaneval_gpt-4o-mini_openhands_k1_results.json",
+  "run_id": "run_03",
+  "temperature": 0.2
+}

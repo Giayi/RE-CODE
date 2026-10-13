@@ -1,0 +1,24 @@
+{
+  "saved_at": "2026-10-11T16:30:47+08:00",
+  "runs": 5,
+  "datasets": [
+    "humaneval",
+    "mbpp_public"
+  ],
+  "limit": null,
+  "config": {
+    "api_type": "openai",
+    "model": "gpt-4o-mini",
+    "base_url": "https://api.openai-proxy.org/v1",
+    "k_value": 1,
+    "n_samples": 1,
+    "sample_temperature": 0.0,
+    "greedy_temperature": 0.0,
+    "max_tokens": 800,
+    "inference_type": "three_shot",
+    "max_candidates": 4,
+    "output_dir": "output1",
+    "humaneval_dir": "humaneval",
+    "mbpp_dir": "mbpp"
+  }
+}

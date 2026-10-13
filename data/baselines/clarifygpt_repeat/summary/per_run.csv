@@ -1,0 +1,11 @@
+dataset,run_index,num_problems,num_passed,pass_at_1,num_clarified,prompt_tokens,completion_tokens,total_tokens,api_calls,problem_elapsed_sec,wall_clock_sec,resumed,results_file
+humaneval,1,159,138,86.7925,33,200933,37291,238224,258,528.703,534.647,False,/data/llm/zjy/ClarifyGPT-main/output1/repeatout/humaneval/run_01/humaneval_gpt-4o-mini_clarifygpt_k1_results.json
+humaneval,2,159,138,86.7925,32,195753,37227,232980,255,496.267,505.509,False,/data/llm/zjy/ClarifyGPT-main/output1/repeatout/humaneval/run_02/humaneval_gpt-4o-mini_clarifygpt_k1_results.json
+humaneval,3,159,131,82.3899,33,201780,37705,239485,258,520.874,527.087,False,/data/llm/zjy/ClarifyGPT-main/output1/repeatout/humaneval/run_03/humaneval_gpt-4o-mini_clarifygpt_k1_results.json
+humaneval,4,159,140,88.0503,33,201162,37121,238283,258,507.527,510.683,False,/data/llm/zjy/ClarifyGPT-main/output1/repeatout/humaneval/run_04/humaneval_gpt-4o-mini_clarifygpt_k1_results.json
+humaneval,5,159,137,86.1635,32,196045,37141,233186,255,525.2,528.171,False,/data/llm/zjy/ClarifyGPT-main/output1/repeatout/humaneval/run_05/humaneval_gpt-4o-mini_clarifygpt_k1_results.json
+mbpp_public,1,427,324,75.8782,152,585727,100119,685846,883,1519.872,1537.992,False,/data/llm/zjy/ClarifyGPT-main/output1/repeatout/mbpp_public/run_01/mbpp_public_gpt-4o-mini_clarifygpt_k1_results.json
+mbpp_public,2,427,331,77.5176,154,593325,100939,694264,889,1545.311,1564.467,False,/data/llm/zjy/ClarifyGPT-main/output1/repeatout/mbpp_public/run_02/mbpp_public_gpt-4o-mini_clarifygpt_k1_results.json
+mbpp_public,3,427,322,75.4098,156,600144,101375,701519,895,1547.591,1563.725,False,/data/llm/zjy/ClarifyGPT-main/output1/repeatout/mbpp_public/run_03/mbpp_public_gpt-4o-mini_clarifygpt_k1_results.json
+mbpp_public,4,427,328,76.815,152,586112,100673,686785,883,1548.789,1563.705,False,/data/llm/zjy/ClarifyGPT-main/output1/repeatout/mbpp_public/run_04/mbpp_public_gpt-4o-mini_clarifygpt_k1_results.json
+mbpp_public,5,427,326,76.3466,155,597352,101584,698936,892,1666.882,1681.927,False,/data/llm/zjy/ClarifyGPT-main/output1/repeatout/mbpp_public/run_05/mbpp_public_gpt-4o-mini_clarifygpt_k1_results.json

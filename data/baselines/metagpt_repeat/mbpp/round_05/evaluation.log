@@ -1,0 +1,13 @@
+
+===== 2026-10-11T15:54:36+08:00 =====
+$ /usr/bin/python3 -u scripts/evaluate_mbpp_pass1.py -i /data/llm/zjy/MetaGPT-main/results/repeat_metagpt/mbpp/round_05/metagpt/samples_mbpp_gpt-4o-mini.jsonl -o /data/llm/zjy/MetaGPT-main/results/repeat_metagpt/mbpp/round_05/eval_pass1.json --dataset results/datasets/mbpp/mbpp_public_test.jsonl --timeout 15
+2026-10-11 15:54:36.495 | INFO     | metagpt.const:get_metagpt_package_root:15 - Package root set to /data/llm/zjy/MetaGPT-main
+2026-10-11 15:54:36.495 | INFO     | metagpt.const:get_metagpt_package_root:15 - Package root set to /data/llm/zjy/MetaGPT-main
+{
+  "dataset": "/data/llm/zjy/MetaGPT-main/results/datasets/mbpp/mbpp_public_test.jsonl",
+  "samples": "/data/llm/zjy/MetaGPT-main/results/repeat_metagpt/mbpp/round_05/metagpt/samples_mbpp_gpt-4o-mini.jsonl",
+  "total": 427,
+  "passed": 326,
+  "pass@1": 0.7634660421545667,
+  "elapsed_s": 0.33649778366088867
+}

@@ -1,0 +1,746 @@
+[2026-10-11 16:26:12] host keep-alive started
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 16:26:12] ok_metrics=7/20
+[2026-10-11 16:26:12] ok_metrics=7/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 16:26:12] Runner already alive; nothing to do.
+[2026-10-11 16:26:12] Runner already alive; nothing to do.
+[2026-10-11 16:26:12] progress ok_metrics=7/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 16:36:12] ok_metrics=7/20
+[2026-10-11 16:36:12] ok_metrics=7/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 16:36:12] Runner already alive; nothing to do.
+[2026-10-11 16:36:12] Runner already alive; nothing to do.
+[2026-10-11 16:36:13] progress ok_metrics=7/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 16:46:13] ok_metrics=8/20
+[2026-10-11 16:46:13] ok_metrics=8/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 16:46:13] Runner already alive; nothing to do.
+[2026-10-11 16:46:13] Runner already alive; nothing to do.
+[2026-10-11 16:46:13] progress ok_metrics=8/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 16:56:13] ok_metrics=8/20
+[2026-10-11 16:56:13] ok_metrics=8/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 16:56:13] Runner already alive; nothing to do.
+[2026-10-11 16:56:13] Runner already alive; nothing to do.
+[2026-10-11 16:56:13] progress ok_metrics=8/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 17:06:13] ok_metrics=8/20
+[2026-10-11 17:06:13] ok_metrics=8/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 17:06:13] Runner already alive; nothing to do.
+[2026-10-11 17:06:13] Runner already alive; nothing to do.
+[2026-10-11 17:06:14] progress ok_metrics=8/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 17:16:14] ok_metrics=9/20
+[2026-10-11 17:16:14] ok_metrics=9/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 17:16:14] Runner already alive; nothing to do.
+[2026-10-11 17:16:14] Runner already alive; nothing to do.
+[2026-10-11 17:16:14] progress ok_metrics=9/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 17:26:14] ok_metrics=9/20
+[2026-10-11 17:26:14] ok_metrics=9/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 17:26:14] Runner already alive; nothing to do.
+[2026-10-11 17:26:14] Runner already alive; nothing to do.
+[2026-10-11 17:26:14] progress ok_metrics=9/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 17:36:15] ok_metrics=9/20
+[2026-10-11 17:36:15] ok_metrics=9/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 17:36:15] Runner already alive; nothing to do.
+[2026-10-11 17:36:15] Runner already alive; nothing to do.
+[2026-10-11 17:36:15] progress ok_metrics=9/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 17:46:15] ok_metrics=9/20
+[2026-10-11 17:46:15] ok_metrics=9/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 17:46:15] Runner already alive; nothing to do.
+[2026-10-11 17:46:15] Runner already alive; nothing to do.
+[2026-10-11 17:46:15] progress ok_metrics=9/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 17:56:15] ok_metrics=10/20
+[2026-10-11 17:56:15] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 17:56:15] Runner already alive; nothing to do.
+[2026-10-11 17:56:15] Runner already alive; nothing to do.
+[2026-10-11 17:56:15] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 18:06:16] ok_metrics=10/20
+[2026-10-11 18:06:16] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 18:06:16] Runner already alive; nothing to do.
+[2026-10-11 18:06:16] Runner already alive; nothing to do.
+[2026-10-11 18:06:16] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 18:16:16] ok_metrics=10/20
+[2026-10-11 18:16:16] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 18:16:16] Runner already alive; nothing to do.
+[2026-10-11 18:16:16] Runner already alive; nothing to do.
+[2026-10-11 18:16:16] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 18:26:16] ok_metrics=10/20
+[2026-10-11 18:26:16] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 18:26:16] Runner already alive; nothing to do.
+[2026-10-11 18:26:16] Runner already alive; nothing to do.
+[2026-10-11 18:26:16] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 18:36:17] ok_metrics=10/20
+[2026-10-11 18:36:17] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 18:36:17] Runner already alive; nothing to do.
+[2026-10-11 18:36:17] Runner already alive; nothing to do.
+[2026-10-11 18:36:17] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 18:46:17] ok_metrics=10/20
+[2026-10-11 18:46:17] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 18:46:17] Runner already alive; nothing to do.
+[2026-10-11 18:46:17] Runner already alive; nothing to do.
+[2026-10-11 18:46:17] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 18:56:17] ok_metrics=10/20
+[2026-10-11 18:56:17] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 18:56:17] Runner already alive; nothing to do.
+[2026-10-11 18:56:17] Runner already alive; nothing to do.
+[2026-10-11 18:56:18] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 19:06:18] ok_metrics=10/20
+[2026-10-11 19:06:18] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 19:06:18] Runner already alive; nothing to do.
+[2026-10-11 19:06:18] Runner already alive; nothing to do.
+[2026-10-11 19:06:18] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 19:16:18] ok_metrics=10/20
+[2026-10-11 19:16:18] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 19:16:18] Runner already alive; nothing to do.
+[2026-10-11 19:16:18] Runner already alive; nothing to do.
+[2026-10-11 19:16:18] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 19:26:18] ok_metrics=10/20
+[2026-10-11 19:26:18] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 19:26:18] Runner already alive; nothing to do.
+[2026-10-11 19:26:18] Runner already alive; nothing to do.
+[2026-10-11 19:26:19] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 19:36:19] ok_metrics=10/20
+[2026-10-11 19:36:19] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 19:36:19] Runner already alive; nothing to do.
+[2026-10-11 19:36:19] Runner already alive; nothing to do.
+[2026-10-11 19:36:19] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 19:46:19] ok_metrics=10/20
+[2026-10-11 19:46:19] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 19:46:19] Runner already alive; nothing to do.
+[2026-10-11 19:46:19] Runner already alive; nothing to do.
+[2026-10-11 19:46:19] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 19:56:19] ok_metrics=10/20
+[2026-10-11 19:56:19] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 19:56:20] Runner already alive; nothing to do.
+[2026-10-11 19:56:20] Runner already alive; nothing to do.
+[2026-10-11 19:56:20] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 20:06:20] ok_metrics=10/20
+[2026-10-11 20:06:20] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 20:06:20] Runner already alive; nothing to do.
+[2026-10-11 20:06:20] Runner already alive; nothing to do.
+[2026-10-11 20:06:20] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 20:16:20] ok_metrics=10/20
+[2026-10-11 20:16:20] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 20:16:20] Runner already alive; nothing to do.
+[2026-10-11 20:16:20] Runner already alive; nothing to do.
+[2026-10-11 20:16:20] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 20:26:21] ok_metrics=10/20
+[2026-10-11 20:26:21] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 20:26:21] Runner already alive; nothing to do.
+[2026-10-11 20:26:21] Runner already alive; nothing to do.
+[2026-10-11 20:26:21] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 20:36:21] ok_metrics=10/20
+[2026-10-11 20:36:21] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 20:36:21] Runner already alive; nothing to do.
+[2026-10-11 20:36:21] Runner already alive; nothing to do.
+[2026-10-11 20:36:21] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 20:46:21] ok_metrics=10/20
+[2026-10-11 20:46:21] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 20:46:21] Runner already alive; nothing to do.
+[2026-10-11 20:46:21] Runner already alive; nothing to do.
+[2026-10-11 20:46:22] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 20:56:22] ok_metrics=10/20
+[2026-10-11 20:56:22] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 20:56:22] Runner already alive; nothing to do.
+[2026-10-11 20:56:22] Runner already alive; nothing to do.
+[2026-10-11 20:56:22] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 21:06:22] ok_metrics=10/20
+[2026-10-11 21:06:22] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 21:06:22] Runner already alive; nothing to do.
+[2026-10-11 21:06:22] Runner already alive; nothing to do.
+[2026-10-11 21:06:22] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 21:16:22] ok_metrics=10/20
+[2026-10-11 21:16:22] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 21:16:22] Runner already alive; nothing to do.
+[2026-10-11 21:16:22] Runner already alive; nothing to do.
+[2026-10-11 21:16:23] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 21:26:23] ok_metrics=10/20
+[2026-10-11 21:26:23] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 21:26:23] Runner already alive; nothing to do.
+[2026-10-11 21:26:23] Runner already alive; nothing to do.
+[2026-10-11 21:26:23] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 21:36:23] ok_metrics=10/20
+[2026-10-11 21:36:23] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 21:36:23] Runner already alive; nothing to do.
+[2026-10-11 21:36:23] Runner already alive; nothing to do.
+[2026-10-11 21:36:23] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 21:46:23] ok_metrics=10/20
+[2026-10-11 21:46:23] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 21:46:23] Runner already alive; nothing to do.
+[2026-10-11 21:46:23] Runner already alive; nothing to do.
+[2026-10-11 21:46:24] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 21:56:24] ok_metrics=10/20
+[2026-10-11 21:56:24] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 21:56:24] Runner already alive; nothing to do.
+[2026-10-11 21:56:24] Runner already alive; nothing to do.
+[2026-10-11 21:56:24] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 22:06:24] ok_metrics=10/20
+[2026-10-11 22:06:24] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 22:06:24] Runner already alive; nothing to do.
+[2026-10-11 22:06:24] Runner already alive; nothing to do.
+[2026-10-11 22:06:24] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 22:16:24] ok_metrics=10/20
+[2026-10-11 22:16:24] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 22:16:25] Runner already alive; nothing to do.
+[2026-10-11 22:16:25] Runner already alive; nothing to do.
+[2026-10-11 22:16:25] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 22:26:25] ok_metrics=10/20
+[2026-10-11 22:26:25] ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 22:26:25] Runner already alive; nothing to do.
+[2026-10-11 22:26:25] Runner already alive; nothing to do.
+[2026-10-11 22:26:25] progress ok_metrics=10/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 22:36:25] ok_metrics=11/20
+[2026-10-11 22:36:25] ok_metrics=11/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 22:36:25] Runner already alive; nothing to do.
+[2026-10-11 22:36:25] Runner already alive; nothing to do.
+[2026-10-11 22:36:25] progress ok_metrics=11/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 22:46:25] ok_metrics=12/20
+[2026-10-11 22:46:25] ok_metrics=12/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 22:46:26] Runner already alive; nothing to do.
+[2026-10-11 22:46:26] Runner already alive; nothing to do.
+[2026-10-11 22:46:26] progress ok_metrics=12/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 22:56:26] ok_metrics=12/20
+[2026-10-11 22:56:26] ok_metrics=12/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 22:56:26] Runner already alive; nothing to do.
+[2026-10-11 22:56:26] Runner already alive; nothing to do.
+[2026-10-11 22:56:26] progress ok_metrics=12/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 23:06:26] ok_metrics=13/20
+[2026-10-11 23:06:26] ok_metrics=13/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 23:06:26] Runner already alive; nothing to do.
+[2026-10-11 23:06:26] Runner already alive; nothing to do.
+[2026-10-11 23:06:26] progress ok_metrics=13/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 23:16:26] ok_metrics=14/20
+[2026-10-11 23:16:26] ok_metrics=14/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 23:16:27] Runner already alive; nothing to do.
+[2026-10-11 23:16:27] Runner already alive; nothing to do.
+[2026-10-11 23:16:27] progress ok_metrics=14/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 23:26:27] ok_metrics=15/20
+[2026-10-11 23:26:27] ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 23:26:27] Runner already alive; nothing to do.
+[2026-10-11 23:26:27] Runner already alive; nothing to do.
+[2026-10-11 23:26:27] progress ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 23:36:27] ok_metrics=15/20
+[2026-10-11 23:36:27] ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 23:36:27] Runner already alive; nothing to do.
+[2026-10-11 23:36:27] Runner already alive; nothing to do.
+[2026-10-11 23:36:27] progress ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 23:46:28] ok_metrics=15/20
+[2026-10-11 23:46:28] ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 23:46:28] Runner already alive; nothing to do.
+[2026-10-11 23:46:28] Runner already alive; nothing to do.
+[2026-10-11 23:46:28] progress ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 23:56:28] ok_metrics=15/20
+[2026-10-11 23:56:28] ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-11 23:56:28] Runner already alive; nothing to do.
+[2026-10-11 23:56:28] Runner already alive; nothing to do.
+[2026-10-11 23:56:28] progress ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 00:06:28] ok_metrics=15/20
+[2026-10-12 00:06:28] ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 00:06:28] Runner already alive; nothing to do.
+[2026-10-12 00:06:28] Runner already alive; nothing to do.
+[2026-10-12 00:06:29] progress ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 00:16:29] ok_metrics=15/20
+[2026-10-12 00:16:29] ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 00:16:29] Runner already alive; nothing to do.
+[2026-10-12 00:16:29] Runner already alive; nothing to do.
+[2026-10-12 00:16:29] progress ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 00:26:29] ok_metrics=15/20
+[2026-10-12 00:26:29] ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 00:26:29] Runner already alive; nothing to do.
+[2026-10-12 00:26:29] Runner already alive; nothing to do.
+[2026-10-12 00:26:29] progress ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 00:36:29] ok_metrics=15/20
+[2026-10-12 00:36:29] ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 00:36:30] Runner already alive; nothing to do.
+[2026-10-12 00:36:30] Runner already alive; nothing to do.
+[2026-10-12 00:36:30] progress ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 00:46:30] ok_metrics=15/20
+[2026-10-12 00:46:30] ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 00:46:30] Runner already alive; nothing to do.
+[2026-10-12 00:46:30] Runner already alive; nothing to do.
+[2026-10-12 00:46:30] progress ok_metrics=15/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 00:56:30] ok_metrics=16/20
+[2026-10-12 00:56:30] ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 00:56:30] Runner already alive; nothing to do.
+[2026-10-12 00:56:30] Runner already alive; nothing to do.
+[2026-10-12 00:56:30] progress ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 01:06:31] ok_metrics=16/20
+[2026-10-12 01:06:31] ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 01:06:31] Runner already alive; nothing to do.
+[2026-10-12 01:06:31] Runner already alive; nothing to do.
+[2026-10-12 01:06:31] progress ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 01:16:31] ok_metrics=16/20
+[2026-10-12 01:16:31] ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 01:16:31] Runner already alive; nothing to do.
+[2026-10-12 01:16:31] Runner already alive; nothing to do.
+[2026-10-12 01:16:31] progress ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 01:26:31] ok_metrics=16/20
+[2026-10-12 01:26:31] ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 01:26:31] Runner already alive; nothing to do.
+[2026-10-12 01:26:31] Runner already alive; nothing to do.
+[2026-10-12 01:26:32] progress ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 01:36:32] ok_metrics=16/20
+[2026-10-12 01:36:32] ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 01:36:32] Runner already alive; nothing to do.
+[2026-10-12 01:36:32] Runner already alive; nothing to do.
+[2026-10-12 01:36:32] progress ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 01:46:32] ok_metrics=16/20
+[2026-10-12 01:46:32] ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 01:46:32] Runner already alive; nothing to do.
+[2026-10-12 01:46:32] Runner already alive; nothing to do.
+[2026-10-12 01:46:32] progress ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 01:56:32] ok_metrics=16/20
+[2026-10-12 01:56:32] ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 01:56:32] Runner already alive; nothing to do.
+[2026-10-12 01:56:32] Runner already alive; nothing to do.
+[2026-10-12 01:56:33] progress ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 02:06:33] ok_metrics=16/20
+[2026-10-12 02:06:33] ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 02:06:33] Runner already alive; nothing to do.
+[2026-10-12 02:06:33] Runner already alive; nothing to do.
+[2026-10-12 02:06:33] progress ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 02:16:33] ok_metrics=16/20
+[2026-10-12 02:16:33] ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 02:16:33] Runner already alive; nothing to do.
+[2026-10-12 02:16:33] Runner already alive; nothing to do.
+[2026-10-12 02:16:33] progress ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 02:26:33] ok_metrics=16/20
+[2026-10-12 02:26:33] ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 02:26:34] Runner already alive; nothing to do.
+[2026-10-12 02:26:34] Runner already alive; nothing to do.
+[2026-10-12 02:26:34] progress ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 02:36:34] ok_metrics=16/20
+[2026-10-12 02:36:34] ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 02:36:34] Runner already alive; nothing to do.
+[2026-10-12 02:36:34] Runner already alive; nothing to do.
+[2026-10-12 02:36:34] progress ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 02:46:34] ok_metrics=16/20
+[2026-10-12 02:46:34] ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 02:46:34] Runner already alive; nothing to do.
+[2026-10-12 02:46:34] Runner already alive; nothing to do.
+[2026-10-12 02:46:34] progress ok_metrics=16/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 02:56:35] ok_metrics=17/20
+[2026-10-12 02:56:35] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 02:56:35] Runner already alive; nothing to do.
+[2026-10-12 02:56:35] Runner already alive; nothing to do.
+[2026-10-12 02:56:35] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 03:06:35] ok_metrics=17/20
+[2026-10-12 03:06:35] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 03:06:35] Runner already alive; nothing to do.
+[2026-10-12 03:06:35] Runner already alive; nothing to do.
+[2026-10-12 03:06:35] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 03:16:35] ok_metrics=17/20
+[2026-10-12 03:16:35] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 03:16:35] Runner already alive; nothing to do.
+[2026-10-12 03:16:35] Runner already alive; nothing to do.
+[2026-10-12 03:16:35] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 03:26:36] ok_metrics=17/20
+[2026-10-12 03:26:36] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 03:26:36] Runner already alive; nothing to do.
+[2026-10-12 03:26:36] Runner already alive; nothing to do.
+[2026-10-12 03:26:36] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 03:36:36] ok_metrics=17/20
+[2026-10-12 03:36:36] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 03:36:36] Runner already alive; nothing to do.
+[2026-10-12 03:36:36] Runner already alive; nothing to do.
+[2026-10-12 03:36:36] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 03:46:36] ok_metrics=17/20
+[2026-10-12 03:46:36] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 03:46:36] Runner already alive; nothing to do.
+[2026-10-12 03:46:36] Runner already alive; nothing to do.
+[2026-10-12 03:46:37] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 03:56:37] ok_metrics=17/20
+[2026-10-12 03:56:37] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 03:56:37] Runner already alive; nothing to do.
+[2026-10-12 03:56:37] Runner already alive; nothing to do.
+[2026-10-12 03:56:37] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 04:06:37] ok_metrics=17/20
+[2026-10-12 04:06:37] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 04:06:37] Runner already alive; nothing to do.
+[2026-10-12 04:06:37] Runner already alive; nothing to do.
+[2026-10-12 04:06:37] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 04:16:37] ok_metrics=17/20
+[2026-10-12 04:16:37] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 04:16:38] Runner already alive; nothing to do.
+[2026-10-12 04:16:38] Runner already alive; nothing to do.
+[2026-10-12 04:16:38] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 04:26:38] ok_metrics=17/20
+[2026-10-12 04:26:38] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 04:26:38] Runner already alive; nothing to do.
+[2026-10-12 04:26:38] Runner already alive; nothing to do.
+[2026-10-12 04:26:38] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 04:36:38] ok_metrics=17/20
+[2026-10-12 04:36:38] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 04:36:38] Runner already alive; nothing to do.
+[2026-10-12 04:36:38] Runner already alive; nothing to do.
+[2026-10-12 04:36:38] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 04:46:39] ok_metrics=17/20
+[2026-10-12 04:46:39] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 04:46:39] Runner already alive; nothing to do.
+[2026-10-12 04:46:39] Runner already alive; nothing to do.
+[2026-10-12 04:46:39] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 04:56:39] ok_metrics=17/20
+[2026-10-12 04:56:39] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 04:56:40] Runner already alive; nothing to do.
+[2026-10-12 04:56:40] Runner already alive; nothing to do.
+[2026-10-12 04:56:40] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 05:06:40] ok_metrics=17/20
+[2026-10-12 05:06:40] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 05:06:40] Runner already alive; nothing to do.
+[2026-10-12 05:06:40] Runner already alive; nothing to do.
+[2026-10-12 05:06:40] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 05:16:40] ok_metrics=17/20
+[2026-10-12 05:16:40] ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 05:16:40] Runner already alive; nothing to do.
+[2026-10-12 05:16:40] Runner already alive; nothing to do.
+[2026-10-12 05:16:41] progress ok_metrics=17/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 05:26:41] ok_metrics=18/20
+[2026-10-12 05:26:41] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 05:26:41] Runner already alive; nothing to do.
+[2026-10-12 05:26:41] Runner already alive; nothing to do.
+[2026-10-12 05:26:41] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 05:36:41] ok_metrics=18/20
+[2026-10-12 05:36:41] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 05:36:41] Runner already alive; nothing to do.
+[2026-10-12 05:36:41] Runner already alive; nothing to do.
+[2026-10-12 05:36:41] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 05:46:41] ok_metrics=18/20
+[2026-10-12 05:46:41] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 05:46:42] Runner already alive; nothing to do.
+[2026-10-12 05:46:42] Runner already alive; nothing to do.
+[2026-10-12 05:46:42] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 05:56:42] ok_metrics=18/20
+[2026-10-12 05:56:42] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 05:56:42] Runner already alive; nothing to do.
+[2026-10-12 05:56:42] Runner already alive; nothing to do.
+[2026-10-12 05:56:42] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 06:06:42] ok_metrics=18/20
+[2026-10-12 06:06:42] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 06:06:42] Runner already alive; nothing to do.
+[2026-10-12 06:06:42] Runner already alive; nothing to do.
+[2026-10-12 06:06:42] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 06:16:43] ok_metrics=18/20
+[2026-10-12 06:16:43] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 06:16:43] Runner already alive; nothing to do.
+[2026-10-12 06:16:43] Runner already alive; nothing to do.
+[2026-10-12 06:16:43] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 06:26:43] ok_metrics=18/20
+[2026-10-12 06:26:43] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 06:26:43] Runner already alive; nothing to do.
+[2026-10-12 06:26:43] Runner already alive; nothing to do.
+[2026-10-12 06:26:43] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 06:36:43] ok_metrics=18/20
+[2026-10-12 06:36:43] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 06:36:43] Runner already alive; nothing to do.
+[2026-10-12 06:36:43] Runner already alive; nothing to do.
+[2026-10-12 06:36:43] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 06:46:44] ok_metrics=18/20
+[2026-10-12 06:46:44] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 06:46:44] Runner already alive; nothing to do.
+[2026-10-12 06:46:44] Runner already alive; nothing to do.
+[2026-10-12 06:46:44] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 06:56:44] ok_metrics=18/20
+[2026-10-12 06:56:44] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 06:56:44] Runner already alive; nothing to do.
+[2026-10-12 06:56:44] Runner already alive; nothing to do.
+[2026-10-12 06:56:44] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 07:06:44] ok_metrics=18/20
+[2026-10-12 07:06:44] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 07:06:44] Runner already alive; nothing to do.
+[2026-10-12 07:06:44] Runner already alive; nothing to do.
+[2026-10-12 07:06:44] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 07:16:45] ok_metrics=18/20
+[2026-10-12 07:16:45] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 07:16:45] Runner already alive; nothing to do.
+[2026-10-12 07:16:45] Runner already alive; nothing to do.
+[2026-10-12 07:16:45] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 07:26:45] ok_metrics=18/20
+[2026-10-12 07:26:45] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 07:26:45] Runner already alive; nothing to do.
+[2026-10-12 07:26:45] Runner already alive; nothing to do.
+[2026-10-12 07:26:45] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 07:36:45] ok_metrics=18/20
+[2026-10-12 07:36:45] ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 07:36:45] Runner already alive; nothing to do.
+[2026-10-12 07:36:45] Runner already alive; nothing to do.
+[2026-10-12 07:36:45] progress ok_metrics=18/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 07:46:46] ok_metrics=19/20
+[2026-10-12 07:46:46] ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 07:46:46] Runner already alive; nothing to do.
+[2026-10-12 07:46:46] Runner already alive; nothing to do.
+[2026-10-12 07:46:46] progress ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 07:56:46] ok_metrics=19/20
+[2026-10-12 07:56:46] ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 07:56:46] Runner already alive; nothing to do.
+[2026-10-12 07:56:46] Runner already alive; nothing to do.
+[2026-10-12 07:56:46] progress ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 08:06:46] ok_metrics=19/20
+[2026-10-12 08:06:46] ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 08:06:46] Runner already alive; nothing to do.
+[2026-10-12 08:06:46] Runner already alive; nothing to do.
+[2026-10-12 08:06:46] progress ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 08:16:47] ok_metrics=19/20
+[2026-10-12 08:16:47] ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 08:16:47] Runner already alive; nothing to do.
+[2026-10-12 08:16:47] Runner already alive; nothing to do.
+[2026-10-12 08:16:47] progress ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 08:26:47] ok_metrics=19/20
+[2026-10-12 08:26:47] ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 08:26:47] Runner already alive; nothing to do.
+[2026-10-12 08:26:47] Runner already alive; nothing to do.
+[2026-10-12 08:26:47] progress ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 08:36:47] ok_metrics=19/20
+[2026-10-12 08:36:47] ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 08:36:47] Runner already alive; nothing to do.
+[2026-10-12 08:36:47] Runner already alive; nothing to do.
+[2026-10-12 08:36:48] progress ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 08:46:48] ok_metrics=19/20
+[2026-10-12 08:46:48] ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 08:46:48] Runner already alive; nothing to do.
+[2026-10-12 08:46:48] Runner already alive; nothing to do.
+[2026-10-12 08:46:48] progress ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 08:56:48] ok_metrics=19/20
+[2026-10-12 08:56:48] ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 08:56:48] Runner already alive; nothing to do.
+[2026-10-12 08:56:48] Runner already alive; nothing to do.
+[2026-10-12 08:56:48] progress ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 09:06:48] ok_metrics=19/20
+[2026-10-12 09:06:48] ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 09:06:49] Runner already alive; nothing to do.
+[2026-10-12 09:06:49] Runner already alive; nothing to do.
+[2026-10-12 09:06:49] progress ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 09:16:49] ok_metrics=19/20
+[2026-10-12 09:16:49] ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 09:16:49] Runner already alive; nothing to do.
+[2026-10-12 09:16:49] Runner already alive; nothing to do.
+[2026-10-12 09:16:49] progress ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 09:26:49] ok_metrics=19/20
+[2026-10-12 09:26:49] ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 09:26:49] Runner already alive; nothing to do.
+[2026-10-12 09:26:49] Runner already alive; nothing to do.
+[2026-10-12 09:26:50] progress ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 09:36:50] ok_metrics=19/20
+[2026-10-12 09:36:50] ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 09:36:50] Runner already alive; nothing to do.
+[2026-10-12 09:36:50] Runner already alive; nothing to do.
+[2026-10-12 09:36:50] progress ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 09:46:50] ok_metrics=19/20
+[2026-10-12 09:46:50] ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 09:46:50] Runner already alive; nothing to do.
+[2026-10-12 09:46:50] Runner already alive; nothing to do.
+[2026-10-12 09:46:50] progress ok_metrics=19/20
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 09:56:50] ok_metrics=20/20
+[2026-10-12 09:56:50] ok_metrics=20/20
+[2026-10-12 09:56:50] All 20 runs completed. Finalizing summary.
+[2026-10-12 09:56:50] All 20 runs completed. Finalizing summary.
+mesg: ttyname failed: Inappropriate ioctl for device
+[2026-10-12 09:56:54] Done.
+[2026-10-12 09:56:54] Done.
+[2026-10-12 09:56:54] progress ok_metrics=20/20
+[2026-10-12 09:56:54] all done; exiting keep-alive

@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "dataset": "humaneval",
+  "run_index": 2,
+  "model": "gpt-4o-mini",
+  "k_value": 1,
+  "resumed": false,
+  "num_problems": 159,
+  "num_passed": 138,
+  "pass_at_1": 86.7925,
+  "num_clarified": 32,
+  "token_usage": {
+    "prompt_tokens": 195753,
+    "completion_tokens": 37227,
+    "total_tokens": 232980,
+    "api_calls": 255
+  },
+  "wall_clock_sec": 505.509,
+  "problem_elapsed_sec": 496.267,
+  "finished_at": "2026-10-11T14:52:07+08:00",
+  "results_file": "/data/llm/zjy/ClarifyGPT-main/output1/repeatout/humaneval/run_02/humaneval_gpt-4o-mini_clarifygpt_k1_results.json",
+  "summary_file": "/data/llm/zjy/ClarifyGPT-main/output1/repeatout/humaneval/run_02/humaneval_gpt-4o-mini_clarifygpt_k1_summary.json"
+}

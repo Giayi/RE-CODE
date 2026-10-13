@@ -1,0 +1,20 @@
+{
+  "dataset": "mbpp",
+  "model": "gpt-4o-mini",
+  "framework": "OpenHands",
+  "k_value": 1,
+  "num_problems": 424,
+  "num_passed": 274,
+  "pass_at_1": 64.6226,
+  "completed": 424,
+  "token_usage": {
+    "prompt_tokens": 218107,
+    "completion_tokens": 98618,
+    "total_tokens": 316725,
+    "api_calls": 693
+  },
+  "elapsed_sec": 1880.567,
+  "output_file": "/data/llm/zjy/OpenHands-main/Output/mbpp_gpt-4o-mini_openhands_k1_results.json",
+  "num_problems_raw_jsonl": 427,
+  "num_duplicate_task_ids_skipped": 3
+}

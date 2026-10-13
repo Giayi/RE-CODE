@@ -1,0 +1,870 @@
+{
+  "model": "gpt-4o-mini",
+  "n_rounds_target": 5,
+  "temperature": 0,
+  "max_iters": 10,
+  "pass_at_k": 1,
+  "public_tests": {
+    "humaneval": "programming_runs/benchmarks/humaneval/humaneval_public_test.jsonl",
+    "mbpp": "programming_runs/benchmarks/mbpp/mbpp_public_test.jsonl"
+  },
+  "generated_at": "2026-10-12T09:56:54+08:00",
+  "summary": [
+    {
+      "dataset": "humaneval",
+      "method": "direct",
+      "n_completed_rounds": 5,
+      "pass_at_1": {
+        "mean": 0.87672,
+        "std": 0.003451,
+        "n": 5,
+        "values": [
+          0.8805,
+          0.8742,
+          0.8742,
+          0.8742,
+          0.8805
+        ]
+      },
+      "pass_at_1_mean_pm_std": "0.8767 ± 0.0035",
+      "total_tokens": {
+        "mean": 58613.2,
+        "std": 501.692834,
+        "n": 5,
+        "values": [
+          58570.0,
+          58291.0,
+          57993.0,
+          58982.0,
+          59230.0
+        ]
+      },
+      "total_tokens_mean_pm_std": "58613.2 ± 501.7",
+      "wall_time_seconds": {
+        "mean": 336.818,
+        "std": 8.477527,
+        "n": 5,
+        "values": [
+          329.7,
+          328.82,
+          343.09,
+          334.37,
+          348.11
+        ]
+      },
+      "wall_time_seconds_mean_pm_std": "336.8 ± 8.5",
+      "rounds": [
+        {
+          "round": 1,
+          "pass_at_1": 0.8805,
+          "passed": 140,
+          "total": 159,
+          "total_tokens": 58570,
+          "prompt_tokens": 34002,
+          "completion_tokens": 24568,
+          "wall_time_seconds": 329.7,
+          "started_at": "2026-10-11T14:44:23+08:00",
+          "ended_at": "2026-10-11T14:49:53+08:00"
+        },
+        {
+          "round": 2,
+          "pass_at_1": 0.8742,
+          "passed": 139,
+          "total": 159,
+          "total_tokens": 58291,
+          "prompt_tokens": 34002,
+          "completion_tokens": 24289,
+          "wall_time_seconds": 328.82,
+          "started_at": "2026-10-11T14:49:53+08:00",
+          "ended_at": "2026-10-11T14:55:22+08:00"
+        },
+        {
+          "round": 3,
+          "pass_at_1": 0.8742,
+          "passed": 139,
+          "total": 159,
+          "total_tokens": 57993,
+          "prompt_tokens": 34002,
+          "completion_tokens": 23991,
+          "wall_time_seconds": 343.09,
+          "started_at": "2026-10-11T14:55:22+08:00",
+          "ended_at": "2026-10-11T15:01:05+08:00"
+        },
+        {
+          "round": 4,
+          "pass_at_1": 0.8742,
+          "passed": 139,
+          "total": 159,
+          "total_tokens": 58982,
+          "prompt_tokens": 34002,
+          "completion_tokens": 24980,
+          "wall_time_seconds": 334.37,
+          "started_at": "2026-10-11T15:01:05+08:00",
+          "ended_at": "2026-10-11T15:06:39+08:00"
+        },
+        {
+          "round": 5,
+          "pass_at_1": 0.8805,
+          "passed": 140,
+          "total": 159,
+          "total_tokens": 59230,
+          "prompt_tokens": 34002,
+          "completion_tokens": 25228,
+          "wall_time_seconds": 348.11,
+          "started_at": "2026-10-11T15:06:39+08:00",
+          "ended_at": "2026-10-11T15:12:27+08:00"
+        }
+      ]
+    },
+    {
+      "dataset": "humaneval",
+      "method": "reflexion",
+      "n_completed_rounds": 5,
+      "pass_at_1": {
+        "mean": 0.85658,
+        "std": 0.009307,
+        "n": 5,
+        "values": [
+          0.8428,
+          0.8553,
+          0.8616,
+          0.8679,
+          0.8553
+        ]
+      },
+      "pass_at_1_mean_pm_std": "0.8566 ± 0.0093",
+      "total_tokens": {
+        "mean": 644816.0,
+        "std": 64759.726501,
+        "n": 5,
+        "values": [
+          571505.0,
+          593202.0,
+          653040.0,
+          672674.0,
+          733659.0
+        ]
+      },
+      "total_tokens_mean_pm_std": "644816.0 ± 64759.7",
+      "wall_time_seconds": {
+        "mean": 1847.798,
+        "std": 102.113989,
+        "n": 5,
+        "values": [
+          1915.06,
+          1705.73,
+          1846.41,
+          1801.94,
+          1969.85
+        ]
+      },
+      "wall_time_seconds_mean_pm_std": "1847.8 ± 102.1",
+      "rounds": [
+        {
+          "round": 1,
+          "pass_at_1": 0.8428,
+          "passed": 134,
+          "total": 159,
+          "total_tokens": 571505,
+          "prompt_tokens": 479828,
+          "completion_tokens": 91677,
+          "wall_time_seconds": 1915.06,
+          "started_at": "2026-10-11T15:12:27+08:00",
+          "ended_at": "2026-10-11T15:44:23+08:00"
+        },
+        {
+          "round": 2,
+          "pass_at_1": 0.8553,
+          "passed": 136,
+          "total": 159,
+          "total_tokens": 593202,
+          "prompt_tokens": 499821,
+          "completion_tokens": 93381,
+          "wall_time_seconds": 1705.73,
+          "started_at": "2026-10-11T15:44:23+08:00",
+          "ended_at": "2026-10-11T16:12:48+08:00"
+        },
+        {
+          "round": 3,
+          "pass_at_1": 0.8616,
+          "passed": 137,
+          "total": 159,
+          "total_tokens": 653040,
+          "prompt_tokens": 547692,
+          "completion_tokens": 105348,
+          "wall_time_seconds": 1846.41,
+          "started_at": "2026-10-11T16:12:48+08:00",
+          "ended_at": "2026-10-11T16:43:35+08:00"
+        },
+        {
+          "round": 4,
+          "pass_at_1": 0.8679,
+          "passed": 138,
+          "total": 159,
+          "total_tokens": 672674,
+          "prompt_tokens": 564852,
+          "completion_tokens": 107822,
+          "wall_time_seconds": 1801.94,
+          "started_at": "2026-10-11T16:43:35+08:00",
+          "ended_at": "2026-10-11T17:13:37+08:00"
+        },
+        {
+          "round": 5,
+          "pass_at_1": 0.8553,
+          "passed": 136,
+          "total": 159,
+          "total_tokens": 733659,
+          "prompt_tokens": 620033,
+          "completion_tokens": 113626,
+          "wall_time_seconds": 1969.85,
+          "started_at": "2026-10-11T17:13:37+08:00",
+          "ended_at": "2026-10-11T17:46:27+08:00"
+        }
+      ]
+    },
+    {
+      "dataset": "mbpp",
+      "method": "direct",
+      "n_completed_rounds": 5,
+      "pass_at_1": {
+        "mean": 0.6164,
+        "std": 0.003087,
+        "n": 5,
+        "values": [
+          0.6183,
+          0.6112,
+          0.6159,
+          0.6183,
+          0.6183
+        ]
+      },
+      "pass_at_1_mean_pm_std": "0.6164 ± 0.0031",
+      "total_tokens": {
+        "mean": 72383.4,
+        "std": 460.26601,
+        "n": 5,
+        "values": [
+          72256.0,
+          73188.0,
+          72182.0,
+          72268.0,
+          72023.0
+        ]
+      },
+      "total_tokens_mean_pm_std": "72383.4 ± 460.3",
+      "wall_time_seconds": {
+        "mean": 693.62,
+        "std": 247.883195,
+        "n": 5,
+        "values": [
+          566.0,
+          594.08,
+          1136.58,
+          592.46,
+          578.98
+        ]
+      },
+      "wall_time_seconds_mean_pm_std": "693.6 ± 247.9",
+      "rounds": [
+        {
+          "round": 1,
+          "pass_at_1": 0.6183,
+          "passed": 264,
+          "total": 427,
+          "total_tokens": 72256,
+          "prompt_tokens": 43169,
+          "completion_tokens": 29087,
+          "wall_time_seconds": 566.0,
+          "started_at": "2026-10-11T17:46:27+08:00",
+          "ended_at": "2026-10-11T17:55:41+08:00"
+        },
+        {
+          "round": 2,
+          "pass_at_1": 0.6112,
+          "passed": 261,
+          "total": 427,
+          "total_tokens": 73188,
+          "prompt_tokens": 43169,
+          "completion_tokens": 30019,
+          "wall_time_seconds": 594.08,
+          "started_at": "2026-10-11T22:31:53+08:00",
+          "ended_at": "2026-10-11T22:41:47+08:00"
+        },
+        {
+          "round": 3,
+          "pass_at_1": 0.6159,
+          "passed": 263,
+          "total": 427,
+          "total_tokens": 72182,
+          "prompt_tokens": 43169,
+          "completion_tokens": 29013,
+          "wall_time_seconds": 1136.58,
+          "started_at": "2026-10-11T22:41:47+08:00",
+          "ended_at": "2026-10-11T23:00:43+08:00"
+        },
+        {
+          "round": 4,
+          "pass_at_1": 0.6183,
+          "passed": 264,
+          "total": 427,
+          "total_tokens": 72268,
+          "prompt_tokens": 43169,
+          "completion_tokens": 29099,
+          "wall_time_seconds": 592.46,
+          "started_at": "2026-10-11T23:00:43+08:00",
+          "ended_at": "2026-10-11T23:10:36+08:00"
+        },
+        {
+          "round": 5,
+          "pass_at_1": 0.6183,
+          "passed": 264,
+          "total": 427,
+          "total_tokens": 72023,
+          "prompt_tokens": 43169,
+          "completion_tokens": 28854,
+          "wall_time_seconds": 578.98,
+          "started_at": "2026-10-11T23:10:36+08:00",
+          "ended_at": "2026-10-11T23:20:15+08:00"
+        }
+      ]
+    },
+    {
+      "dataset": "mbpp",
+      "method": "reflexion",
+      "n_completed_rounds": 5,
+      "pass_at_1": {
+        "mean": 0.61498,
+        "std": 0.009723,
+        "n": 5,
+        "values": [
+          0.6276,
+          0.6159,
+          0.6042,
+          0.6066,
+          0.6206
+        ]
+      },
+      "pass_at_1_mean_pm_std": "0.6150 ± 0.0097",
+      "total_tokens": {
+        "mean": 1951828.0,
+        "std": 173381.398825,
+        "n": 5,
+        "values": [
+          1853182.0,
+          1772662.0,
+          2197515.0,
+          2061525.0,
+          1874256.0
+        ]
+      },
+      "total_tokens_mean_pm_std": "1951828.0 ± 173381.4",
+      "wall_time_seconds": {
+        "mean": 7556.514,
+        "std": 1247.320196,
+        "n": 5,
+        "values": [
+          5679.47,
+          7212.0,
+          9025.75,
+          8196.87,
+          7668.48
+        ]
+      },
+      "wall_time_seconds_mean_pm_std": "7556.5 ± 1247.3",
+      "rounds": [
+        {
+          "round": 1,
+          "pass_at_1": 0.6276,
+          "passed": 268,
+          "total": 427,
+          "total_tokens": 1853182,
+          "prompt_tokens": 1645688,
+          "completion_tokens": 207494,
+          "wall_time_seconds": 5679.47,
+          "started_at": "2026-10-11T23:20:15+08:00",
+          "ended_at": "2026-10-12T00:54:55+08:00"
+        },
+        {
+          "round": 2,
+          "pass_at_1": 0.6159,
+          "passed": 263,
+          "total": 427,
+          "total_tokens": 1772662,
+          "prompt_tokens": 1571958,
+          "completion_tokens": 200704,
+          "wall_time_seconds": 7212.0,
+          "started_at": "2026-10-12T00:54:55+08:00",
+          "ended_at": "2026-10-12T02:55:07+08:00"
+        },
+        {
+          "round": 3,
+          "pass_at_1": 0.6042,
+          "passed": 258,
+          "total": 427,
+          "total_tokens": 2197515,
+          "prompt_tokens": 1955502,
+          "completion_tokens": 242013,
+          "wall_time_seconds": 9025.75,
+          "started_at": "2026-10-12T02:55:07+08:00",
+          "ended_at": "2026-10-12T05:25:34+08:00"
+        },
+        {
+          "round": 4,
+          "pass_at_1": 0.6066,
+          "passed": 259,
+          "total": 427,
+          "total_tokens": 2061525,
+          "prompt_tokens": 1832065,
+          "completion_tokens": 229460,
+          "wall_time_seconds": 8196.87,
+          "started_at": "2026-10-12T05:25:34+08:00",
+          "ended_at": "2026-10-12T07:42:11+08:00"
+        },
+        {
+          "round": 5,
+          "pass_at_1": 0.6206,
+          "passed": 265,
+          "total": 427,
+          "total_tokens": 1874256,
+          "prompt_tokens": 1668726,
+          "completion_tokens": 205530,
+          "wall_time_seconds": 7668.48,
+          "started_at": "2026-10-12T07:42:11+08:00",
+          "ended_at": "2026-10-12T09:50:00+08:00"
+        }
+      ]
+    }
+  ],
+  "by_group": {
+    "humaneval/direct": {
+      "dataset": "humaneval",
+      "method": "direct",
+      "n_completed_rounds": 5,
+      "pass_at_1": {
+        "mean": 0.87672,
+        "std": 0.003451,
+        "n": 5,
+        "values": [
+          0.8805,
+          0.8742,
+          0.8742,
+          0.8742,
+          0.8805
+        ]
+      },
+      "pass_at_1_mean_pm_std": "0.8767 ± 0.0035",
+      "total_tokens": {
+        "mean": 58613.2,
+        "std": 501.692834,
+        "n": 5,
+        "values": [
+          58570.0,
+          58291.0,
+          57993.0,
+          58982.0,
+          59230.0
+        ]
+      },
+      "total_tokens_mean_pm_std": "58613.2 ± 501.7",
+      "wall_time_seconds": {
+        "mean": 336.818,
+        "std": 8.477527,
+        "n": 5,
+        "values": [
+          329.7,
+          328.82,
+          343.09,
+          334.37,
+          348.11
+        ]
+      },
+      "wall_time_seconds_mean_pm_std": "336.8 ± 8.5",
+      "rounds": [
+        {
+          "round": 1,
+          "pass_at_1": 0.8805,
+          "passed": 140,
+          "total": 159,
+          "total_tokens": 58570,
+          "prompt_tokens": 34002,
+          "completion_tokens": 24568,
+          "wall_time_seconds": 329.7,
+          "started_at": "2026-10-11T14:44:23+08:00",
+          "ended_at": "2026-10-11T14:49:53+08:00"
+        },
+        {
+          "round": 2,
+          "pass_at_1": 0.8742,
+          "passed": 139,
+          "total": 159,
+          "total_tokens": 58291,
+          "prompt_tokens": 34002,
+          "completion_tokens": 24289,
+          "wall_time_seconds": 328.82,
+          "started_at": "2026-10-11T14:49:53+08:00",
+          "ended_at": "2026-10-11T14:55:22+08:00"
+        },
+        {
+          "round": 3,
+          "pass_at_1": 0.8742,
+          "passed": 139,
+          "total": 159,
+          "total_tokens": 57993,
+          "prompt_tokens": 34002,
+          "completion_tokens": 23991,
+          "wall_time_seconds": 343.09,
+          "started_at": "2026-10-11T14:55:22+08:00",
+          "ended_at": "2026-10-11T15:01:05+08:00"
+        },
+        {
+          "round": 4,
+          "pass_at_1": 0.8742,
+          "passed": 139,
+          "total": 159,
+          "total_tokens": 58982,
+          "prompt_tokens": 34002,
+          "completion_tokens": 24980,
+          "wall_time_seconds": 334.37,
+          "started_at": "2026-10-11T15:01:05+08:00",
+          "ended_at": "2026-10-11T15:06:39+08:00"
+        },
+        {
+          "round": 5,
+          "pass_at_1": 0.8805,
+          "passed": 140,
+          "total": 159,
+          "total_tokens": 59230,
+          "prompt_tokens": 34002,
+          "completion_tokens": 25228,
+          "wall_time_seconds": 348.11,
+          "started_at": "2026-10-11T15:06:39+08:00",
+          "ended_at": "2026-10-11T15:12:27+08:00"
+        }
+      ]
+    },
+    "humaneval/reflexion": {
+      "dataset": "humaneval",
+      "method": "reflexion",
+      "n_completed_rounds": 5,
+      "pass_at_1": {
+        "mean": 0.85658,
+        "std": 0.009307,
+        "n": 5,
+        "values": [
+          0.8428,
+          0.8553,
+          0.8616,
+          0.8679,
+          0.8553
+        ]
+      },
+      "pass_at_1_mean_pm_std": "0.8566 ± 0.0093",
+      "total_tokens": {
+        "mean": 644816.0,
+        "std": 64759.726501,
+        "n": 5,
+        "values": [
+          571505.0,
+          593202.0,
+          653040.0,
+          672674.0,
+          733659.0
+        ]
+      },
+      "total_tokens_mean_pm_std": "644816.0 ± 64759.7",
+      "wall_time_seconds": {
+        "mean": 1847.798,
+        "std": 102.113989,
+        "n": 5,
+        "values": [
+          1915.06,
+          1705.73,
+          1846.41,
+          1801.94,
+          1969.85
+        ]
+      },
+      "wall_time_seconds_mean_pm_std": "1847.8 ± 102.1",
+      "rounds": [
+        {
+          "round": 1,
+          "pass_at_1": 0.8428,
+          "passed": 134,
+          "total": 159,
+          "total_tokens": 571505,
+          "prompt_tokens": 479828,
+          "completion_tokens": 91677,
+          "wall_time_seconds": 1915.06,
+          "started_at": "2026-10-11T15:12:27+08:00",
+          "ended_at": "2026-10-11T15:44:23+08:00"
+        },
+        {
+          "round": 2,
+          "pass_at_1": 0.8553,
+          "passed": 136,
+          "total": 159,
+          "total_tokens": 593202,
+          "prompt_tokens": 499821,
+          "completion_tokens": 93381,
+          "wall_time_seconds": 1705.73,
+          "started_at": "2026-10-11T15:44:23+08:00",
+          "ended_at": "2026-10-11T16:12:48+08:00"
+        },
+        {
+          "round": 3,
+          "pass_at_1": 0.8616,
+          "passed": 137,
+          "total": 159,
+          "total_tokens": 653040,
+          "prompt_tokens": 547692,
+          "completion_tokens": 105348,
+          "wall_time_seconds": 1846.41,
+          "started_at": "2026-10-11T16:12:48+08:00",
+          "ended_at": "2026-10-11T16:43:35+08:00"
+        },
+        {
+          "round": 4,
+          "pass_at_1": 0.8679,
+          "passed": 138,
+          "total": 159,
+          "total_tokens": 672674,
+          "prompt_tokens": 564852,
+          "completion_tokens": 107822,
+          "wall_time_seconds": 1801.94,
+          "started_at": "2026-10-11T16:43:35+08:00",
+          "ended_at": "2026-10-11T17:13:37+08:00"
+        },
+        {
+          "round": 5,
+          "pass_at_1": 0.8553,
+          "passed": 136,
+          "total": 159,
+          "total_tokens": 733659,
+          "prompt_tokens": 620033,
+          "completion_tokens": 113626,
+          "wall_time_seconds": 1969.85,
+          "started_at": "2026-10-11T17:13:37+08:00",
+          "ended_at": "2026-10-11T17:46:27+08:00"
+        }
+      ]
+    },
+    "mbpp/direct": {
+      "dataset": "mbpp",
+      "method": "direct",
+      "n_completed_rounds": 5,
+      "pass_at_1": {
+        "mean": 0.6164,
+        "std": 0.003087,
+        "n": 5,
+        "values": [
+          0.6183,
+          0.6112,
+          0.6159,
+          0.6183,
+          0.6183
+        ]
+      },
+      "pass_at_1_mean_pm_std": "0.6164 ± 0.0031",
+      "total_tokens": {
+        "mean": 72383.4,
+        "std": 460.26601,
+        "n": 5,
+        "values": [
+          72256.0,
+          73188.0,
+          72182.0,
+          72268.0,
+          72023.0
+        ]
+      },
+      "total_tokens_mean_pm_std": "72383.4 ± 460.3",
+      "wall_time_seconds": {
+        "mean": 693.62,
+        "std": 247.883195,
+        "n": 5,
+        "values": [
+          566.0,
+          594.08,
+          1136.58,
+          592.46,
+          578.98
+        ]
+      },
+      "wall_time_seconds_mean_pm_std": "693.6 ± 247.9",
+      "rounds": [
+        {
+          "round": 1,
+          "pass_at_1": 0.6183,
+          "passed": 264,
+          "total": 427,
+          "total_tokens": 72256,
+          "prompt_tokens": 43169,
+          "completion_tokens": 29087,
+          "wall_time_seconds": 566.0,
+          "started_at": "2026-10-11T17:46:27+08:00",
+          "ended_at": "2026-10-11T17:55:41+08:00"
+        },
+        {
+          "round": 2,
+          "pass_at_1": 0.6112,
+          "passed": 261,
+          "total": 427,
+          "total_tokens": 73188,
+          "prompt_tokens": 43169,
+          "completion_tokens": 30019,
+          "wall_time_seconds": 594.08,
+          "started_at": "2026-10-11T22:31:53+08:00",
+          "ended_at": "2026-10-11T22:41:47+08:00"
+        },
+        {
+          "round": 3,
+          "pass_at_1": 0.6159,
+          "passed": 263,
+          "total": 427,
+          "total_tokens": 72182,
+          "prompt_tokens": 43169,
+          "completion_tokens": 29013,
+          "wall_time_seconds": 1136.58,
+          "started_at": "2026-10-11T22:41:47+08:00",
+          "ended_at": "2026-10-11T23:00:43+08:00"
+        },
+        {
+          "round": 4,
+          "pass_at_1": 0.6183,
+          "passed": 264,
+          "total": 427,
+          "total_tokens": 72268,
+          "prompt_tokens": 43169,
+          "completion_tokens": 29099,
+          "wall_time_seconds": 592.46,
+          "started_at": "2026-10-11T23:00:43+08:00",
+          "ended_at": "2026-10-11T23:10:36+08:00"
+        },
+        {
+          "round": 5,
+          "pass_at_1": 0.6183,
+          "passed": 264,
+          "total": 427,
+          "total_tokens": 72023,
+          "prompt_tokens": 43169,
+          "completion_tokens": 28854,
+          "wall_time_seconds": 578.98,
+          "started_at": "2026-10-11T23:10:36+08:00",
+          "ended_at": "2026-10-11T23:20:15+08:00"
+        }
+      ]
+    },
+    "mbpp/reflexion": {
+      "dataset": "mbpp",
+      "method": "reflexion",
+      "n_completed_rounds": 5,
+      "pass_at_1": {
+        "mean": 0.61498,
+        "std": 0.009723,
+        "n": 5,
+        "values": [
+          0.6276,
+          0.6159,
+          0.6042,
+          0.6066,
+          0.6206
+        ]
+      },
+      "pass_at_1_mean_pm_std": "0.6150 ± 0.0097",
+      "total_tokens": {
+        "mean": 1951828.0,
+        "std": 173381.398825,
+        "n": 5,
+        "values": [
+          1853182.0,
+          1772662.0,
+          2197515.0,
+          2061525.0,
+          1874256.0
+        ]
+      },
+      "total_tokens_mean_pm_std": "1951828.0 ± 173381.4",
+      "wall_time_seconds": {
+        "mean": 7556.514,
+        "std": 1247.320196,
+        "n": 5,
+        "values": [
+          5679.47,
+          7212.0,
+          9025.75,
+          8196.87,
+          7668.48
+        ]
+      },
+      "wall_time_seconds_mean_pm_std": "7556.5 ± 1247.3",
+      "rounds": [
+        {
+          "round": 1,
+          "pass_at_1": 0.6276,
+          "passed": 268,
+          "total": 427,
+          "total_tokens": 1853182,
+          "prompt_tokens": 1645688,
+          "completion_tokens": 207494,
+          "wall_time_seconds": 5679.47,
+          "started_at": "2026-10-11T23:20:15+08:00",
+          "ended_at": "2026-10-12T00:54:55+08:00"
+        },
+        {
+          "round": 2,
+          "pass_at_1": 0.6159,
+          "passed": 263,
+          "total": 427,
+          "total_tokens": 1772662,
+          "prompt_tokens": 1571958,
+          "completion_tokens": 200704,
+          "wall_time_seconds": 7212.0,
+          "started_at": "2026-10-12T00:54:55+08:00",
+          "ended_at": "2026-10-12T02:55:07+08:00"
+        },
+        {
+          "round": 3,
+          "pass_at_1": 0.6042,
+          "passed": 258,
+          "total": 427,
+          "total_tokens": 2197515,
+          "prompt_tokens": 1955502,
+          "completion_tokens": 242013,
+          "wall_time_seconds": 9025.75,
+          "started_at": "2026-10-12T02:55:07+08:00",
+          "ended_at": "2026-10-12T05:25:34+08:00"
+        },
+        {
+          "round": 4,
+          "pass_at_1": 0.6066,
+          "passed": 259,
+          "total": 427,
+          "total_tokens": 2061525,
+          "prompt_tokens": 1832065,
+          "completion_tokens": 229460,
+          "wall_time_seconds": 8196.87,
+          "started_at": "2026-10-12T05:25:34+08:00",
+          "ended_at": "2026-10-12T07:42:11+08:00"
+        },
+        {
+          "round": 5,
+          "pass_at_1": 0.6206,
+          "passed": 265,
+          "total": 427,
+          "total_tokens": 1874256,
+          "prompt_tokens": 1668726,
+          "completion_tokens": 205530,
+          "wall_time_seconds": 7668.48,
+          "started_at": "2026-10-12T07:42:11+08:00",
+          "ended_at": "2026-10-12T09:50:00+08:00"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "Pass@1 is evaluated on public tests (humaneval_public_test / mbpp_public_test).",
+    "Tokens estimated with tiktoken o200k_base from generation logs (same as analyze_token_and_stats.py).",
+    "Wall time includes generation + public evaluation for that round.",
+    "Temperature follows models.yaml (0); variance across rounds may be small."
+  ]
+}

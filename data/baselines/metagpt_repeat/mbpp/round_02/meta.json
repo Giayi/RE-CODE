@@ -1,0 +1,57 @@
+{
+  "round": 2,
+  "dataset": "mbpp",
+  "dataset_label": "MBPP",
+  "method": "metagpt",
+  "model": "gpt-4o-mini",
+  "temperature": 0,
+  "n_expected": 427,
+  "status": "completed",
+  "generation": {
+    "elapsed_s": 520.463,
+    "attempts": [
+      {
+        "attempt": 1,
+        "started_at": "2026-10-11T15:14:38+08:00",
+        "finished_at": "2026-10-11T15:23:18+08:00",
+        "elapsed_s": 520.463,
+        "returncode": 0,
+        "error_completions_dropped": 0
+      }
+    ]
+  },
+  "evaluation": {
+    "started_at": "2026-10-11T15:23:18+08:00",
+    "finished_at": "2026-10-11T15:23:19+08:00",
+    "elapsed_s": 0.833,
+    "returncode": 0
+  },
+  "n_samples": 427,
+  "n_error_completions": 0,
+  "tokens": {
+    "n_problems": 427,
+    "prompt_tokens": 102090,
+    "completion_tokens": 22482,
+    "total_tokens": 124572,
+    "llm_calls": 427,
+    "avg_tokens_per_problem": 291.74,
+    "avg_llm_calls_per_problem": 1.0,
+    "est_cost_usd": 0.028803,
+    "pricing_usd_per_million": {
+      "input": 0.15,
+      "output": 0.6
+    }
+  },
+  "passed": 321,
+  "total": 427,
+  "pass_at_1": 0.7517564402810304,
+  "pass_at_1_percent": 75.175644,
+  "total_elapsed_s": 521.296,
+  "files": {
+    "samples": "results/repeat_metagpt/mbpp/round_02/metagpt/samples_mbpp_gpt-4o-mini.jsonl",
+    "token_usage": "results/repeat_metagpt/mbpp/round_02/metagpt/token_usage_mbpp_gpt-4o-mini.json",
+    "eval": "results/repeat_metagpt/mbpp/round_02/eval_pass1.json",
+    "generation_log": "results/repeat_metagpt/mbpp/round_02/generation.log",
+    "evaluation_log": "results/repeat_metagpt/mbpp/round_02/evaluation.log"
+  }
+}

@@ -1,0 +1,32 @@
+[2026-10-11T14:40:55+08:00] START method=metagpt model=gpt-4o-mini rounds=5 datasets=['humaneval', 'mbpp'] delay=0.0
+[2026-10-11T14:40:55+08:00] HumanEval round 1: generation attempt 1/8
+[2026-10-11T14:45:37+08:00] HumanEval round 1: evaluating pass@1
+[2026-10-11T14:45:38+08:00] HumanEval round 1: pass@1=87.4214% (139/159), tokens=65496, gen_time=4分42秒
+[2026-10-11T14:45:38+08:00] HumanEval round 2: generation attempt 1/8
+[2026-10-11T14:50:04+08:00] HumanEval round 2: evaluating pass@1
+[2026-10-11T14:50:05+08:00] HumanEval round 2: pass@1=88.0503% (140/159), tokens=66056, gen_time=4分26秒
+[2026-10-11T14:50:05+08:00] HumanEval round 3: generation attempt 1/8
+[2026-10-11T14:54:38+08:00] HumanEval round 3: evaluating pass@1
+[2026-10-11T14:54:39+08:00] HumanEval round 3: pass@1=87.4214% (139/159), tokens=65816, gen_time=4分33秒
+[2026-10-11T14:54:39+08:00] HumanEval round 4: generation attempt 1/8
+[2026-10-11T14:59:03+08:00] HumanEval round 4: evaluating pass@1
+[2026-10-11T14:59:03+08:00] HumanEval round 4: pass@1=86.7925% (138/159), tokens=65724, gen_time=4分23秒
+[2026-10-11T14:59:03+08:00] HumanEval round 5: generation attempt 1/8
+[2026-10-11T15:03:38+08:00] HumanEval round 5: evaluating pass@1
+[2026-10-11T15:03:38+08:00] HumanEval round 5: pass@1=86.1635% (137/159), tokens=66065, gen_time=4分34秒
+[2026-10-11T15:03:38+08:00] MBPP round 1: generation attempt 1/8
+[2026-10-11T15:14:37+08:00] MBPP round 1: evaluating pass@1
+[2026-10-11T15:14:38+08:00] MBPP round 1: pass@1=74.9415% (320/427), tokens=140957, gen_time=10分58秒
+[2026-10-11T15:14:38+08:00] MBPP round 2: generation attempt 1/8
+[2026-10-11T15:23:18+08:00] MBPP round 2: evaluating pass@1
+[2026-10-11T15:23:19+08:00] MBPP round 2: pass@1=75.1756% (321/427), tokens=124572, gen_time=8分40秒
+[2026-10-11T15:23:19+08:00] MBPP round 3: generation attempt 1/8
+[2026-10-11T15:32:29+08:00] MBPP round 3: evaluating pass@1
+[2026-10-11T15:32:30+08:00] MBPP round 3: pass@1=76.3466% (326/427), tokens=124548, gen_time=9分10秒
+[2026-10-11T15:32:30+08:00] MBPP round 4: generation attempt 1/8
+[2026-10-11T15:44:20+08:00] MBPP round 4: evaluating pass@1
+[2026-10-11T15:44:22+08:00] MBPP round 4: pass@1=75.8782% (324/427), tokens=124591, gen_time=11分50秒
+[2026-10-11T15:44:22+08:00] MBPP round 5: generation attempt 1/8
+[2026-10-11T15:54:35+08:00] MBPP round 5: evaluating pass@1
+[2026-10-11T15:54:36+08:00] MBPP round 5: pass@1=76.3466% (326/427), tokens=140787, gen_time=10分14秒
+[2026-10-11T15:54:36+08:00] ALL DONE

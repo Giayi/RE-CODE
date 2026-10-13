@@ -1,0 +1,804 @@
+{
+  "pass1": 90.57,
+  "total": 159,
+  "passed": 144,
+  "samples_file": "/data/llm/zjy/MetaGPT-main/results/repeat experiment/humaneval/round_02/metagpt_egrcm_prqe/samples_gpt-4o-mini.jsonl",
+  "dataset_file": "/data/llm/zjy/MetaGPT-main/results/datasets/humaneval/humaneval_public_test.jsonl",
+  "results": [
+    {
+      "task_id": "HumanEval/0",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/1",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/2",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/3",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/4",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/5",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/6",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/7",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/8",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/9",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/10",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/11",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/12",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/13",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/14",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/15",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/16",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/17",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/18",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/19",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/20",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/21",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/22",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/23",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/24",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/25",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/26",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/27",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/28",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/29",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/30",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/31",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/33",
+      "status": "FAIL",
+      "message": "'[' was never closed (<string>, line 3)"
+    },
+    {
+      "task_id": "HumanEval/34",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/35",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/36",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/37",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/39",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/40",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/41",
+      "status": "FAIL",
+      "message": ""
+    },
+    {
+      "task_id": "HumanEval/42",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/43",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/44",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/45",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/46",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/47",
+      "status": "FAIL",
+      "message": ""
+    },
+    {
+      "task_id": "HumanEval/48",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/49",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/51",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/52",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/53",
+      "status": "FAIL",
+      "message": "add() missing 1 required positional argument: 'y'"
+    },
+    {
+      "task_id": "HumanEval/54",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/55",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/56",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/57",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/58",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/59",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/60",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/61",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/62",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/63",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/64",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/65",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/66",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/67",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/68",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/69",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/70",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/71",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/72",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/73",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/74",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/75",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/76",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/77",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/78",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/79",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/80",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/81",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/82",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/84",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/85",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/86",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/87",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/88",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/89",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/90",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/91",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/92",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/93",
+      "status": "FAIL",
+      "message": ""
+    },
+    {
+      "task_id": "HumanEval/94",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/95",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/96",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/97",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/98",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/99",
+      "status": "FAIL",
+      "message": ""
+    },
+    {
+      "task_id": "HumanEval/100",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/101",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/102",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/103",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/104",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/106",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/107",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/108",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/109",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/110",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/111",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/112",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/113",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/114",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/115",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/116",
+      "status": "FAIL",
+      "message": ""
+    },
+    {
+      "task_id": "HumanEval/117",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/118",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/119",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/120",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/121",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/122",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/123",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/124",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/125",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/126",
+      "status": "FAIL",
+      "message": ""
+    },
+    {
+      "task_id": "HumanEval/127",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/128",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/129",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/130",
+      "status": "FAIL",
+      "message": ""
+    },
+    {
+      "task_id": "HumanEval/131",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/132",
+      "status": "FAIL",
+      "message": ""
+    },
+    {
+      "task_id": "HumanEval/133",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/134",
+      "status": "FAIL",
+      "message": ""
+    },
+    {
+      "task_id": "HumanEval/135",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/136",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/137",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/138",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/139",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/140",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/141",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/142",
+      "status": "FAIL",
+      "message": ""
+    },
+    {
+      "task_id": "HumanEval/143",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/144",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/145",
+      "status": "FAIL",
+      "message": ""
+    },
+    {
+      "task_id": "HumanEval/146",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/147",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/148",
+      "status": "FAIL",
+      "message": ""
+    },
+    {
+      "task_id": "HumanEval/149",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/150",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/151",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/152",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/153",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/154",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/155",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/156",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/157",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/158",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/159",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/160",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/161",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/162",
+      "status": "PASS",
+      "message": "The solution passed all test cases."
+    },
+    {
+      "task_id": "HumanEval/163",
+      "status": "FAIL",
+      "message": ""
+    }
+  ]
+}

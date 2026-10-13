@@ -1,0 +1,39 @@
+{
+  "run_id": "run_05",
+  "run_index": 5,
+  "dataset": "all",
+  "temperature": 0.2,
+  "wall_clock_sec": 1955.923,
+  "exit_code": 0,
+  "log_file": "/data/llm/zjy/OpenHands-main/Output/repeat/run_05/run.log",
+  "datasets": {
+    "humaneval": {
+      "pass_at_1": 88.6792,
+      "num_passed": 141,
+      "num_problems": 159,
+      "token_usage": {
+        "prompt_tokens": 124167,
+        "completion_tokens": 47601,
+        "total_tokens": 171768,
+        "api_calls": 293
+      },
+      "elapsed_sec": 613.182,
+      "summary_file": "/data/llm/zjy/OpenHands-main/Output/repeat/run_05/humaneval_gpt-4o-mini_openhands_k1_summary.json",
+      "results_file": "/data/llm/zjy/OpenHands-main/Output/repeat/run_05/humaneval_gpt-4o-mini_openhands_k1_results.json"
+    },
+    "mbpp": {
+      "pass_at_1": 64.1509,
+      "num_passed": 272,
+      "num_problems": 424,
+      "token_usage": {
+        "prompt_tokens": 217219,
+        "completion_tokens": 99908,
+        "total_tokens": 317127,
+        "api_calls": 691
+      },
+      "elapsed_sec": 1342.098,
+      "summary_file": "/data/llm/zjy/OpenHands-main/Output/repeat/run_05/mbpp_gpt-4o-mini_openhands_k1_summary.json",
+      "results_file": "/data/llm/zjy/OpenHands-main/Output/repeat/run_05/mbpp_gpt-4o-mini_openhands_k1_results.json"
+    }
+  }
+}

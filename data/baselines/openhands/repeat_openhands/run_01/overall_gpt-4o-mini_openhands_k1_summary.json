@@ -1,0 +1,42 @@
+[
+  {
+    "dataset": "humaneval",
+    "model": "gpt-4o-mini",
+    "framework": "OpenHands",
+    "k_value": 1,
+    "num_problems": 159,
+    "num_passed": 143,
+    "pass_at_1": 89.9371,
+    "completed": 159,
+    "token_usage": {
+      "prompt_tokens": 127018,
+      "completion_tokens": 46290,
+      "total_tokens": 173308,
+      "api_calls": 299
+    },
+    "elapsed_sec": 624.519,
+    "output_file": "/data/llm/zjy/OpenHands-main/Output/repeat/run_01/humaneval_gpt-4o-mini_openhands_k1_results.json",
+    "run_id": "run_01",
+    "temperature": 0.2
+  },
+  {
+    "dataset": "mbpp",
+    "model": "gpt-4o-mini",
+    "framework": "OpenHands",
+    "k_value": 1,
+    "num_problems": 424,
+    "num_passed": 271,
+    "pass_at_1": 63.9151,
+    "completed": 424,
+    "token_usage": {
+      "prompt_tokens": 221997,
+      "completion_tokens": 100176,
+      "total_tokens": 322173,
+      "api_calls": 701
+    },
+    "elapsed_sec": 1357.563,
+    "output_file": "/data/llm/zjy/OpenHands-main/Output/repeat/run_01/mbpp_gpt-4o-mini_openhands_k1_results.json",
+    "run_id": "run_01",
+    "temperature": 0.2
+  }
+]

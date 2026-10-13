@@ -1,0 +1,18 @@
+{
+  "framework": "OpenHands",
+  "model": "gpt-4o-mini",
+  "k_value": 1,
+  "n_runs": 5,
+  "temperature": 0.2,
+  "dataset": "all",
+  "humaneval_sources": [
+    "humaneval/human-eval.jsonl",
+    "humaneval/humaneval_public_test.jsonl"
+  ],
+  "mbpp_sources": [
+    "mbpp/mbpp-new.jsonl",
+    "mbpp/mbpp_public_test.jsonl"
+  ],
+  "output_root": "/data/llm/zjy/OpenHands-main/Output/repeat",
+  "note": "Each run is an independent pass@1 evaluation (k=1). Final metric is mean±std of per-run pass@1."
+}

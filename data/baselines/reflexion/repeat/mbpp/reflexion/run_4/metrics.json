@@ -1,0 +1,41 @@
+{
+  "dataset": "mbpp",
+  "method": "reflexion",
+  "round": 4,
+  "model": "gpt-4o-mini",
+  "status": "ok",
+  "exit_code_generation": 0,
+  "exit_code_evaluation": 0,
+  "started_at": "2026-10-12T05:25:34+08:00",
+  "ended_at": "2026-10-12T07:42:11+08:00",
+  "wall_time_seconds": 8196.87,
+  "generation_wall_time_seconds": 8196.68,
+  "evaluation_wall_time_seconds": 0.2,
+  "pass_at_1": 0.6066,
+  "passed": 259,
+  "total": 427,
+  "missing_solutions": [
+    "pair_xor_Sum",
+    "check_answer"
+  ],
+  "token_consumption": {
+    "n_problems": 424,
+    "total_prompt_tokens": 1832065,
+    "total_completion_tokens": 229460,
+    "total_tokens": 2061525,
+    "mean_tokens_per_problem": 4862.09,
+    "median_tokens_per_problem": 426.0,
+    "std_tokens_per_problem": 7692.43,
+    "mean_prompt_tokens_per_problem": 4320.91,
+    "mean_completion_tokens_per_problem": 541.18,
+    "mean_llm_calls_per_problem": 6.21,
+    "approx_cost_usd_gpt4o_mini": 0.4125
+  },
+  "paths": {
+    "generation": "mbpp/reflexion/run_4/gen/mbpp_public_test._reflexion_10_gpt-4o-mini_pass_at_k_1_py.jsonl",
+    "public_eval": "mbpp/reflexion/run_4/public_eval.jsonl",
+    "public_eval_summary": "mbpp/reflexion/run_4/public_eval_summary.json",
+    "generation_log": "mbpp/reflexion/run_4/generation.log",
+    "evaluation_log": "mbpp/reflexion/run_4/evaluation.log"
+  }
+}

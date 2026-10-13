@@ -1,0 +1,312 @@
+{
+  "rounds_requested": 5,
+  "rounds_completed": 5,
+  "pass_at_1_percent_mean": 87.169811,
+  "pass_at_1_percent_std": 0.717091,
+  "pass_at_1_percent_values": [
+    87.421384,
+    88.050314,
+    87.421384,
+    86.792453,
+    86.163522
+  ],
+  "std_kind": "sample (ddof=1)",
+  "total_tokens_mean": 65831.4,
+  "total_tokens_std": 239.41553834285693,
+  "prompt_tokens_sum": 242795,
+  "completion_tokens_sum": 86362,
+  "total_tokens_sum": 329157,
+  "llm_calls_sum": 795,
+  "est_cost_usd_sum": 0.088236,
+  "generation_elapsed_s_mean": 271.772,
+  "generation_elapsed_s_std": 7.31903012700453,
+  "generation_elapsed_s_sum": 1358.86,
+  "evaluation_elapsed_s_sum": 3.867,
+  "rounds": [
+    {
+      "round": 1,
+      "dataset": "humaneval",
+      "dataset_label": "HumanEval",
+      "method": "metagpt",
+      "model": "gpt-4o-mini",
+      "temperature": 0,
+      "n_expected": 159,
+      "status": "completed",
+      "generation": {
+        "elapsed_s": 281.944,
+        "attempts": [
+          {
+            "attempt": 1,
+            "started_at": "2026-10-11T14:40:55+08:00",
+            "finished_at": "2026-10-11T14:45:37+08:00",
+            "elapsed_s": 281.944,
+            "returncode": 0,
+            "error_completions_dropped": 0
+          }
+        ]
+      },
+      "evaluation": {
+        "started_at": "2026-10-11T14:45:37+08:00",
+        "finished_at": "2026-10-11T14:45:38+08:00",
+        "elapsed_s": 0.743,
+        "returncode": 0
+      },
+      "n_samples": 159,
+      "n_error_completions": 0,
+      "tokens": {
+        "n_problems": 159,
+        "prompt_tokens": 48559,
+        "completion_tokens": 16937,
+        "total_tokens": 65496,
+        "llm_calls": 159,
+        "avg_tokens_per_problem": 411.92,
+        "avg_llm_calls_per_problem": 1.0,
+        "est_cost_usd": 0.017446,
+        "pricing_usd_per_million": {
+          "input": 0.15,
+          "output": 0.6
+        }
+      },
+      "passed": 139,
+      "total": 159,
+      "pass_at_1": 0.8742138364779874,
+      "pass_at_1_percent": 87.421384,
+      "total_elapsed_s": 282.687,
+      "files": {
+        "samples": "results/repeat_metagpt/humaneval/round_01/metagpt/samples_gpt-4o-mini.jsonl",
+        "token_usage": "results/repeat_metagpt/humaneval/round_01/metagpt/token_usage_gpt-4o-mini.json",
+        "eval": "results/repeat_metagpt/humaneval/round_01/eval_pass1.json",
+        "generation_log": "results/repeat_metagpt/humaneval/round_01/generation.log",
+        "evaluation_log": "results/repeat_metagpt/humaneval/round_01/evaluation.log"
+      }
+    },
+    {
+      "round": 2,
+      "dataset": "humaneval",
+      "dataset_label": "HumanEval",
+      "method": "metagpt",
+      "model": "gpt-4o-mini",
+      "temperature": 0,
+      "n_expected": 159,
+      "status": "completed",
+      "generation": {
+        "elapsed_s": 266.384,
+        "attempts": [
+          {
+            "attempt": 1,
+            "started_at": "2026-10-11T14:45:38+08:00",
+            "finished_at": "2026-10-11T14:50:04+08:00",
+            "elapsed_s": 266.384,
+            "returncode": 0,
+            "error_completions_dropped": 0
+          }
+        ]
+      },
+      "evaluation": {
+        "started_at": "2026-10-11T14:50:04+08:00",
+        "finished_at": "2026-10-11T14:50:05+08:00",
+        "elapsed_s": 0.814,
+        "returncode": 0
+      },
+      "n_samples": 159,
+      "n_error_completions": 0,
+      "tokens": {
+        "n_problems": 159,
+        "prompt_tokens": 48559,
+        "completion_tokens": 17497,
+        "total_tokens": 66056,
+        "llm_calls": 159,
+        "avg_tokens_per_problem": 415.45,
+        "avg_llm_calls_per_problem": 1.0,
+        "est_cost_usd": 0.017782,
+        "pricing_usd_per_million": {
+          "input": 0.15,
+          "output": 0.6
+        }
+      },
+      "passed": 140,
+      "total": 159,
+      "pass_at_1": 0.8805031446540881,
+      "pass_at_1_percent": 88.050314,
+      "total_elapsed_s": 267.198,
+      "files": {
+        "samples": "results/repeat_metagpt/humaneval/round_02/metagpt/samples_gpt-4o-mini.jsonl",
+        "token_usage": "results/repeat_metagpt/humaneval/round_02/metagpt/token_usage_gpt-4o-mini.json",
+        "eval": "results/repeat_metagpt/humaneval/round_02/eval_pass1.json",
+        "generation_log": "results/repeat_metagpt/humaneval/round_02/generation.log",
+        "evaluation_log": "results/repeat_metagpt/humaneval/round_02/evaluation.log"
+      }
+    },
+    {
+      "round": 3,
+      "dataset": "humaneval",
+      "dataset_label": "HumanEval",
+      "method": "metagpt",
+      "model": "gpt-4o-mini",
+      "temperature": 0,
+      "n_expected": 159,
+      "status": "completed",
+      "generation": {
+        "elapsed_s": 273.066,
+        "attempts": [
+          {
+            "attempt": 1,
+            "started_at": "2026-10-11T14:50:05+08:00",
+            "finished_at": "2026-10-11T14:54:38+08:00",
+            "elapsed_s": 273.066,
+            "returncode": 0,
+            "error_completions_dropped": 0
+          }
+        ]
+      },
+      "evaluation": {
+        "started_at": "2026-10-11T14:54:38+08:00",
+        "finished_at": "2026-10-11T14:54:39+08:00",
+        "elapsed_s": 0.713,
+        "returncode": 0
+      },
+      "n_samples": 159,
+      "n_error_completions": 0,
+      "tokens": {
+        "n_problems": 159,
+        "prompt_tokens": 48559,
+        "completion_tokens": 17257,
+        "total_tokens": 65816,
+        "llm_calls": 159,
+        "avg_tokens_per_problem": 413.94,
+        "avg_llm_calls_per_problem": 1.0,
+        "est_cost_usd": 0.017638,
+        "pricing_usd_per_million": {
+          "input": 0.15,
+          "output": 0.6
+        }
+      },
+      "passed": 139,
+      "total": 159,
+      "pass_at_1": 0.8742138364779874,
+      "pass_at_1_percent": 87.421384,
+      "total_elapsed_s": 273.779,
+      "files": {
+        "samples": "results/repeat_metagpt/humaneval/round_03/metagpt/samples_gpt-4o-mini.jsonl",
+        "token_usage": "results/repeat_metagpt/humaneval/round_03/metagpt/token_usage_gpt-4o-mini.json",
+        "eval": "results/repeat_metagpt/humaneval/round_03/eval_pass1.json",
+        "generation_log": "results/repeat_metagpt/humaneval/round_03/generation.log",
+        "evaluation_log": "results/repeat_metagpt/humaneval/round_03/evaluation.log"
+      }
+    },
+    {
+      "round": 4,
+      "dataset": "humaneval",
+      "dataset_label": "HumanEval",
+      "method": "metagpt",
+      "model": "gpt-4o-mini",
+      "temperature": 0,
+      "n_expected": 159,
+      "status": "completed",
+      "generation": {
+        "elapsed_s": 263.182,
+        "attempts": [
+          {
+            "attempt": 1,
+            "started_at": "2026-10-11T14:54:39+08:00",
+            "finished_at": "2026-10-11T14:59:02+08:00",
+            "elapsed_s": 263.182,
+            "returncode": 0,
+            "error_completions_dropped": 0
+          }
+        ]
+      },
+      "evaluation": {
+        "started_at": "2026-10-11T14:59:03+08:00",
+        "finished_at": "2026-10-11T14:59:03+08:00",
+        "elapsed_s": 0.844,
+        "returncode": 0
+      },
+      "n_samples": 159,
+      "n_error_completions": 0,
+      "tokens": {
+        "n_problems": 159,
+        "prompt_tokens": 48559,
+        "completion_tokens": 17165,
+        "total_tokens": 65724,
+        "llm_calls": 159,
+        "avg_tokens_per_problem": 413.36,
+        "avg_llm_calls_per_problem": 1.0,
+        "est_cost_usd": 0.017583,
+        "pricing_usd_per_million": {
+          "input": 0.15,
+          "output": 0.6
+        }
+      },
+      "passed": 138,
+      "total": 159,
+      "pass_at_1": 0.8679245283018868,
+      "pass_at_1_percent": 86.792453,
+      "total_elapsed_s": 264.026,
+      "files": {
+        "samples": "results/repeat_metagpt/humaneval/round_04/metagpt/samples_gpt-4o-mini.jsonl",
+        "token_usage": "results/repeat_metagpt/humaneval/round_04/metagpt/token_usage_gpt-4o-mini.json",
+        "eval": "results/repeat_metagpt/humaneval/round_04/eval_pass1.json",
+        "generation_log": "results/repeat_metagpt/humaneval/round_04/generation.log",
+        "evaluation_log": "results/repeat_metagpt/humaneval/round_04/evaluation.log"
+      }
+    },
+    {
+      "round": 5,
+      "dataset": "humaneval",
+      "dataset_label": "HumanEval",
+      "method": "metagpt",
+      "model": "gpt-4o-mini",
+      "temperature": 0,
+      "n_expected": 159,
+      "status": "completed",
+      "generation": {
+        "elapsed_s": 274.284,
+        "attempts": [
+          {
+            "attempt": 1,
+            "started_at": "2026-10-11T14:59:03+08:00",
+            "finished_at": "2026-10-11T15:03:38+08:00",
+            "elapsed_s": 274.284,
+            "returncode": 0,
+            "error_completions_dropped": 0
+          }
+        ]
+      },
+      "evaluation": {
+        "started_at": "2026-10-11T15:03:38+08:00",
+        "finished_at": "2026-10-11T15:03:38+08:00",
+        "elapsed_s": 0.753,
+        "returncode": 0
+      },
+      "n_samples": 159,
+      "n_error_completions": 0,
+      "tokens": {
+        "n_problems": 159,
+        "prompt_tokens": 48559,
+        "completion_tokens": 17506,
+        "total_tokens": 66065,
+        "llm_calls": 159,
+        "avg_tokens_per_problem": 415.5,
+        "avg_llm_calls_per_problem": 1.0,
+        "est_cost_usd": 0.017787,
+        "pricing_usd_per_million": {
+          "input": 0.15,
+          "output": 0.6
+        }
+      },
+      "passed": 137,
+      "total": 159,
+      "pass_at_1": 0.8616352201257862,
+      "pass_at_1_percent": 86.163522,
+      "total_elapsed_s": 275.037,
+      "files": {
+        "samples": "results/repeat_metagpt/humaneval/round_05/metagpt/samples_gpt-4o-mini.jsonl",
+        "token_usage": "results/repeat_metagpt/humaneval/round_05/metagpt/token_usage_gpt-4o-mini.json",
+        "eval": "results/repeat_metagpt/humaneval/round_05/eval_pass1.json",
+        "generation_log": "results/repeat_metagpt/humaneval/round_05/generation.log",
+        "evaluation_log": "results/repeat_metagpt/humaneval/round_05/evaluation.log"
+      }
+    }
+  ]
+}

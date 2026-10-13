@@ -1,0 +1,7 @@
+$ /opt/conda/envs/reflexion_env/bin/python evaluate_public_humaneval.py --results /workspace/Output/repeat/humaneval/reflexion/run_5/gen/human-eval._reflexion_10_gpt-4o-mini_pass_at_k_1_py.jsonl --public-test ./benchmarks/humaneval/humaneval_public_test.jsonl --output /workspace/Output/repeat/humaneval/reflexion/run_5/public_eval.jsonl
+cwd=/workspace/programming_runs
+started=2026-10-11T17:46:27+08:00
+
+Public test Pass@1: 136/159 = 0.8553
+Per-problem results: /workspace/Output/repeat/humaneval/reflexion/run_5/public_eval.jsonl
+Summary: /workspace/Output/repeat/humaneval/reflexion/run_5/public_eval_summary.json

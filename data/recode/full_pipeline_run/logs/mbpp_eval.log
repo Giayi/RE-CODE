@@ -1,0 +1,10 @@
+2026-07-21 03:50:57.900 | INFO     | metagpt.const:get_metagpt_package_root:15 - Package root set to /workspace
+2026-07-21 03:50:57.901 | INFO     | metagpt.const:get_metagpt_package_root:15 - Package root set to /workspace
+{
+  "dataset": "/workspace/results/datasets/mbpp/mbpp_public_test.jsonl",
+  "samples": "/workspace/results/output/metagpt_egrcm_prqe/samples_mbpp_gpt-4o-mini.jsonl",
+  "total": 427,
+  "passed": 358,
+  "pass@1": 0.8384074941451991,
+  "elapsed_s": 0.3177528381347656
+}

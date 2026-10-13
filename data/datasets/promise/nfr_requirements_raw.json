@@ -1,0 +1,281 @@
+[
+  {
+    "requirement": "Access to X.500 services shall be through the Directory Agent (DA)."
+  },
+  {
+    "requirement": "The system shall provide for the secure creation, storage, and management of user passwords."
+  },
+  {
+    "requirement": "The system shall support the use of passwords for user authentication."
+  },
+  {
+    "requirement": "The system shall provide for the secure transmission of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure storage of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure exchange of authentication information between communicating entities."
+  },
+  {
+    "requirement": "The system shall provide for the secure management of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure distribution of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure revocation of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure verification of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure initialization of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure modification of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure use of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure deletion of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure archiving of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure recovery of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure backup of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure restoration of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure disposal of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure destruction of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure handling of authentication information."
+  },
+  {
+    "requirement": "The system shall provide for the secure transmission of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure storage of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure exchange of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure management of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure distribution of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure revocation of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure verification of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure initialization of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure modification of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure use of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure deletion of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure archiving of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure recovery of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure backup of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure restoration of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure disposal of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure destruction of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure handling of data."
+  },
+  {
+    "requirement": "The system shall provide for the secure transmission of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure storage of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure exchange of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure management of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure distribution of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure revocation of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure verification of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure initialization of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure modification of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure use of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure deletion of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure archiving of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure recovery of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure backup of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure restoration of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure disposal of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure destruction of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure handling of software."
+  },
+  {
+    "requirement": "The system shall provide for the secure transmission of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure storage of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure exchange of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure management of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure distribution of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure revocation of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure verification of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure initialization of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure modification of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure use of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure deletion of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure archiving of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure recovery of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure backup of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure restoration of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure disposal of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure destruction of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure handling of hardware."
+  },
+  {
+    "requirement": "The system shall provide for the secure transmission of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure storage of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure exchange of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure management of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure distribution of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure revocation of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure verification of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure initialization of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure modification of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure use of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure deletion of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure archiving of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure recovery of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure backup of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure restoration of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure disposal of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure destruction of firmware."
+  },
+  {
+    "requirement": "The system shall provide for the secure handling of firmware."
+  }
+]

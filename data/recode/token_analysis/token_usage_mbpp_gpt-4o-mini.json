@@ -1,0 +1,3009 @@
+{
+  "method": "metagpt_egrcm_prqe",
+  "model": "gpt-4o-mini",
+  "dataset": "MBPP",
+  "n_problems": 427,
+  "prompt_tokens": 2478098,
+  "completion_tokens": 621019,
+  "total_tokens": 3099117,
+  "llm_calls": 10580,
+  "avg_tokens_per_problem": 7257.89,
+  "avg_llm_calls_per_problem": 24.778,
+  "est_cost_usd": 0.744326,
+  "pricing_usd_per_million": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "note": "Recorded from live response.usage during generation.",
+  "problems": [
+    {
+      "task_id": "MBPP/0",
+      "prompt_tokens": 5205,
+      "completion_tokens": 700,
+      "total_tokens": 5905,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/1",
+      "prompt_tokens": 5034,
+      "completion_tokens": 404,
+      "total_tokens": 5438,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/2",
+      "prompt_tokens": 5225,
+      "completion_tokens": 828,
+      "total_tokens": 6053,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/3",
+      "prompt_tokens": 5444,
+      "completion_tokens": 2531,
+      "total_tokens": 7975,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/4",
+      "prompt_tokens": 5658,
+      "completion_tokens": 34618,
+      "total_tokens": 40276,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/5",
+      "prompt_tokens": 6431,
+      "completion_tokens": 1832,
+      "total_tokens": 8263,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/6",
+      "prompt_tokens": 5985,
+      "completion_tokens": 1767,
+      "total_tokens": 7752,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/7",
+      "prompt_tokens": 6049,
+      "completion_tokens": 1113,
+      "total_tokens": 7162,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/8",
+      "prompt_tokens": 5501,
+      "completion_tokens": 660,
+      "total_tokens": 6161,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/9",
+      "prompt_tokens": 6123,
+      "completion_tokens": 1562,
+      "total_tokens": 7685,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/10",
+      "prompt_tokens": 6511,
+      "completion_tokens": 1426,
+      "total_tokens": 7937,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/11",
+      "prompt_tokens": 5544,
+      "completion_tokens": 921,
+      "total_tokens": 6465,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/12",
+      "prompt_tokens": 6403,
+      "completion_tokens": 803,
+      "total_tokens": 7206,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/13",
+      "prompt_tokens": 5602,
+      "completion_tokens": 1118,
+      "total_tokens": 6720,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/14",
+      "prompt_tokens": 5572,
+      "completion_tokens": 1159,
+      "total_tokens": 6731,
+      "llm_calls": 25
+    },
+    {
+      "task_id": "MBPP/15",
+      "prompt_tokens": 6396,
+      "completion_tokens": 611,
+      "total_tokens": 7007,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/16",
+      "prompt_tokens": 5135,
+      "completion_tokens": 626,
+      "total_tokens": 5761,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/17",
+      "prompt_tokens": 5221,
+      "completion_tokens": 2359,
+      "total_tokens": 7580,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/18",
+      "prompt_tokens": 6278,
+      "completion_tokens": 1419,
+      "total_tokens": 7697,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/19",
+      "prompt_tokens": 6362,
+      "completion_tokens": 2320,
+      "total_tokens": 8682,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/20",
+      "prompt_tokens": 5452,
+      "completion_tokens": 2261,
+      "total_tokens": 7713,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/21",
+      "prompt_tokens": 5313,
+      "completion_tokens": 1407,
+      "total_tokens": 6720,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/22",
+      "prompt_tokens": 5539,
+      "completion_tokens": 1102,
+      "total_tokens": 6641,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/23",
+      "prompt_tokens": 5042,
+      "completion_tokens": 492,
+      "total_tokens": 5534,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/24",
+      "prompt_tokens": 6381,
+      "completion_tokens": 1785,
+      "total_tokens": 8166,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/25",
+      "prompt_tokens": 5660,
+      "completion_tokens": 540,
+      "total_tokens": 6200,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/26",
+      "prompt_tokens": 5567,
+      "completion_tokens": 1338,
+      "total_tokens": 6905,
+      "llm_calls": 25
+    },
+    {
+      "task_id": "MBPP/27",
+      "prompt_tokens": 8668,
+      "completion_tokens": 1795,
+      "total_tokens": 10463,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/28",
+      "prompt_tokens": 7697,
+      "completion_tokens": 1555,
+      "total_tokens": 9252,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/29",
+      "prompt_tokens": 5789,
+      "completion_tokens": 771,
+      "total_tokens": 6560,
+      "llm_calls": 27
+    },
+    {
+      "task_id": "MBPP/30",
+      "prompt_tokens": 5492,
+      "completion_tokens": 483,
+      "total_tokens": 5975,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/31",
+      "prompt_tokens": 5664,
+      "completion_tokens": 1282,
+      "total_tokens": 6946,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/32",
+      "prompt_tokens": 6640,
+      "completion_tokens": 2697,
+      "total_tokens": 9337,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/33",
+      "prompt_tokens": 6864,
+      "completion_tokens": 1662,
+      "total_tokens": 8526,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/34",
+      "prompt_tokens": 6591,
+      "completion_tokens": 1041,
+      "total_tokens": 7632,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/35",
+      "prompt_tokens": 5345,
+      "completion_tokens": 1492,
+      "total_tokens": 6837,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/36",
+      "prompt_tokens": 5540,
+      "completion_tokens": 1927,
+      "total_tokens": 7467,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/37",
+      "prompt_tokens": 5340,
+      "completion_tokens": 1852,
+      "total_tokens": 7192,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/38",
+      "prompt_tokens": 5528,
+      "completion_tokens": 2664,
+      "total_tokens": 8192,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/39",
+      "prompt_tokens": 6355,
+      "completion_tokens": 1528,
+      "total_tokens": 7883,
+      "llm_calls": 27
+    },
+    {
+      "task_id": "MBPP/40",
+      "prompt_tokens": 5911,
+      "completion_tokens": 1555,
+      "total_tokens": 7466,
+      "llm_calls": 25
+    },
+    {
+      "task_id": "MBPP/41",
+      "prompt_tokens": 5094,
+      "completion_tokens": 612,
+      "total_tokens": 5706,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/42",
+      "prompt_tokens": 5371,
+      "completion_tokens": 861,
+      "total_tokens": 6232,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/43",
+      "prompt_tokens": 7448,
+      "completion_tokens": 2121,
+      "total_tokens": 9569,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/44",
+      "prompt_tokens": 6185,
+      "completion_tokens": 753,
+      "total_tokens": 6938,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/45",
+      "prompt_tokens": 5950,
+      "completion_tokens": 1106,
+      "total_tokens": 7056,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/46",
+      "prompt_tokens": 5302,
+      "completion_tokens": 1439,
+      "total_tokens": 6741,
+      "llm_calls": 25
+    },
+    {
+      "task_id": "MBPP/47",
+      "prompt_tokens": 6788,
+      "completion_tokens": 2303,
+      "total_tokens": 9091,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/48",
+      "prompt_tokens": 7171,
+      "completion_tokens": 1479,
+      "total_tokens": 8650,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/49",
+      "prompt_tokens": 5302,
+      "completion_tokens": 947,
+      "total_tokens": 6249,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/50",
+      "prompt_tokens": 6673,
+      "completion_tokens": 1573,
+      "total_tokens": 8246,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/51",
+      "prompt_tokens": 5769,
+      "completion_tokens": 2146,
+      "total_tokens": 7915,
+      "llm_calls": 26
+    },
+    {
+      "task_id": "MBPP/52",
+      "prompt_tokens": 6223,
+      "completion_tokens": 1495,
+      "total_tokens": 7718,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/53",
+      "prompt_tokens": 5431,
+      "completion_tokens": 762,
+      "total_tokens": 6193,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/54",
+      "prompt_tokens": 5464,
+      "completion_tokens": 1281,
+      "total_tokens": 6745,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/55",
+      "prompt_tokens": 7512,
+      "completion_tokens": 1476,
+      "total_tokens": 8988,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/56",
+      "prompt_tokens": 5300,
+      "completion_tokens": 991,
+      "total_tokens": 6291,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/57",
+      "prompt_tokens": 5935,
+      "completion_tokens": 782,
+      "total_tokens": 6717,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/58",
+      "prompt_tokens": 6611,
+      "completion_tokens": 1313,
+      "total_tokens": 7924,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/59",
+      "prompt_tokens": 5320,
+      "completion_tokens": 610,
+      "total_tokens": 5930,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/60",
+      "prompt_tokens": 7251,
+      "completion_tokens": 1375,
+      "total_tokens": 8626,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/61",
+      "prompt_tokens": 5277,
+      "completion_tokens": 1460,
+      "total_tokens": 6737,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/62",
+      "prompt_tokens": 5526,
+      "completion_tokens": 816,
+      "total_tokens": 6342,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/63",
+      "prompt_tokens": 5823,
+      "completion_tokens": 2115,
+      "total_tokens": 7938,
+      "llm_calls": 26
+    },
+    {
+      "task_id": "MBPP/64",
+      "prompt_tokens": 5631,
+      "completion_tokens": 926,
+      "total_tokens": 6557,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/65",
+      "prompt_tokens": 5661,
+      "completion_tokens": 954,
+      "total_tokens": 6615,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/66",
+      "prompt_tokens": 5190,
+      "completion_tokens": 565,
+      "total_tokens": 5755,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/67",
+      "prompt_tokens": 5554,
+      "completion_tokens": 3097,
+      "total_tokens": 8651,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/68",
+      "prompt_tokens": 6661,
+      "completion_tokens": 1532,
+      "total_tokens": 8193,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/69",
+      "prompt_tokens": 5644,
+      "completion_tokens": 1738,
+      "total_tokens": 7382,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/70",
+      "prompt_tokens": 7012,
+      "completion_tokens": 1913,
+      "total_tokens": 8925,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/71",
+      "prompt_tokens": 5446,
+      "completion_tokens": 583,
+      "total_tokens": 6029,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/72",
+      "prompt_tokens": 6127,
+      "completion_tokens": 1267,
+      "total_tokens": 7394,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/73",
+      "prompt_tokens": 6575,
+      "completion_tokens": 3163,
+      "total_tokens": 9738,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/74",
+      "prompt_tokens": 5542,
+      "completion_tokens": 1383,
+      "total_tokens": 6925,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/75",
+      "prompt_tokens": 6117,
+      "completion_tokens": 803,
+      "total_tokens": 6920,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/76",
+      "prompt_tokens": 5381,
+      "completion_tokens": 884,
+      "total_tokens": 6265,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/77",
+      "prompt_tokens": 5067,
+      "completion_tokens": 648,
+      "total_tokens": 5715,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/78",
+      "prompt_tokens": 5957,
+      "completion_tokens": 1182,
+      "total_tokens": 7139,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/79",
+      "prompt_tokens": 5553,
+      "completion_tokens": 1655,
+      "total_tokens": 7208,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/80",
+      "prompt_tokens": 5266,
+      "completion_tokens": 786,
+      "total_tokens": 6052,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/81",
+      "prompt_tokens": 6115,
+      "completion_tokens": 2359,
+      "total_tokens": 8474,
+      "llm_calls": 26
+    },
+    {
+      "task_id": "MBPP/82",
+      "prompt_tokens": 5245,
+      "completion_tokens": 518,
+      "total_tokens": 5763,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/83",
+      "prompt_tokens": 6881,
+      "completion_tokens": 1059,
+      "total_tokens": 7940,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/84",
+      "prompt_tokens": 5537,
+      "completion_tokens": 1335,
+      "total_tokens": 6872,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/85",
+      "prompt_tokens": 6047,
+      "completion_tokens": 1045,
+      "total_tokens": 7092,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/86",
+      "prompt_tokens": 6009,
+      "completion_tokens": 1767,
+      "total_tokens": 7776,
+      "llm_calls": 27
+    },
+    {
+      "task_id": "MBPP/87",
+      "prompt_tokens": 5414,
+      "completion_tokens": 1217,
+      "total_tokens": 6631,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/88",
+      "prompt_tokens": 5465,
+      "completion_tokens": 826,
+      "total_tokens": 6291,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/89",
+      "prompt_tokens": 5974,
+      "completion_tokens": 5518,
+      "total_tokens": 11492,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/90",
+      "prompt_tokens": 5587,
+      "completion_tokens": 1159,
+      "total_tokens": 6746,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/91",
+      "prompt_tokens": 5220,
+      "completion_tokens": 1090,
+      "total_tokens": 6310,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/92",
+      "prompt_tokens": 5258,
+      "completion_tokens": 772,
+      "total_tokens": 6030,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/93",
+      "prompt_tokens": 5587,
+      "completion_tokens": 1077,
+      "total_tokens": 6664,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/94",
+      "prompt_tokens": 5881,
+      "completion_tokens": 752,
+      "total_tokens": 6633,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/95",
+      "prompt_tokens": 5575,
+      "completion_tokens": 591,
+      "total_tokens": 6166,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/96",
+      "prompt_tokens": 6724,
+      "completion_tokens": 1285,
+      "total_tokens": 8009,
+      "llm_calls": 27
+    },
+    {
+      "task_id": "MBPP/97",
+      "prompt_tokens": 6494,
+      "completion_tokens": 1027,
+      "total_tokens": 7521,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/98",
+      "prompt_tokens": 5372,
+      "completion_tokens": 1762,
+      "total_tokens": 7134,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/99",
+      "prompt_tokens": 6182,
+      "completion_tokens": 834,
+      "total_tokens": 7016,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/100",
+      "prompt_tokens": 5820,
+      "completion_tokens": 763,
+      "total_tokens": 6583,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/101",
+      "prompt_tokens": 6790,
+      "completion_tokens": 1355,
+      "total_tokens": 8145,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/102",
+      "prompt_tokens": 6070,
+      "completion_tokens": 2470,
+      "total_tokens": 8540,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/103",
+      "prompt_tokens": 5523,
+      "completion_tokens": 731,
+      "total_tokens": 6254,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/104",
+      "prompt_tokens": 5327,
+      "completion_tokens": 1337,
+      "total_tokens": 6664,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/105",
+      "prompt_tokens": 5419,
+      "completion_tokens": 854,
+      "total_tokens": 6273,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/106",
+      "prompt_tokens": 5293,
+      "completion_tokens": 1329,
+      "total_tokens": 6622,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/107",
+      "prompt_tokens": 5368,
+      "completion_tokens": 1379,
+      "total_tokens": 6747,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/108",
+      "prompt_tokens": 6068,
+      "completion_tokens": 1028,
+      "total_tokens": 7096,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/109",
+      "prompt_tokens": 6454,
+      "completion_tokens": 858,
+      "total_tokens": 7312,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/110",
+      "prompt_tokens": 6658,
+      "completion_tokens": 3726,
+      "total_tokens": 10384,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/111",
+      "prompt_tokens": 5023,
+      "completion_tokens": 707,
+      "total_tokens": 5730,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/112",
+      "prompt_tokens": 6697,
+      "completion_tokens": 4464,
+      "total_tokens": 11161,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/113",
+      "prompt_tokens": 5623,
+      "completion_tokens": 1495,
+      "total_tokens": 7118,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/114",
+      "prompt_tokens": 6539,
+      "completion_tokens": 1563,
+      "total_tokens": 8102,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/115",
+      "prompt_tokens": 6087,
+      "completion_tokens": 2700,
+      "total_tokens": 8787,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/116",
+      "prompt_tokens": 5585,
+      "completion_tokens": 773,
+      "total_tokens": 6358,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/117",
+      "prompt_tokens": 6559,
+      "completion_tokens": 1849,
+      "total_tokens": 8408,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/118",
+      "prompt_tokens": 5919,
+      "completion_tokens": 937,
+      "total_tokens": 6856,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/119",
+      "prompt_tokens": 5556,
+      "completion_tokens": 516,
+      "total_tokens": 6072,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/120",
+      "prompt_tokens": 5225,
+      "completion_tokens": 1120,
+      "total_tokens": 6345,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/121",
+      "prompt_tokens": 6022,
+      "completion_tokens": 1111,
+      "total_tokens": 7133,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/122",
+      "prompt_tokens": 5446,
+      "completion_tokens": 1003,
+      "total_tokens": 6449,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/123",
+      "prompt_tokens": 5770,
+      "completion_tokens": 2481,
+      "total_tokens": 8251,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/124",
+      "prompt_tokens": 5895,
+      "completion_tokens": 1134,
+      "total_tokens": 7029,
+      "llm_calls": 27
+    },
+    {
+      "task_id": "MBPP/125",
+      "prompt_tokens": 5245,
+      "completion_tokens": 694,
+      "total_tokens": 5939,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/126",
+      "prompt_tokens": 5723,
+      "completion_tokens": 605,
+      "total_tokens": 6328,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/127",
+      "prompt_tokens": 6510,
+      "completion_tokens": 726,
+      "total_tokens": 7236,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/128",
+      "prompt_tokens": 5910,
+      "completion_tokens": 1176,
+      "total_tokens": 7086,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/129",
+      "prompt_tokens": 5421,
+      "completion_tokens": 2020,
+      "total_tokens": 7441,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/130",
+      "prompt_tokens": 6010,
+      "completion_tokens": 1173,
+      "total_tokens": 7183,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/131",
+      "prompt_tokens": 6965,
+      "completion_tokens": 3027,
+      "total_tokens": 9992,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/132",
+      "prompt_tokens": 7208,
+      "completion_tokens": 4784,
+      "total_tokens": 11992,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/133",
+      "prompt_tokens": 5112,
+      "completion_tokens": 1184,
+      "total_tokens": 6296,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/134",
+      "prompt_tokens": 6207,
+      "completion_tokens": 978,
+      "total_tokens": 7185,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/135",
+      "prompt_tokens": 5872,
+      "completion_tokens": 1055,
+      "total_tokens": 6927,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/136",
+      "prompt_tokens": 5454,
+      "completion_tokens": 1320,
+      "total_tokens": 6774,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/137",
+      "prompt_tokens": 6931,
+      "completion_tokens": 1512,
+      "total_tokens": 8443,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/138",
+      "prompt_tokens": 5313,
+      "completion_tokens": 1845,
+      "total_tokens": 7158,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/139",
+      "prompt_tokens": 5970,
+      "completion_tokens": 869,
+      "total_tokens": 6839,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/140",
+      "prompt_tokens": 6052,
+      "completion_tokens": 1099,
+      "total_tokens": 7151,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/141",
+      "prompt_tokens": 5874,
+      "completion_tokens": 981,
+      "total_tokens": 6855,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/142",
+      "prompt_tokens": 5043,
+      "completion_tokens": 705,
+      "total_tokens": 5748,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/143",
+      "prompt_tokens": 6219,
+      "completion_tokens": 907,
+      "total_tokens": 7126,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/144",
+      "prompt_tokens": 6723,
+      "completion_tokens": 3255,
+      "total_tokens": 9978,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/145",
+      "prompt_tokens": 7162,
+      "completion_tokens": 1223,
+      "total_tokens": 8385,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/146",
+      "prompt_tokens": 5853,
+      "completion_tokens": 1006,
+      "total_tokens": 6859,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/147",
+      "prompt_tokens": 5793,
+      "completion_tokens": 793,
+      "total_tokens": 6586,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/148",
+      "prompt_tokens": 5303,
+      "completion_tokens": 807,
+      "total_tokens": 6110,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/149",
+      "prompt_tokens": 6652,
+      "completion_tokens": 629,
+      "total_tokens": 7281,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/150",
+      "prompt_tokens": 5356,
+      "completion_tokens": 943,
+      "total_tokens": 6299,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/151",
+      "prompt_tokens": 5127,
+      "completion_tokens": 2662,
+      "total_tokens": 7789,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/152",
+      "prompt_tokens": 5147,
+      "completion_tokens": 812,
+      "total_tokens": 5959,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/153",
+      "prompt_tokens": 4979,
+      "completion_tokens": 2217,
+      "total_tokens": 7196,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/154",
+      "prompt_tokens": 5844,
+      "completion_tokens": 1027,
+      "total_tokens": 6871,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/155",
+      "prompt_tokens": 6496,
+      "completion_tokens": 2382,
+      "total_tokens": 8878,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/156",
+      "prompt_tokens": 5490,
+      "completion_tokens": 797,
+      "total_tokens": 6287,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/157",
+      "prompt_tokens": 5788,
+      "completion_tokens": 1230,
+      "total_tokens": 7018,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/158",
+      "prompt_tokens": 5445,
+      "completion_tokens": 1080,
+      "total_tokens": 6525,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/159",
+      "prompt_tokens": 5156,
+      "completion_tokens": 452,
+      "total_tokens": 5608,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/160",
+      "prompt_tokens": 5202,
+      "completion_tokens": 1341,
+      "total_tokens": 6543,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/161",
+      "prompt_tokens": 5606,
+      "completion_tokens": 1110,
+      "total_tokens": 6716,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/162",
+      "prompt_tokens": 5903,
+      "completion_tokens": 2103,
+      "total_tokens": 8006,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/163",
+      "prompt_tokens": 6010,
+      "completion_tokens": 3678,
+      "total_tokens": 9688,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/164",
+      "prompt_tokens": 5616,
+      "completion_tokens": 1218,
+      "total_tokens": 6834,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/165",
+      "prompt_tokens": 6600,
+      "completion_tokens": 1571,
+      "total_tokens": 8171,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/166",
+      "prompt_tokens": 6453,
+      "completion_tokens": 2728,
+      "total_tokens": 9181,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/167",
+      "prompt_tokens": 5361,
+      "completion_tokens": 1143,
+      "total_tokens": 6504,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/168",
+      "prompt_tokens": 7844,
+      "completion_tokens": 1450,
+      "total_tokens": 9294,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/169",
+      "prompt_tokens": 6597,
+      "completion_tokens": 1763,
+      "total_tokens": 8360,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/170",
+      "prompt_tokens": 5534,
+      "completion_tokens": 1296,
+      "total_tokens": 6830,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/171",
+      "prompt_tokens": 5466,
+      "completion_tokens": 1470,
+      "total_tokens": 6936,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/172",
+      "prompt_tokens": 6213,
+      "completion_tokens": 1284,
+      "total_tokens": 7497,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/173",
+      "prompt_tokens": 5375,
+      "completion_tokens": 4347,
+      "total_tokens": 9722,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/174",
+      "prompt_tokens": 5936,
+      "completion_tokens": 1091,
+      "total_tokens": 7027,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/175",
+      "prompt_tokens": 7589,
+      "completion_tokens": 785,
+      "total_tokens": 8374,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/176",
+      "prompt_tokens": 6293,
+      "completion_tokens": 1464,
+      "total_tokens": 7757,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/177",
+      "prompt_tokens": 5214,
+      "completion_tokens": 870,
+      "total_tokens": 6084,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/178",
+      "prompt_tokens": 5378,
+      "completion_tokens": 771,
+      "total_tokens": 6149,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/179",
+      "prompt_tokens": 6149,
+      "completion_tokens": 738,
+      "total_tokens": 6887,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/180",
+      "prompt_tokens": 5981,
+      "completion_tokens": 1693,
+      "total_tokens": 7674,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/181",
+      "prompt_tokens": 5625,
+      "completion_tokens": 771,
+      "total_tokens": 6396,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/182",
+      "prompt_tokens": 5267,
+      "completion_tokens": 1159,
+      "total_tokens": 6426,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/183",
+      "prompt_tokens": 5106,
+      "completion_tokens": 527,
+      "total_tokens": 5633,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/184",
+      "prompt_tokens": 5762,
+      "completion_tokens": 751,
+      "total_tokens": 6513,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/185",
+      "prompt_tokens": 7534,
+      "completion_tokens": 1315,
+      "total_tokens": 8849,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/186",
+      "prompt_tokens": 5114,
+      "completion_tokens": 566,
+      "total_tokens": 5680,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/187",
+      "prompt_tokens": 5323,
+      "completion_tokens": 891,
+      "total_tokens": 6214,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/188",
+      "prompt_tokens": 5659,
+      "completion_tokens": 1361,
+      "total_tokens": 7020,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/189",
+      "prompt_tokens": 5393,
+      "completion_tokens": 975,
+      "total_tokens": 6368,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/190",
+      "prompt_tokens": 5463,
+      "completion_tokens": 810,
+      "total_tokens": 6273,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/191",
+      "prompt_tokens": 5236,
+      "completion_tokens": 1387,
+      "total_tokens": 6623,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/192",
+      "prompt_tokens": 5537,
+      "completion_tokens": 709,
+      "total_tokens": 6246,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/193",
+      "prompt_tokens": 6115,
+      "completion_tokens": 1402,
+      "total_tokens": 7517,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/194",
+      "prompt_tokens": 5470,
+      "completion_tokens": 762,
+      "total_tokens": 6232,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/195",
+      "prompt_tokens": 5048,
+      "completion_tokens": 877,
+      "total_tokens": 5925,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/196",
+      "prompt_tokens": 6381,
+      "completion_tokens": 1293,
+      "total_tokens": 7674,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/197",
+      "prompt_tokens": 5850,
+      "completion_tokens": 1255,
+      "total_tokens": 7105,
+      "llm_calls": 26
+    },
+    {
+      "task_id": "MBPP/198",
+      "prompt_tokens": 5148,
+      "completion_tokens": 930,
+      "total_tokens": 6078,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/199",
+      "prompt_tokens": 5188,
+      "completion_tokens": 777,
+      "total_tokens": 5965,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/200",
+      "prompt_tokens": 6245,
+      "completion_tokens": 1206,
+      "total_tokens": 7451,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/201",
+      "prompt_tokens": 5634,
+      "completion_tokens": 901,
+      "total_tokens": 6535,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/202",
+      "prompt_tokens": 4845,
+      "completion_tokens": 772,
+      "total_tokens": 5617,
+      "llm_calls": 20
+    },
+    {
+      "task_id": "MBPP/203",
+      "prompt_tokens": 6756,
+      "completion_tokens": 1219,
+      "total_tokens": 7975,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/204",
+      "prompt_tokens": 5147,
+      "completion_tokens": 1482,
+      "total_tokens": 6629,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/205",
+      "prompt_tokens": 6168,
+      "completion_tokens": 1976,
+      "total_tokens": 8144,
+      "llm_calls": 26
+    },
+    {
+      "task_id": "MBPP/206",
+      "prompt_tokens": 6537,
+      "completion_tokens": 856,
+      "total_tokens": 7393,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/207",
+      "prompt_tokens": 6110,
+      "completion_tokens": 1529,
+      "total_tokens": 7639,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/208",
+      "prompt_tokens": 7026,
+      "completion_tokens": 887,
+      "total_tokens": 7913,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/209",
+      "prompt_tokens": 6242,
+      "completion_tokens": 1220,
+      "total_tokens": 7462,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/210",
+      "prompt_tokens": 5729,
+      "completion_tokens": 1640,
+      "total_tokens": 7369,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/211",
+      "prompt_tokens": 6532,
+      "completion_tokens": 2003,
+      "total_tokens": 8535,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/212",
+      "prompt_tokens": 5658,
+      "completion_tokens": 1221,
+      "total_tokens": 6879,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/213",
+      "prompt_tokens": 5445,
+      "completion_tokens": 620,
+      "total_tokens": 6065,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/214",
+      "prompt_tokens": 6593,
+      "completion_tokens": 1054,
+      "total_tokens": 7647,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/215",
+      "prompt_tokens": 5495,
+      "completion_tokens": 1201,
+      "total_tokens": 6696,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/216",
+      "prompt_tokens": 5216,
+      "completion_tokens": 1479,
+      "total_tokens": 6695,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/217",
+      "prompt_tokens": 5989,
+      "completion_tokens": 1218,
+      "total_tokens": 7207,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/218",
+      "prompt_tokens": 5725,
+      "completion_tokens": 1223,
+      "total_tokens": 6948,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/219",
+      "prompt_tokens": 6523,
+      "completion_tokens": 1377,
+      "total_tokens": 7900,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/220",
+      "prompt_tokens": 5843,
+      "completion_tokens": 1125,
+      "total_tokens": 6968,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/221",
+      "prompt_tokens": 6698,
+      "completion_tokens": 3042,
+      "total_tokens": 9740,
+      "llm_calls": 27
+    },
+    {
+      "task_id": "MBPP/222",
+      "prompt_tokens": 5479,
+      "completion_tokens": 1293,
+      "total_tokens": 6772,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/223",
+      "prompt_tokens": 6560,
+      "completion_tokens": 1120,
+      "total_tokens": 7680,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/224",
+      "prompt_tokens": 5542,
+      "completion_tokens": 1680,
+      "total_tokens": 7222,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/225",
+      "prompt_tokens": 8066,
+      "completion_tokens": 1283,
+      "total_tokens": 9349,
+      "llm_calls": 26
+    },
+    {
+      "task_id": "MBPP/226",
+      "prompt_tokens": 5256,
+      "completion_tokens": 460,
+      "total_tokens": 5716,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/227",
+      "prompt_tokens": 6059,
+      "completion_tokens": 901,
+      "total_tokens": 6960,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/228",
+      "prompt_tokens": 5222,
+      "completion_tokens": 787,
+      "total_tokens": 6009,
+      "llm_calls": 25
+    },
+    {
+      "task_id": "MBPP/229",
+      "prompt_tokens": 5469,
+      "completion_tokens": 1508,
+      "total_tokens": 6977,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/230",
+      "prompt_tokens": 5312,
+      "completion_tokens": 1313,
+      "total_tokens": 6625,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/231",
+      "prompt_tokens": 5550,
+      "completion_tokens": 1670,
+      "total_tokens": 7220,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/232",
+      "prompt_tokens": 5761,
+      "completion_tokens": 1317,
+      "total_tokens": 7078,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/233",
+      "prompt_tokens": 6787,
+      "completion_tokens": 1206,
+      "total_tokens": 7993,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/234",
+      "prompt_tokens": 5453,
+      "completion_tokens": 877,
+      "total_tokens": 6330,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/235",
+      "prompt_tokens": 5184,
+      "completion_tokens": 651,
+      "total_tokens": 5835,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/236",
+      "prompt_tokens": 5071,
+      "completion_tokens": 706,
+      "total_tokens": 5777,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/237",
+      "prompt_tokens": 6257,
+      "completion_tokens": 937,
+      "total_tokens": 7194,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/238",
+      "prompt_tokens": 6865,
+      "completion_tokens": 1471,
+      "total_tokens": 8336,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/239",
+      "prompt_tokens": 5486,
+      "completion_tokens": 1557,
+      "total_tokens": 7043,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/240",
+      "prompt_tokens": 5808,
+      "completion_tokens": 1599,
+      "total_tokens": 7407,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/241",
+      "prompt_tokens": 5762,
+      "completion_tokens": 1561,
+      "total_tokens": 7323,
+      "llm_calls": 26
+    },
+    {
+      "task_id": "MBPP/242",
+      "prompt_tokens": 6347,
+      "completion_tokens": 744,
+      "total_tokens": 7091,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/243",
+      "prompt_tokens": 5105,
+      "completion_tokens": 436,
+      "total_tokens": 5541,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/244",
+      "prompt_tokens": 5226,
+      "completion_tokens": 1273,
+      "total_tokens": 6499,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/245",
+      "prompt_tokens": 5529,
+      "completion_tokens": 2493,
+      "total_tokens": 8022,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/246",
+      "prompt_tokens": 5144,
+      "completion_tokens": 1586,
+      "total_tokens": 6730,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/247",
+      "prompt_tokens": 5589,
+      "completion_tokens": 935,
+      "total_tokens": 6524,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/248",
+      "prompt_tokens": 5068,
+      "completion_tokens": 811,
+      "total_tokens": 5879,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/249",
+      "prompt_tokens": 5504,
+      "completion_tokens": 1066,
+      "total_tokens": 6570,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/250",
+      "prompt_tokens": 6745,
+      "completion_tokens": 1340,
+      "total_tokens": 8085,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/251",
+      "prompt_tokens": 6305,
+      "completion_tokens": 2329,
+      "total_tokens": 8634,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/252",
+      "prompt_tokens": 5591,
+      "completion_tokens": 953,
+      "total_tokens": 6544,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/253",
+      "prompt_tokens": 5362,
+      "completion_tokens": 1123,
+      "total_tokens": 6485,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/254",
+      "prompt_tokens": 5346,
+      "completion_tokens": 515,
+      "total_tokens": 5861,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/255",
+      "prompt_tokens": 5045,
+      "completion_tokens": 1766,
+      "total_tokens": 6811,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/256",
+      "prompt_tokens": 5435,
+      "completion_tokens": 1092,
+      "total_tokens": 6527,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/257",
+      "prompt_tokens": 5530,
+      "completion_tokens": 728,
+      "total_tokens": 6258,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/258",
+      "prompt_tokens": 5551,
+      "completion_tokens": 1321,
+      "total_tokens": 6872,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/259",
+      "prompt_tokens": 6144,
+      "completion_tokens": 988,
+      "total_tokens": 7132,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/260",
+      "prompt_tokens": 6727,
+      "completion_tokens": 1211,
+      "total_tokens": 7938,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/261",
+      "prompt_tokens": 5187,
+      "completion_tokens": 477,
+      "total_tokens": 5664,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/262",
+      "prompt_tokens": 5291,
+      "completion_tokens": 1998,
+      "total_tokens": 7289,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/263",
+      "prompt_tokens": 7458,
+      "completion_tokens": 4319,
+      "total_tokens": 11777,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/264",
+      "prompt_tokens": 5890,
+      "completion_tokens": 1779,
+      "total_tokens": 7669,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/265",
+      "prompt_tokens": 5158,
+      "completion_tokens": 850,
+      "total_tokens": 6008,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/266",
+      "prompt_tokens": 6011,
+      "completion_tokens": 3130,
+      "total_tokens": 9141,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/267",
+      "prompt_tokens": 5057,
+      "completion_tokens": 599,
+      "total_tokens": 5656,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/268",
+      "prompt_tokens": 5922,
+      "completion_tokens": 857,
+      "total_tokens": 6779,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/269",
+      "prompt_tokens": 5254,
+      "completion_tokens": 715,
+      "total_tokens": 5969,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/270",
+      "prompt_tokens": 5051,
+      "completion_tokens": 849,
+      "total_tokens": 5900,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/271",
+      "prompt_tokens": 5603,
+      "completion_tokens": 613,
+      "total_tokens": 6216,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/272",
+      "prompt_tokens": 5323,
+      "completion_tokens": 1147,
+      "total_tokens": 6470,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/273",
+      "prompt_tokens": 5300,
+      "completion_tokens": 1348,
+      "total_tokens": 6648,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/274",
+      "prompt_tokens": 5028,
+      "completion_tokens": 1193,
+      "total_tokens": 6221,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/275",
+      "prompt_tokens": 5330,
+      "completion_tokens": 975,
+      "total_tokens": 6305,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/276",
+      "prompt_tokens": 5176,
+      "completion_tokens": 745,
+      "total_tokens": 5921,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/277",
+      "prompt_tokens": 5536,
+      "completion_tokens": 458,
+      "total_tokens": 5994,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/278",
+      "prompt_tokens": 5690,
+      "completion_tokens": 2081,
+      "total_tokens": 7771,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/279",
+      "prompt_tokens": 5285,
+      "completion_tokens": 691,
+      "total_tokens": 5976,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/280",
+      "prompt_tokens": 5279,
+      "completion_tokens": 1249,
+      "total_tokens": 6528,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/281",
+      "prompt_tokens": 5440,
+      "completion_tokens": 605,
+      "total_tokens": 6045,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/282",
+      "prompt_tokens": 5407,
+      "completion_tokens": 1442,
+      "total_tokens": 6849,
+      "llm_calls": 21
+    },
+    {
+      "task_id": "MBPP/283",
+      "prompt_tokens": 5931,
+      "completion_tokens": 829,
+      "total_tokens": 6760,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/284",
+      "prompt_tokens": 5761,
+      "completion_tokens": 980,
+      "total_tokens": 6741,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/285",
+      "prompt_tokens": 7837,
+      "completion_tokens": 5678,
+      "total_tokens": 13515,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/286",
+      "prompt_tokens": 5505,
+      "completion_tokens": 845,
+      "total_tokens": 6350,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/287",
+      "prompt_tokens": 5075,
+      "completion_tokens": 580,
+      "total_tokens": 5655,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/288",
+      "prompt_tokens": 5314,
+      "completion_tokens": 599,
+      "total_tokens": 5913,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/289",
+      "prompt_tokens": 5848,
+      "completion_tokens": 1139,
+      "total_tokens": 6987,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/290",
+      "prompt_tokens": 7123,
+      "completion_tokens": 1662,
+      "total_tokens": 8785,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/291",
+      "prompt_tokens": 5388,
+      "completion_tokens": 1482,
+      "total_tokens": 6870,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/292",
+      "prompt_tokens": 7439,
+      "completion_tokens": 8457,
+      "total_tokens": 15896,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/293",
+      "prompt_tokens": 5381,
+      "completion_tokens": 1059,
+      "total_tokens": 6440,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/294",
+      "prompt_tokens": 5365,
+      "completion_tokens": 1158,
+      "total_tokens": 6523,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/295",
+      "prompt_tokens": 6287,
+      "completion_tokens": 4181,
+      "total_tokens": 10468,
+      "llm_calls": 27
+    },
+    {
+      "task_id": "MBPP/296",
+      "prompt_tokens": 5356,
+      "completion_tokens": 716,
+      "total_tokens": 6072,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/297",
+      "prompt_tokens": 5727,
+      "completion_tokens": 534,
+      "total_tokens": 6261,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/298",
+      "prompt_tokens": 6012,
+      "completion_tokens": 1390,
+      "total_tokens": 7402,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/299",
+      "prompt_tokens": 5804,
+      "completion_tokens": 564,
+      "total_tokens": 6368,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/300",
+      "prompt_tokens": 5253,
+      "completion_tokens": 1340,
+      "total_tokens": 6593,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/301",
+      "prompt_tokens": 5297,
+      "completion_tokens": 1033,
+      "total_tokens": 6330,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/302",
+      "prompt_tokens": 5265,
+      "completion_tokens": 1842,
+      "total_tokens": 7107,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/303",
+      "prompt_tokens": 5548,
+      "completion_tokens": 1917,
+      "total_tokens": 7465,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/304",
+      "prompt_tokens": 5229,
+      "completion_tokens": 658,
+      "total_tokens": 5887,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/305",
+      "prompt_tokens": 5415,
+      "completion_tokens": 902,
+      "total_tokens": 6317,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/306",
+      "prompt_tokens": 5419,
+      "completion_tokens": 1939,
+      "total_tokens": 7358,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/307",
+      "prompt_tokens": 6010,
+      "completion_tokens": 1623,
+      "total_tokens": 7633,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/308",
+      "prompt_tokens": 6195,
+      "completion_tokens": 790,
+      "total_tokens": 6985,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/309",
+      "prompt_tokens": 5589,
+      "completion_tokens": 879,
+      "total_tokens": 6468,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/310",
+      "prompt_tokens": 6247,
+      "completion_tokens": 600,
+      "total_tokens": 6847,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/311",
+      "prompt_tokens": 6416,
+      "completion_tokens": 788,
+      "total_tokens": 7204,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/312",
+      "prompt_tokens": 5637,
+      "completion_tokens": 725,
+      "total_tokens": 6362,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/313",
+      "prompt_tokens": 6282,
+      "completion_tokens": 1608,
+      "total_tokens": 7890,
+      "llm_calls": 27
+    },
+    {
+      "task_id": "MBPP/314",
+      "prompt_tokens": 5154,
+      "completion_tokens": 2895,
+      "total_tokens": 8049,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/315",
+      "prompt_tokens": 5792,
+      "completion_tokens": 2121,
+      "total_tokens": 7913,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/316",
+      "prompt_tokens": 5609,
+      "completion_tokens": 1452,
+      "total_tokens": 7061,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/317",
+      "prompt_tokens": 6016,
+      "completion_tokens": 1247,
+      "total_tokens": 7263,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/318",
+      "prompt_tokens": 5278,
+      "completion_tokens": 1010,
+      "total_tokens": 6288,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/319",
+      "prompt_tokens": 5743,
+      "completion_tokens": 580,
+      "total_tokens": 6323,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/320",
+      "prompt_tokens": 5980,
+      "completion_tokens": 1210,
+      "total_tokens": 7190,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/321",
+      "prompt_tokens": 7839,
+      "completion_tokens": 1736,
+      "total_tokens": 9575,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/322",
+      "prompt_tokens": 6411,
+      "completion_tokens": 2465,
+      "total_tokens": 8876,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/323",
+      "prompt_tokens": 6089,
+      "completion_tokens": 682,
+      "total_tokens": 6771,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/324",
+      "prompt_tokens": 5748,
+      "completion_tokens": 1273,
+      "total_tokens": 7021,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/325",
+      "prompt_tokens": 5138,
+      "completion_tokens": 810,
+      "total_tokens": 5948,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/326",
+      "prompt_tokens": 5265,
+      "completion_tokens": 1074,
+      "total_tokens": 6339,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/327",
+      "prompt_tokens": 5447,
+      "completion_tokens": 969,
+      "total_tokens": 6416,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/328",
+      "prompt_tokens": 5659,
+      "completion_tokens": 524,
+      "total_tokens": 6183,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/329",
+      "prompt_tokens": 5560,
+      "completion_tokens": 2091,
+      "total_tokens": 7651,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/330",
+      "prompt_tokens": 5928,
+      "completion_tokens": 746,
+      "total_tokens": 6674,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/331",
+      "prompt_tokens": 5893,
+      "completion_tokens": 829,
+      "total_tokens": 6722,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/332",
+      "prompt_tokens": 7165,
+      "completion_tokens": 4112,
+      "total_tokens": 11277,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/333",
+      "prompt_tokens": 5811,
+      "completion_tokens": 1201,
+      "total_tokens": 7012,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/334",
+      "prompt_tokens": 5424,
+      "completion_tokens": 1162,
+      "total_tokens": 6586,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/335",
+      "prompt_tokens": 5614,
+      "completion_tokens": 1641,
+      "total_tokens": 7255,
+      "llm_calls": 25
+    },
+    {
+      "task_id": "MBPP/336",
+      "prompt_tokens": 5296,
+      "completion_tokens": 3235,
+      "total_tokens": 8531,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/337",
+      "prompt_tokens": 5282,
+      "completion_tokens": 820,
+      "total_tokens": 6102,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/338",
+      "prompt_tokens": 5985,
+      "completion_tokens": 763,
+      "total_tokens": 6748,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/339",
+      "prompt_tokens": 5258,
+      "completion_tokens": 714,
+      "total_tokens": 5972,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/340",
+      "prompt_tokens": 6051,
+      "completion_tokens": 405,
+      "total_tokens": 6456,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/341",
+      "prompt_tokens": 6814,
+      "completion_tokens": 3961,
+      "total_tokens": 10775,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/342",
+      "prompt_tokens": 5321,
+      "completion_tokens": 1505,
+      "total_tokens": 6826,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/343",
+      "prompt_tokens": 6319,
+      "completion_tokens": 474,
+      "total_tokens": 6793,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/344",
+      "prompt_tokens": 5403,
+      "completion_tokens": 1020,
+      "total_tokens": 6423,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/345",
+      "prompt_tokens": 5494,
+      "completion_tokens": 1892,
+      "total_tokens": 7386,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/346",
+      "prompt_tokens": 5335,
+      "completion_tokens": 1033,
+      "total_tokens": 6368,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/347",
+      "prompt_tokens": 5286,
+      "completion_tokens": 1499,
+      "total_tokens": 6785,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/348",
+      "prompt_tokens": 5671,
+      "completion_tokens": 1231,
+      "total_tokens": 6902,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/349",
+      "prompt_tokens": 5088,
+      "completion_tokens": 1199,
+      "total_tokens": 6287,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/350",
+      "prompt_tokens": 6120,
+      "completion_tokens": 1727,
+      "total_tokens": 7847,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/351",
+      "prompt_tokens": 5605,
+      "completion_tokens": 873,
+      "total_tokens": 6478,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/352",
+      "prompt_tokens": 5664,
+      "completion_tokens": 1374,
+      "total_tokens": 7038,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/353",
+      "prompt_tokens": 5196,
+      "completion_tokens": 842,
+      "total_tokens": 6038,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/354",
+      "prompt_tokens": 5786,
+      "completion_tokens": 1050,
+      "total_tokens": 6836,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/355",
+      "prompt_tokens": 5473,
+      "completion_tokens": 893,
+      "total_tokens": 6366,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/356",
+      "prompt_tokens": 5736,
+      "completion_tokens": 933,
+      "total_tokens": 6669,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/357",
+      "prompt_tokens": 5537,
+      "completion_tokens": 1200,
+      "total_tokens": 6737,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/358",
+      "prompt_tokens": 5473,
+      "completion_tokens": 515,
+      "total_tokens": 5988,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/359",
+      "prompt_tokens": 5231,
+      "completion_tokens": 1331,
+      "total_tokens": 6562,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/360",
+      "prompt_tokens": 5447,
+      "completion_tokens": 4212,
+      "total_tokens": 9659,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/361",
+      "prompt_tokens": 5761,
+      "completion_tokens": 1263,
+      "total_tokens": 7024,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/362",
+      "prompt_tokens": 5266,
+      "completion_tokens": 621,
+      "total_tokens": 5887,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/363",
+      "prompt_tokens": 5581,
+      "completion_tokens": 2309,
+      "total_tokens": 7890,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/364",
+      "prompt_tokens": 6244,
+      "completion_tokens": 1143,
+      "total_tokens": 7387,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/365",
+      "prompt_tokens": 5374,
+      "completion_tokens": 1213,
+      "total_tokens": 6587,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/366",
+      "prompt_tokens": 5228,
+      "completion_tokens": 1132,
+      "total_tokens": 6360,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/367",
+      "prompt_tokens": 5810,
+      "completion_tokens": 708,
+      "total_tokens": 6518,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/368",
+      "prompt_tokens": 6077,
+      "completion_tokens": 2962,
+      "total_tokens": 9039,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/369",
+      "prompt_tokens": 5090,
+      "completion_tokens": 434,
+      "total_tokens": 5524,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/370",
+      "prompt_tokens": 6280,
+      "completion_tokens": 1826,
+      "total_tokens": 8106,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/371",
+      "prompt_tokens": 6049,
+      "completion_tokens": 719,
+      "total_tokens": 6768,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/372",
+      "prompt_tokens": 5646,
+      "completion_tokens": 2677,
+      "total_tokens": 8323,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/373",
+      "prompt_tokens": 5411,
+      "completion_tokens": 836,
+      "total_tokens": 6247,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/374",
+      "prompt_tokens": 5653,
+      "completion_tokens": 969,
+      "total_tokens": 6622,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/375",
+      "prompt_tokens": 5961,
+      "completion_tokens": 715,
+      "total_tokens": 6676,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/376",
+      "prompt_tokens": 5867,
+      "completion_tokens": 3428,
+      "total_tokens": 9295,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/377",
+      "prompt_tokens": 6267,
+      "completion_tokens": 1024,
+      "total_tokens": 7291,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/378",
+      "prompt_tokens": 5367,
+      "completion_tokens": 706,
+      "total_tokens": 6073,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/379",
+      "prompt_tokens": 6417,
+      "completion_tokens": 1650,
+      "total_tokens": 8067,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/380",
+      "prompt_tokens": 5407,
+      "completion_tokens": 1601,
+      "total_tokens": 7008,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/381",
+      "prompt_tokens": 5911,
+      "completion_tokens": 920,
+      "total_tokens": 6831,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/382",
+      "prompt_tokens": 5465,
+      "completion_tokens": 923,
+      "total_tokens": 6388,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/383",
+      "prompt_tokens": 6009,
+      "completion_tokens": 1850,
+      "total_tokens": 7859,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/384",
+      "prompt_tokens": 6816,
+      "completion_tokens": 2418,
+      "total_tokens": 9234,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/385",
+      "prompt_tokens": 5446,
+      "completion_tokens": 1864,
+      "total_tokens": 7310,
+      "llm_calls": 25
+    },
+    {
+      "task_id": "MBPP/386",
+      "prompt_tokens": 5399,
+      "completion_tokens": 1089,
+      "total_tokens": 6488,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/387",
+      "prompt_tokens": 6732,
+      "completion_tokens": 2524,
+      "total_tokens": 9256,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/388",
+      "prompt_tokens": 5599,
+      "completion_tokens": 982,
+      "total_tokens": 6581,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/389",
+      "prompt_tokens": 5300,
+      "completion_tokens": 699,
+      "total_tokens": 5999,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/390",
+      "prompt_tokens": 5265,
+      "completion_tokens": 1870,
+      "total_tokens": 7135,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/391",
+      "prompt_tokens": 4645,
+      "completion_tokens": 238,
+      "total_tokens": 4883,
+      "llm_calls": 20
+    },
+    {
+      "task_id": "MBPP/392",
+      "prompt_tokens": 5572,
+      "completion_tokens": 1596,
+      "total_tokens": 7168,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/393",
+      "prompt_tokens": 6073,
+      "completion_tokens": 3336,
+      "total_tokens": 9409,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/394",
+      "prompt_tokens": 6701,
+      "completion_tokens": 820,
+      "total_tokens": 7521,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/395",
+      "prompt_tokens": 6392,
+      "completion_tokens": 2044,
+      "total_tokens": 8436,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/396",
+      "prompt_tokens": 5372,
+      "completion_tokens": 1203,
+      "total_tokens": 6575,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/397",
+      "prompt_tokens": 6067,
+      "completion_tokens": 2025,
+      "total_tokens": 8092,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/398",
+      "prompt_tokens": 6920,
+      "completion_tokens": 1108,
+      "total_tokens": 8028,
+      "llm_calls": 26
+    },
+    {
+      "task_id": "MBPP/399",
+      "prompt_tokens": 5505,
+      "completion_tokens": 1514,
+      "total_tokens": 7019,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/400",
+      "prompt_tokens": 5194,
+      "completion_tokens": 910,
+      "total_tokens": 6104,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/401",
+      "prompt_tokens": 5648,
+      "completion_tokens": 905,
+      "total_tokens": 6553,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/402",
+      "prompt_tokens": 5821,
+      "completion_tokens": 1052,
+      "total_tokens": 6873,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/403",
+      "prompt_tokens": 5272,
+      "completion_tokens": 2857,
+      "total_tokens": 8129,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/404",
+      "prompt_tokens": 6402,
+      "completion_tokens": 1395,
+      "total_tokens": 7797,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/405",
+      "prompt_tokens": 5844,
+      "completion_tokens": 1318,
+      "total_tokens": 7162,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/406",
+      "prompt_tokens": 5134,
+      "completion_tokens": 2665,
+      "total_tokens": 7799,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/407",
+      "prompt_tokens": 6869,
+      "completion_tokens": 1199,
+      "total_tokens": 8068,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/408",
+      "prompt_tokens": 5084,
+      "completion_tokens": 1761,
+      "total_tokens": 6845,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/409",
+      "prompt_tokens": 5204,
+      "completion_tokens": 1197,
+      "total_tokens": 6401,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/410",
+      "prompt_tokens": 6205,
+      "completion_tokens": 1137,
+      "total_tokens": 7342,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/411",
+      "prompt_tokens": 6069,
+      "completion_tokens": 1568,
+      "total_tokens": 7637,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/412",
+      "prompt_tokens": 5300,
+      "completion_tokens": 746,
+      "total_tokens": 6046,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/413",
+      "prompt_tokens": 5789,
+      "completion_tokens": 2105,
+      "total_tokens": 7894,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/414",
+      "prompt_tokens": 5237,
+      "completion_tokens": 665,
+      "total_tokens": 5902,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/415",
+      "prompt_tokens": 5416,
+      "completion_tokens": 1701,
+      "total_tokens": 7117,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/416",
+      "prompt_tokens": 5093,
+      "completion_tokens": 831,
+      "total_tokens": 5924,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/417",
+      "prompt_tokens": 6046,
+      "completion_tokens": 558,
+      "total_tokens": 6604,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/418",
+      "prompt_tokens": 5194,
+      "completion_tokens": 1532,
+      "total_tokens": 6726,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/419",
+      "prompt_tokens": 5430,
+      "completion_tokens": 1988,
+      "total_tokens": 7418,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/420",
+      "prompt_tokens": 4982,
+      "completion_tokens": 570,
+      "total_tokens": 5552,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/421",
+      "prompt_tokens": 5484,
+      "completion_tokens": 1482,
+      "total_tokens": 6966,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/422",
+      "prompt_tokens": 6428,
+      "completion_tokens": 1528,
+      "total_tokens": 7956,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/423",
+      "prompt_tokens": 5241,
+      "completion_tokens": 3436,
+      "total_tokens": 8677,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/424",
+      "prompt_tokens": 6246,
+      "completion_tokens": 1138,
+      "total_tokens": 7384,
+      "llm_calls": 28
+    },
+    {
+      "task_id": "MBPP/425",
+      "prompt_tokens": 5338,
+      "completion_tokens": 980,
+      "total_tokens": 6318,
+      "llm_calls": 24
+    },
+    {
+      "task_id": "MBPP/426",
+      "prompt_tokens": 5358,
+      "completion_tokens": 846,
+      "total_tokens": 6204,
+      "llm_calls": 24
+    }
+  ]
+}

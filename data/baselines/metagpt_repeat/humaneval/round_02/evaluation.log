@@ -1,0 +1,8 @@
+
+===== 2026-10-11T14:50:04+08:00 =====
+$ /usr/bin/python3 -u scripts/evaluate_humaneval_pass1.py -i /data/llm/zjy/MetaGPT-main/results/repeat_metagpt/humaneval/round_02/metagpt/samples_gpt-4o-mini.jsonl -o /data/llm/zjy/MetaGPT-main/results/repeat_metagpt/humaneval/round_02/eval_pass1.json --dataset results/datasets/humaneval/humaneval_public_test.jsonl --timeout 15
+2026-10-11 14:50:05.026 | INFO     | metagpt.const:get_metagpt_package_root:15 - Package root set to /data/llm/zjy/MetaGPT-main
+2026-10-11 14:50:05.114 | INFO     | metagpt.const:get_metagpt_package_root:15 - Package root set to /data/llm/zjy/MetaGPT-main
+结果已保存: /data/llm/zjy/MetaGPT-main/results/repeat_metagpt/humaneval/round_02/eval_pass1.json
+
+Pass@1: 88.05% (140/159)

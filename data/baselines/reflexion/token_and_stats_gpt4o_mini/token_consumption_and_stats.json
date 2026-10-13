@@ -1,0 +1,175 @@
+{
+  "model": "gpt-4o-mini",
+  "HumanEval": {
+    "dataset": "HumanEval",
+    "model": "gpt-4o-mini",
+    "token_consumption": {
+      "direct": {
+        "n_problems": 159,
+        "total_prompt_tokens": 32818,
+        "total_completion_tokens": 23877,
+        "total_tokens": 56695,
+        "mean_tokens_per_problem": 356.57,
+        "median_tokens_per_problem": 327.0,
+        "std_tokens_per_problem": 116.3,
+        "mean_prompt_tokens_per_problem": 206.4,
+        "mean_completion_tokens_per_problem": 150.17,
+        "mean_llm_calls_per_problem": 1.0,
+        "approx_cost_usd_gpt4o_mini": 0.0192,
+        "mean_tokens_bootstrap_ci": {
+          "mean_tokens": 356.57,
+          "ci_lower": 339.21,
+          "ci_upper": 374.83
+        }
+      },
+      "reflexion": {
+        "n_problems": 159,
+        "total_prompt_tokens": 449502,
+        "total_completion_tokens": 86010,
+        "total_tokens": 535512,
+        "mean_tokens_per_problem": 3368.0,
+        "median_tokens_per_problem": 695.0,
+        "std_tokens_per_problem": 7499.09,
+        "mean_prompt_tokens_per_problem": 2827.06,
+        "mean_completion_tokens_per_problem": 540.94,
+        "mean_llm_calls_per_problem": 3.99,
+        "approx_cost_usd_gpt4o_mini": 0.119,
+        "mean_tokens_bootstrap_ci": {
+          "mean_tokens": 3368.0,
+          "ci_lower": 2262.99,
+          "ci_upper": 4560.85
+        }
+      },
+      "comparison": {
+        "n_aligned_problems": 159,
+        "mean_token_diff_reflexion_minus_direct": 3011.43,
+        "ci_lower": 1930.39,
+        "ci_upper": 4238.82,
+        "p_value_paired_ttest": 1e-06,
+        "cohens_d_paired": 0.4028,
+        "token_ratio_reflexion_over_direct": 9.45
+      },
+      "notes": "Tokens reconstructed with tiktoken(o200k_base) from logged prompts/implementations/reflections using py_generate templates. Internal-test completion text approximated from test_feedback asserts."
+    },
+    "pass_at_1_statistics": {
+      "n_problems": 159,
+      "pairing": "index",
+      "direct": {
+        "passed": 139,
+        "pass_at_1": 0.8742,
+        "ci_lower": 0.8137,
+        "ci_upper": 0.9171
+      },
+      "reflexion": {
+        "passed": 135,
+        "pass_at_1": 0.8491,
+        "ci_lower": 0.7852,
+        "ci_upper": 0.8964
+      },
+      "comparison_reflexion_minus_direct": {
+        "diff_pass_at_1": -0.0252,
+        "ci_lower": -0.0692,
+        "ci_upper": 0.0189,
+        "p_value_mcnemar": 0.387695,
+        "cohens_d_paired": -0.0917,
+        "cohens_h": -0.0729,
+        "only_reflexion_pass": 4,
+        "only_direct_pass": 8,
+        "both_pass": 131,
+        "both_fail": 16
+      }
+    },
+    "sources": {
+      "direct_generation": "Output/LLM/humaneval_direct/human-eval._simple_10_gpt-4o-mini_pass_at_k_1_py.jsonl",
+      "reflexion_generation": "Output/Reflexion/humaneval_reflexion/human-eval._reflexion_10_gpt-4o-mini_pass_at_k_1_py.jsonl",
+      "direct_public_eval": "Output/LLM/humaneval_direct/human-eval._simple_10_gpt-4o-mini_pass_at_k_1_py.public_eval.jsonl",
+      "reflexion_public_eval": "Output/Reflexion/humaneval_reflexion/human-eval._reflexion_10_gpt-4o-mini_pass_at_k_1_py.public_eval.jsonl"
+    }
+  },
+  "MBPP": {
+    "dataset": "MBPP",
+    "model": "gpt-4o-mini",
+    "token_consumption": {
+      "direct": {
+        "n_problems": 424,
+        "total_prompt_tokens": 43169,
+        "total_completion_tokens": 28992,
+        "total_tokens": 72161,
+        "mean_tokens_per_problem": 170.19,
+        "median_tokens_per_problem": 159.0,
+        "std_tokens_per_problem": 42.56,
+        "mean_prompt_tokens_per_problem": 101.81,
+        "mean_completion_tokens_per_problem": 68.38,
+        "mean_llm_calls_per_problem": 1.0,
+        "approx_cost_usd_gpt4o_mini": 0.0239,
+        "mean_tokens_bootstrap_ci": {
+          "mean_tokens": 170.19,
+          "ci_lower": 166.21,
+          "ci_upper": 174.35
+        }
+      },
+      "reflexion": {
+        "n_problems": 424,
+        "total_prompt_tokens": 1632394,
+        "total_completion_tokens": 204061,
+        "total_tokens": 1836455,
+        "mean_tokens_per_problem": 4331.26,
+        "median_tokens_per_problem": 423.0,
+        "std_tokens_per_problem": 7349.37,
+        "mean_prompt_tokens_per_problem": 3849.99,
+        "mean_completion_tokens_per_problem": 481.28,
+        "mean_llm_calls_per_problem": 5.73,
+        "approx_cost_usd_gpt4o_mini": 0.3673,
+        "mean_tokens_bootstrap_ci": {
+          "mean_tokens": 4331.26,
+          "ci_lower": 3646.0,
+          "ci_upper": 5024.88
+        }
+      },
+      "comparison": {
+        "n_aligned_problems": 424,
+        "mean_token_diff_reflexion_minus_direct": 4161.07,
+        "ci_lower": 3471.23,
+        "ci_upper": 4865.13,
+        "p_value_paired_ttest": 0.0,
+        "cohens_d_paired": 0.5667,
+        "token_ratio_reflexion_over_direct": 25.45
+      },
+      "notes": "Tokens reconstructed with tiktoken(o200k_base) from logged prompts/implementations/reflections using py_generate templates. Internal-test completion text approximated from test_feedback asserts."
+    },
+    "pass_at_1_statistics": {
+      "n_problems": 427,
+      "pairing": "index",
+      "direct": {
+        "passed": 263,
+        "pass_at_1": 0.6159,
+        "ci_lower": 0.569,
+        "ci_upper": 0.6608
+      },
+      "reflexion": {
+        "passed": 262,
+        "pass_at_1": 0.6136,
+        "ci_lower": 0.5666,
+        "ci_upper": 0.6586
+      },
+      "comparison_reflexion_minus_direct": {
+        "diff_pass_at_1": -0.0023,
+        "ci_lower": -0.0258,
+        "ci_upper": 0.0211,
+        "p_value_mcnemar": 1.0,
+        "cohens_d_paired": -0.0093,
+        "cohens_h": -0.0048,
+        "only_reflexion_pass": 13,
+        "only_direct_pass": 14,
+        "both_pass": 249,
+        "both_fail": 151
+      }
+    },
+    "sources": {
+      "direct_generation": "Output/LLM/mbpp_direct/mbpp_public_test._simple_10_gpt-4o-mini_pass_at_k_1_py.jsonl",
+      "reflexion_generation": "Output/Reflexion/mbpp_reflexion/mbpp_public_test._reflexion_10_gpt-4o-mini_pass_at_k_1_py.jsonl",
+      "direct_public_eval": "Output/LLM/mbpp_direct/mbpp_public_test._simple_10_gpt-4o-mini_pass_at_k_1_py.public_eval.jsonl",
+      "reflexion_public_eval": "Output/Reflexion/mbpp_reflexion/mbpp_public_test._reflexion_10_gpt-4o-mini_pass_at_k_1_py.public_eval.jsonl"
+    }
+  }
+}

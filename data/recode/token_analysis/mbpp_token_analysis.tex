@@ -1,0 +1,124 @@
+% Required packages: \usepackage{booktabs,tabularx}
+% Optional for tighter tables: \usepackage{microtype}
+
+\subsection{Token Consumption on MBPP}
+\label{sec:mbpp-token-consumption}
+
+We analyze the token consumption of RE-CODE (MetaGPT+EGRCM+PRQE) with
+GPT-4o-mini on the 427 completed MBPP problems. In total, the experiment
+consumed 3,099,117 tokens, comprising 2,478,098 input tokens (79.96\%) and
+621,019 output tokens (20.04\%), or 7,257.89 tokens per completed problem.
+At the prices used in our experiment (\$0.15 and \$0.60 per million input
+and output tokens, respectively), this corresponds to an estimated cost of
+\$0.7443.
+
+\begin{table}[t]
+  \centering
+  \small
+  \caption{Decomposition of token consumption on the 427 completed MBPP
+  problems. The reference is the first code-generation call of branch D for
+  each problem.}
+  \label{tab:mbpp-token-decomposition}
+  \begin{tabularx}{\linewidth}{@{}Xrr@{}}
+    \toprule
+    Component & Tokens & Share (\%) \\
+    \midrule
+    Reference code generation              &   124,510 &  4.0 \\
+    Repeated ensemble generation            & 2,400,020 & 77.4 \\
+    Prompt-context inflation                 &    72,115 &  2.3 \\
+    EGRCM clarification                      &   202,010 &  6.5 \\
+    EGRCM summarization                      &   193,802 &  6.3 \\
+    Test-guided repair                       &   106,660 &  3.4 \\
+    \midrule
+    Total                                    & 3,099,117 & 100.0 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\begin{table}[t]
+  \centering
+  \small
+  \caption{Token usage and invocation counts by execution stage.}
+  \label{tab:mbpp-token-stages}
+  \begin{tabular}{@{}lrrrr@{}}
+    \toprule
+    Stage & Calls & Input & Output & Total \\
+    \midrule
+    Code generation      & 8,540 & 2,113,915 & 482,730 & 2,596,645 \\
+    EGRCM clarification  & 1,272 &   145,733 &  56,277 &   202,010 \\
+    EGRCM summarization  &   424 &   136,077 &  57,725 &   193,802 \\
+    Repair               &   344 &    82,373 &  24,287 &   106,660 \\
+    \midrule
+    Total                &10,580 & 2,478,098 & 621,019 & 3,099,117 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\paragraph{Why token consumption is high.}
+The dominant factor is the fixed ensemble schedule rather than the length or
+intrinsic difficulty of MBPP prompts. RE-CODE executes four branches
+(EGRCM+PRQE, PRQE, EGRCM, and the unmodified baseline) and samples each branch
+five times. Consequently, every problem triggers 20 code-generation calls,
+even when an earlier candidate has already passed the tests. Repeated ensemble
+generation alone accounts for 2,400,020 tokens (77.4\% of the total), while
+all code-generation calls together account for 83.8\%. Relative to one
+reference generation per problem (124,510 tokens in total), the complete
+pipeline consumes \(24.89\times\) as many tokens.
+
+A second source of overhead is a mismatch between the EGRCM gating heuristic
+and the structure of MBPP instances. The gate examines the natural-language
+description preceding the function definition, whereas executable examples
+and assertions generally occur later in the instance. Thus, the absence of
+examples in the inspected text is frequently interpreted as underspecification.
+EGRCM was skipped for only 3 of 427 problems; the remaining 424 problems
+incurred clarification and summarization. Moreover, the refined requirement
+was retained for only one problem and discarded for 423 because its lexical
+overlap with the original requirement was below the threshold of 0.35.
+Therefore, 395,812 tokens (12.8\% of the total) were spent on EGRCM
+clarification and summarization although nearly all resulting refinements were
+excluded from code generation.
+
+Prompt augmentation and repair contribute less to the total but remain
+non-negligible. PRQE adds four fixed constraints to short prompts, and the
+augmented context is resent for every applicable sample; together with the
+small amount of accepted EGRCM context, this produces 72,115 additional
+tokens (2.3\%). Finally, when all candidates in a branch fail, the repair call
+resubmits the task, tests, failure message, and previous program, accounting
+for a further 106,660 tokens (3.4\%). The unusually expensive outlier
+MBPP/4 (40,276 tokens) exhibits the same pattern: most of its excess
+consumption (38,670 tokens) comes from repeated ensemble generation, while
+its EGRCM refinement was ultimately rejected.
+
+\paragraph{Limitations and interpretation.}
+These results should not be interpreted as showing that MBPP inherently
+requires approximately 7.3k tokens per problem. First, the dominant overhead
+is induced by our evaluation configuration---four branches, five samples per
+branch, and no early stopping---and is therefore an implementation-level
+compute--accuracy trade-off. Adaptive branch selection, candidate-level early
+stopping, or caching shared prompt prefixes could substantially reduce this
+cost without changing the dataset.
+
+Second, the ``reference code generation'' in
+Table~\ref{tab:mbpp-token-decomposition} is a counterfactual accounting
+baseline formed from the first branch-D generation for each problem; it is
+not a separately executed end-to-end baseline. The reported \(24.89\times\)
+factor consequently quantifies amplification relative to one generation, not
+necessarily the cost ratio against another complete agent framework.
+
+Third, the analysis covers only the 427 completed problems. If incomplete or
+failed runs have systematically different token profiles, the mean may be
+subject to completion-selection bias. The absolute token counts also depend on
+the GPT-4o-mini tokenizer, prompt templates, stopping criteria, and the
+specific EGRCM overlap threshold, while the monetary estimate depends on the
+prices used at the time of evaluation. Accordingly, comparisons with other
+models, datasets, or implementations should report both invocation counts and
+input/output tokens rather than extrapolating directly from the dollar cost.
+
+Finally, the fact that only one of 424 refinements was retained indicates that
+the current lexical-overlap filter is poorly aligned with EGRCM's behavior on
+MBPP. This finding establishes inefficiency under the present configuration,
+but it does not isolate whether the primary cause is the gate, the
+clarification procedure, or the lexical acceptance criterion. An ablation
+that varies these components, together with accuracy and pass-rate
+measurements, is required before drawing conclusions about the utility of
+EGRCM itself.

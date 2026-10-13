@@ -1,0 +1,5 @@
+2026-07-20 22:20:51.720 | INFO     | metagpt.const:get_metagpt_package_root:15 - Package root set to /workspace
+2026-07-20 22:20:51.720 | INFO     | metagpt.const:get_metagpt_package_root:15 - Package root set to /workspace
+结果已保存: results/output/evaluate/humaneval_pass1_result.json
+
+Pass@1: 91.82% (146/159)

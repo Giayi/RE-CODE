@@ -1,0 +1,33 @@
+{
+  "dataset": "HumanEval",
+  "method": "metagpt_egrcm",
+  "model": "gpt-4o-mini",
+  "n_problems": 159,
+  "passed": 143,
+  "pass_at_1": 0.89937106918239,
+  "egrcm_skipped": 146,
+  "egrcm_run": 13,
+  "pass_at_1_skipped": 0.9178082191780822,
+  "pass_at_1_egrcm_run": 0.6923076923076923,
+  "avg_entropy_after": 0.303516,
+  "avg_entropy_delta": 0.053717,
+  "entropy_bins": [
+    {
+      "bin": 0,
+      "entropy_low": 0.3,
+      "entropy_high": 0.3086,
+      "n": 146,
+      "passed": 134,
+      "pass_at_1": 0.9178082191780822
+    },
+    {
+      "bin": 4,
+      "entropy_low": 0.3343999999999999,
+      "entropy_high": 0.3429999999999999,
+      "n": 13,
+      "passed": 9,
+      "pass_at_1": 0.6923076923076923
+    }
+  ],
+  "note": "entropy_score starts at 1.0 and multiplies by 0.7 per clarification round; skipped problems keep entropy_after=1.0 (gating heuristic)."
+}

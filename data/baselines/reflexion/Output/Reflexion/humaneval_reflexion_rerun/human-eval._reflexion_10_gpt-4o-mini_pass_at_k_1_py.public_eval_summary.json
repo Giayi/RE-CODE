@@ -1,0 +1,9 @@
+{
+  "results_path": "../Output/Reflexion/humaneval_reflexion_rerun/human-eval._reflexion_10_gpt-4o-mini_pass_at_k_1_py.jsonl",
+  "public_test_path": "./benchmarks/humaneval/humaneval_public_test.jsonl",
+  "output_path": "../Output/Reflexion/humaneval_reflexion_rerun/human-eval._reflexion_10_gpt-4o-mini_pass_at_k_1_py.public_eval.jsonl",
+  "passed": 139,
+  "total": 159,
+  "pass_at_1": 0.8742,
+  "missing_solutions": []
+}

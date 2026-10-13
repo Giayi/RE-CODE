@@ -1,0 +1,299 @@
+{
+  "framework": "OpenHands",
+  "model": "gpt-4o-mini",
+  "k_value": 1,
+  "n_runs": 5,
+  "temperature": 0.2,
+  "metric": "pass@1 (%)",
+  "datasets": {
+    "humaneval": {
+      "dataset": "humaneval",
+      "n_runs": 5,
+      "pass_at_1_values": [
+        89.9371,
+        88.6792,
+        88.0503,
+        88.6792,
+        88.6792
+      ],
+      "pass_at_1_mean": 88.805,
+      "pass_at_1_std": 0.689,
+      "pass_at_1_mean_pm_std": "88.80 ± 0.69",
+      "token_usage": {
+        "total_tokens_per_run": [
+          173308,
+          175010,
+          173152,
+          173018,
+          171768
+        ],
+        "total_tokens_mean": 173251.2,
+        "total_tokens_std": 1157.66,
+        "prompt_tokens_per_run": [
+          127018,
+          127440,
+          126148,
+          126542,
+          124167
+        ],
+        "completion_tokens_per_run": [
+          46290,
+          47570,
+          47004,
+          46476,
+          47601
+        ],
+        "api_calls_per_run": [
+          299,
+          299,
+          297,
+          299,
+          293
+        ],
+        "total_tokens_sum_all_runs": 866256
+      },
+      "time_usage": {
+        "elapsed_sec_per_run": [
+          624.519,
+          633.176,
+          612.108,
+          611.758,
+          613.182
+        ],
+        "elapsed_sec_mean": 618.949,
+        "elapsed_sec_std": 9.555,
+        "elapsed_sec_sum_all_runs": 3094.743
+      },
+      "per_run": [
+        {
+          "run_id": "run_01",
+          "pass_at_1": 89.9371,
+          "num_passed": 143,
+          "num_problems": 159,
+          "prompt_tokens": 127018,
+          "completion_tokens": 46290,
+          "total_tokens": 173308,
+          "api_calls": 299,
+          "elapsed_sec": 624.519
+        },
+        {
+          "run_id": "run_02",
+          "pass_at_1": 88.6792,
+          "num_passed": 141,
+          "num_problems": 159,
+          "prompt_tokens": 127440,
+          "completion_tokens": 47570,
+          "total_tokens": 175010,
+          "api_calls": 299,
+          "elapsed_sec": 633.176
+        },
+        {
+          "run_id": "run_03",
+          "pass_at_1": 88.0503,
+          "num_passed": 140,
+          "num_problems": 159,
+          "prompt_tokens": 126148,
+          "completion_tokens": 47004,
+          "total_tokens": 173152,
+          "api_calls": 297,
+          "elapsed_sec": 612.108
+        },
+        {
+          "run_id": "run_04",
+          "pass_at_1": 88.6792,
+          "num_passed": 141,
+          "num_problems": 159,
+          "prompt_tokens": 126542,
+          "completion_tokens": 46476,
+          "total_tokens": 173018,
+          "api_calls": 299,
+          "elapsed_sec": 611.758
+        },
+        {
+          "run_id": "run_05",
+          "pass_at_1": 88.6792,
+          "num_passed": 141,
+          "num_problems": 159,
+          "prompt_tokens": 124167,
+          "completion_tokens": 47601,
+          "total_tokens": 171768,
+          "api_calls": 293,
+          "elapsed_sec": 613.182
+        }
+      ]
+    },
+    "mbpp": {
+      "dataset": "mbpp",
+      "n_runs": 5,
+      "pass_at_1_values": [
+        63.9151,
+        64.6226,
+        64.6226,
+        65.0943,
+        64.1509
+      ],
+      "pass_at_1_mean": 64.4811,
+      "pass_at_1_std": 0.4597,
+      "pass_at_1_mean_pm_std": "64.48 ± 0.46",
+      "token_usage": {
+        "total_tokens_per_run": [
+          322173,
+          319123,
+          321437,
+          315905,
+          317127
+        ],
+        "total_tokens_mean": 319153.0,
+        "total_tokens_std": 2692.22,
+        "prompt_tokens_per_run": [
+          221997,
+          218302,
+          222364,
+          217075,
+          217219
+        ],
+        "completion_tokens_per_run": [
+          100176,
+          100821,
+          99073,
+          98830,
+          99908
+        ],
+        "api_calls_per_run": [
+          701,
+          691,
+          702,
+          691,
+          691
+        ],
+        "total_tokens_sum_all_runs": 1595765
+      },
+      "time_usage": {
+        "elapsed_sec_per_run": [
+          1357.563,
+          1557.727,
+          1343.915,
+          1333.781,
+          1342.098
+        ],
+        "elapsed_sec_mean": 1387.017,
+        "elapsed_sec_std": 95.811,
+        "elapsed_sec_sum_all_runs": 6935.084
+      },
+      "per_run": [
+        {
+          "run_id": "run_01",
+          "pass_at_1": 63.9151,
+          "num_passed": 271,
+          "num_problems": 424,
+          "prompt_tokens": 221997,
+          "completion_tokens": 100176,
+          "total_tokens": 322173,
+          "api_calls": 701,
+          "elapsed_sec": 1357.563
+        },
+        {
+          "run_id": "run_02",
+          "pass_at_1": 64.6226,
+          "num_passed": 274,
+          "num_problems": 424,
+          "prompt_tokens": 218302,
+          "completion_tokens": 100821,
+          "total_tokens": 319123,
+          "api_calls": 691,
+          "elapsed_sec": 1557.727
+        },
+        {
+          "run_id": "run_03",
+          "pass_at_1": 64.6226,
+          "num_passed": 274,
+          "num_problems": 424,
+          "prompt_tokens": 222364,
+          "completion_tokens": 99073,
+          "total_tokens": 321437,
+          "api_calls": 702,
+          "elapsed_sec": 1343.915
+        },
+        {
+          "run_id": "run_04",
+          "pass_at_1": 65.0943,
+          "num_passed": 276,
+          "num_problems": 424,
+          "prompt_tokens": 217075,
+          "completion_tokens": 98830,
+          "total_tokens": 315905,
+          "api_calls": 691,
+          "elapsed_sec": 1333.781
+        },
+        {
+          "run_id": "run_05",
+          "pass_at_1": 64.1509,
+          "num_passed": 272,
+          "num_problems": 424,
+          "prompt_tokens": 217219,
+          "completion_tokens": 99908,
+          "total_tokens": 317127,
+          "api_calls": 691,
+          "elapsed_sec": 1342.098
+        }
+      ]
+    }
+  },
+  "per_run": [
+    {
+      "run_id": "run_01",
+      "wall_clock_sec": 1983.038,
+      "temperature": 0.2,
+      "humaneval_pass_at_1": 89.9371,
+      "humaneval_total_tokens": 173308,
+      "humaneval_elapsed_sec": 624.519,
+      "mbpp_pass_at_1": 63.9151,
+      "mbpp_total_tokens": 322173,
+      "mbpp_elapsed_sec": 1357.563
+    },
+    {
+      "run_id": "run_02",
+      "wall_clock_sec": 2191.511,
+      "temperature": 0.2,
+      "humaneval_pass_at_1": 88.6792,
+      "humaneval_total_tokens": 175010,
+      "humaneval_elapsed_sec": 633.176,
+      "mbpp_pass_at_1": 64.6226,
+      "mbpp_total_tokens": 319123,
+      "mbpp_elapsed_sec": 1557.727
+    },
+    {
+      "run_id": "run_03",
+      "wall_clock_sec": 1957.02,
+      "temperature": 0.2,
+      "humaneval_pass_at_1": 88.0503,
+      "humaneval_total_tokens": 173152,
+      "humaneval_elapsed_sec": 612.108,
+      "mbpp_pass_at_1": 64.6226,
+      "mbpp_total_tokens": 321437,
+      "mbpp_elapsed_sec": 1343.915
+    },
+    {
+      "run_id": "run_04",
+      "wall_clock_sec": 1946.46,
+      "temperature": 0.2,
+      "humaneval_pass_at_1": 88.6792,
+      "humaneval_total_tokens": 173018,
+      "humaneval_elapsed_sec": 611.758,
+      "mbpp_pass_at_1": 65.0943,
+      "mbpp_total_tokens": 315905,
+      "mbpp_elapsed_sec": 1333.781
+    },
+    {
+      "run_id": "run_05",
+      "wall_clock_sec": 1955.923,
+      "temperature": 0.2,
+      "humaneval_pass_at_1": 88.6792,
+      "humaneval_total_tokens": 171768,
+      "humaneval_elapsed_sec": 613.182,
+      "mbpp_pass_at_1": 64.1509,
+      "mbpp_total_tokens": 317127,
+      "mbpp_elapsed_sec": 1342.098
+    }
+  ]
+}

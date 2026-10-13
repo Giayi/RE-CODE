@@ -1,0 +1,1764 @@
+Model=gpt-4o-mini, base_url=https://api.openai-proxy.org/v1, k=1, temperature=0.2, max_iterations=5
+Output dir: /data/llm/zjy/OpenHands-main/Output/repeat/run_01
+Run id: run_01
+Loaded HumanEval (public-test aligned): 159
+
+===== Running humaneval: target=159/159 | k=1 =====
+
+[humaneval] (1/159) HumanEval/0
+  passed=True | tokens=1160 (prompt=843, completion=317, calls=2) | Pass@1=1/1=100.00%
+
+[humaneval] (2/159) HumanEval/1
+  passed=True | tokens=1178 (prompt=822, completion=356, calls=2) | Pass@1=2/2=100.00%
+
+[humaneval] (3/159) HumanEval/2
+  passed=True | tokens=930 (prompt=724, completion=206, calls=2) | Pass@1=3/3=100.00%
+
+[humaneval] (4/159) HumanEval/3
+  passed=True | tokens=932 (prompt=777, completion=155, calls=2) | Pass@1=4/4=100.00%
+
+[humaneval] (5/159) HumanEval/4
+  passed=True | tokens=1247 (prompt=883, completion=364, calls=2) | Pass@1=5/5=100.00%
+
+[humaneval] (6/159) HumanEval/5
+  passed=True | tokens=972 (prompt=778, completion=194, calls=2) | Pass@1=6/6=100.00%
+
+[humaneval] (7/159) HumanEval/6
+  passed=True | tokens=1160 (prompt=818, completion=342, calls=2) | Pass@1=7/7=100.00%
+
+[humaneval] (8/159) HumanEval/7
+  passed=True | tokens=573 (prompt=303, completion=270, calls=1) | Pass@1=8/8=100.00%
+
+[humaneval] (9/159) HumanEval/8
+  passed=True | tokens=1029 (prompt=777, completion=252, calls=2) | Pass@1=9/9=100.00%
+
+[humaneval] (10/159) HumanEval/9
+  passed=True | tokens=1028 (prompt=775, completion=253, calls=2) | Pass@1=10/10=100.00%
+
+[humaneval] (11/159) HumanEval/10
+  passed=False | tokens=1356 (prompt=953, completion=403, calls=2) | Pass@1=10/11=90.91%
+
+[humaneval] (12/159) HumanEval/11
+  passed=True | tokens=937 (prompt=718, completion=219, calls=2) | Pass@1=11/12=91.67%
+
+[humaneval] (13/159) HumanEval/12
+  passed=True | tokens=606 (prompt=310, completion=296, calls=1) | Pass@1=12/13=92.31%
+
+[humaneval] (14/159) HumanEval/13
+  passed=True | tokens=852 (prompt=675, completion=177, calls=2) | Pass@1=13/14=92.86%
+
+[humaneval] (15/159) HumanEval/14
+  passed=True | tokens=776 (prompt=631, completion=145, calls=2) | Pass@1=14/15=93.33%
+
+[humaneval] (16/159) HumanEval/15
+  passed=True | tokens=874 (prompt=688, completion=186, calls=2) | Pass@1=15/16=93.75%
+
+[humaneval] (17/159) HumanEval/16
+  passed=True | tokens=913 (prompt=713, completion=200, calls=2) | Pass@1=16/17=94.12%
+
+[humaneval] (18/159) HumanEval/17
+  passed=True | tokens=598 (prompt=378, completion=220, calls=1) | Pass@1=17/18=94.44%
+
+[humaneval] (19/159) HumanEval/18
+  passed=True | tokens=1056 (prompt=764, completion=292, calls=2) | Pass@1=18/19=94.74%
+
+[humaneval] (20/159) HumanEval/19
+  passed=True | tokens=1404 (prompt=908, completion=496, calls=2) | Pass@1=19/20=95.00%
+
+[humaneval] (21/159) HumanEval/20
+  passed=True | tokens=1322 (prompt=997, completion=325, calls=2) | Pass@1=20/21=95.24%
+
+[humaneval] (22/159) HumanEval/21
+  passed=True | tokens=1130 (prompt=843, completion=287, calls=2) | Pass@1=21/22=95.45%
+
+[humaneval] (23/159) HumanEval/22
+  passed=True | tokens=1047 (prompt=790, completion=257, calls=2) | Pass@1=22/23=95.65%
+
+[humaneval] (24/159) HumanEval/23
+  passed=True | tokens=729 (prompt=603, completion=126, calls=2) | Pass@1=23/24=95.83%
+
+[humaneval] (25/159) HumanEval/24
+  passed=True | tokens=830 (prompt=647, completion=183, calls=2) | Pass@1=24/25=96.00%
+
+[humaneval] (26/159) HumanEval/25
+  passed=True | tokens=1150 (prompt=845, completion=305, calls=2) | Pass@1=25/26=96.15%
+
+[humaneval] (27/159) HumanEval/26
+  passed=True | tokens=553 (prompt=292, completion=261, calls=1) | Pass@1=26/27=96.30%
+
+[humaneval] (28/159) HumanEval/27
+  passed=True | tokens=743 (prompt=613, completion=130, calls=2) | Pass@1=27/28=96.43%
+
+[humaneval] (29/159) HumanEval/28
+  passed=True | tokens=818 (prompt=654, completion=164, calls=2) | Pass@1=28/29=96.55%
+
+[humaneval] (30/159) HumanEval/29
+  passed=True | tokens=1025 (prompt=773, completion=252, calls=2) | Pass@1=29/30=96.67%
+
+[humaneval] (31/159) HumanEval/30
+  passed=True | tokens=1192 (prompt=879, completion=313, calls=2) | Pass@1=30/31=96.77%
+
+[humaneval] (32/159) HumanEval/31
+  passed=True | tokens=1093 (prompt=798, completion=295, calls=2) | Pass@1=31/32=96.88%
+
+[humaneval] (33/159) HumanEval/33
+  passed=False | tokens=861 (prompt=362, completion=499, calls=1) | Pass@1=31/33=93.94%
+
+[humaneval] (34/159) HumanEval/34
+  passed=True | tokens=904 (prompt=712, completion=192, calls=2) | Pass@1=32/34=94.12%
+
+[humaneval] (35/159) HumanEval/35
+  passed=True | tokens=866 (prompt=692, completion=174, calls=2) | Pass@1=33/35=94.29%
+
+[humaneval] (36/159) HumanEval/36
+  passed=True | tokens=953 (prompt=717, completion=236, calls=2) | Pass@1=34/36=94.44%
+
+[humaneval] (37/159) HumanEval/37
+  passed=True | tokens=690 (prompt=331, completion=359, calls=1) | Pass@1=35/37=94.59%
+
+[humaneval] (38/159) HumanEval/39
+  passed=True | tokens=1252 (prompt=844, completion=408, calls=2) | Pass@1=36/38=94.74%
+
+[humaneval] (39/159) HumanEval/40
+  passed=True | tokens=1375 (prompt=965, completion=410, calls=2) | Pass@1=37/39=94.87%
+
+[humaneval] (40/159) HumanEval/41
+  passed=False | tokens=1080 (prompt=836, completion=244, calls=2) | Pass@1=37/40=92.50%
+
+[humaneval] (41/159) HumanEval/42
+  passed=True | tokens=1154 (prompt=863, completion=291, calls=2) | Pass@1=38/41=92.68%
+
+[humaneval] (42/159) HumanEval/43
+  passed=True | tokens=1285 (prompt=931, completion=354, calls=2) | Pass@1=39/42=92.86%
+
+[humaneval] (43/159) HumanEval/44
+  passed=True | tokens=633 (prompt=299, completion=334, calls=1) | Pass@1=40/43=93.02%
+
+[humaneval] (44/159) HumanEval/45
+  passed=True | tokens=754 (prompt=615, completion=139, calls=2) | Pass@1=41/44=93.18%
+
+[humaneval] (45/159) HumanEval/46
+  passed=True | tokens=866 (prompt=378, completion=488, calls=1) | Pass@1=42/45=93.33%
+
+[humaneval] (46/159) HumanEval/47
+  passed=False | tokens=997 (prompt=730, completion=267, calls=2) | Pass@1=42/46=91.30%
+
+[humaneval] (47/159) HumanEval/48
+  passed=True | tokens=812 (prompt=661, completion=151, calls=2) | Pass@1=43/47=91.49%
+
+[humaneval] (48/159) HumanEval/49
+  passed=True | tokens=1043 (prompt=793, completion=250, calls=2) | Pass@1=44/48=91.67%
+
+[humaneval] (49/159) HumanEval/51
+  passed=True | tokens=1101 (prompt=823, completion=278, calls=2) | Pass@1=45/49=91.84%
+
+[humaneval] (50/159) HumanEval/52
+  passed=True | tokens=855 (prompt=682, completion=173, calls=2) | Pass@1=46/50=92.00%
+
+[humaneval] (51/159) HumanEval/53
+  passed=False | tokens=764 (prompt=625, completion=139, calls=2) | Pass@1=46/51=90.20%
+
+[humaneval] (52/159) HumanEval/54
+  passed=True | tokens=1356 (prompt=966, completion=390, calls=2) | Pass@1=47/52=90.38%
+
+[humaneval] (53/159) HumanEval/55
+  passed=True | tokens=929 (prompt=678, completion=251, calls=2) | Pass@1=48/53=90.57%
+
+[humaneval] (54/159) HumanEval/56
+  passed=True | tokens=1202 (prompt=845, completion=357, calls=2) | Pass@1=49/54=90.74%
+
+[humaneval] (55/159) HumanEval/57
+  passed=True | tokens=1041 (prompt=782, completion=259, calls=2) | Pass@1=50/55=90.91%
+
+[humaneval] (56/159) HumanEval/58
+  passed=True | tokens=1070 (prompt=811, completion=259, calls=2) | Pass@1=51/56=91.07%
+
+[humaneval] (57/159) HumanEval/59
+  passed=True | tokens=906 (prompt=685, completion=221, calls=2) | Pass@1=52/57=91.23%
+
+[humaneval] (58/159) HumanEval/60
+  passed=True | tokens=956 (prompt=744, completion=212, calls=2) | Pass@1=53/58=91.38%
+
+[humaneval] (59/159) HumanEval/61
+  passed=True | tokens=1190 (prompt=838, completion=352, calls=2) | Pass@1=54/59=91.53%
+
+[humaneval] (60/159) HumanEval/62
+  passed=True | tokens=1106 (prompt=824, completion=282, calls=2) | Pass@1=55/60=91.67%
+
+[humaneval] (61/159) HumanEval/63
+  passed=True | tokens=652 (prompt=355, completion=297, calls=1) | Pass@1=56/61=91.80%
+
+[humaneval] (62/159) HumanEval/64
+  passed=True | tokens=1069 (prompt=795, completion=274, calls=2) | Pass@1=57/62=91.94%
+
+[humaneval] (63/159) HumanEval/65
+  passed=False | tokens=1040 (prompt=765, completion=275, calls=2) | Pass@1=57/63=90.48%
+
+[humaneval] (64/159) HumanEval/66
+  passed=True | tokens=1039 (prompt=792, completion=247, calls=2) | Pass@1=58/64=90.62%
+
+[humaneval] (65/159) HumanEval/67
+  passed=True | tokens=1499 (prompt=1048, completion=451, calls=2) | Pass@1=59/65=90.77%
+
+[humaneval] (66/159) HumanEval/68
+  passed=True | tokens=1602 (prompt=1280, completion=322, calls=2) | Pass@1=60/66=90.91%
+
+[humaneval] (67/159) HumanEval/69
+  passed=True | tokens=1291 (prompt=925, completion=366, calls=2) | Pass@1=61/67=91.04%
+
+[humaneval] (68/159) HumanEval/70
+  passed=True | tokens=1251 (prompt=884, completion=367, calls=2) | Pass@1=62/68=91.18%
+
+[humaneval] (69/159) HumanEval/71
+  passed=True | tokens=1162 (prompt=825, completion=337, calls=2) | Pass@1=63/69=91.30%
+
+[humaneval] (70/159) HumanEval/72
+  passed=True | tokens=1378 (prompt=1018, completion=360, calls=2) | Pass@1=64/70=91.43%
+
+[humaneval] (71/159) HumanEval/73
+  passed=True | tokens=1138 (prompt=920, completion=218, calls=2) | Pass@1=65/71=91.55%
+
+[humaneval] (72/159) HumanEval/74
+  passed=True | tokens=1337 (prompt=1057, completion=280, calls=2) | Pass@1=66/72=91.67%
+
+[humaneval] (73/159) HumanEval/75
+  passed=True | tokens=671 (prompt=291, completion=380, calls=1) | Pass@1=67/73=91.78%
+
+[humaneval] (74/159) HumanEval/76
+  passed=True | tokens=1209 (prompt=880, completion=329, calls=2) | Pass@1=68/74=91.89%
+
+[humaneval] (75/159) HumanEval/77
+  passed=True | tokens=898 (prompt=770, completion=128, calls=2) | Pass@1=69/75=92.00%
+
+[humaneval] (76/159) HumanEval/78
+  passed=True | tokens=1384 (prompt=1187, completion=197, calls=2) | Pass@1=70/76=92.11%
+
+[humaneval] (77/159) HumanEval/79
+  passed=True | tokens=1068 (prompt=810, completion=258, calls=2) | Pass@1=71/77=92.21%
+
+[humaneval] (78/159) HumanEval/80
+  passed=True | tokens=1346 (prompt=936, completion=410, calls=2) | Pass@1=72/78=92.31%
+
+[humaneval] (79/159) HumanEval/81
+  passed=True | tokens=1067 (prompt=480, completion=587, calls=1) | Pass@1=73/79=92.41%
+
+[humaneval] (80/159) HumanEval/82
+  passed=True | tokens=922 (prompt=729, completion=193, calls=2) | Pass@1=74/80=92.50%
+
+[humaneval] (81/159) HumanEval/84
+  passed=True | tokens=1031 (prompt=791, completion=240, calls=2) | Pass@1=75/81=92.59%
+
+[humaneval] (82/159) HumanEval/85
+  passed=True | tokens=765 (prompt=614, completion=151, calls=2) | Pass@1=76/82=92.68%
+
+[humaneval] (83/159) HumanEval/86
+  passed=True | tokens=1052 (prompt=798, completion=254, calls=2) | Pass@1=77/83=92.77%
+
+[humaneval] (84/159) HumanEval/87
+  passed=True | tokens=738 (prompt=467, completion=271, calls=1) | Pass@1=78/84=92.86%
+
+[humaneval] (85/159) HumanEval/88
+  passed=True | tokens=1499 (prompt=1064, completion=435, calls=2) | Pass@1=79/85=92.94%
+
+[humaneval] (86/159) HumanEval/89
+  passed=False | tokens=1245 (prompt=847, completion=398, calls=2) | Pass@1=79/86=91.86%
+
+[humaneval] (87/159) HumanEval/90
+  passed=True | tokens=1160 (prompt=842, completion=318, calls=2) | Pass@1=80/87=91.95%
+
+[humaneval] (88/159) HumanEval/91
+  passed=True | tokens=997 (prompt=754, completion=243, calls=2) | Pass@1=81/88=92.05%
+
+[humaneval] (89/159) HumanEval/92
+  passed=True | tokens=1167 (prompt=853, completion=314, calls=2) | Pass@1=82/89=92.13%
+
+[humaneval] (90/159) HumanEval/93
+  passed=False | tokens=1179 (prompt=821, completion=358, calls=2) | Pass@1=82/90=91.11%
+
+[humaneval] (91/159) HumanEval/94
+  passed=True | tokens=2151 (prompt=1523, completion=628, calls=2) | Pass@1=83/91=91.21%
+
+[humaneval] (92/159) HumanEval/95
+  passed=True | tokens=1398 (prompt=977, completion=421, calls=2) | Pass@1=84/92=91.30%
+
+[humaneval] (93/159) HumanEval/96
+  passed=True | tokens=1475 (prompt=1022, completion=453, calls=2) | Pass@1=85/93=91.40%
+
+[humaneval] (94/159) HumanEval/97
+  passed=True | tokens=1003 (prompt=755, completion=248, calls=2) | Pass@1=86/94=91.49%
+
+[humaneval] (95/159) HumanEval/98
+  passed=True | tokens=964 (prompt=710, completion=254, calls=2) | Pass@1=87/95=91.58%
+
+[humaneval] (96/159) HumanEval/99
+  passed=True | tokens=1176 (prompt=871, completion=305, calls=2) | Pass@1=88/96=91.67%
+
+[humaneval] (97/159) HumanEval/100
+  passed=True | tokens=1017 (prompt=824, completion=193, calls=2) | Pass@1=89/97=91.75%
+
+[humaneval] (98/159) HumanEval/101
+  passed=True | tokens=1036 (prompt=803, completion=233, calls=2) | Pass@1=90/98=91.84%
+
+[humaneval] (99/159) HumanEval/102
+  passed=True | tokens=1079 (prompt=792, completion=287, calls=2) | Pass@1=91/99=91.92%
+
+[humaneval] (100/159) HumanEval/103
+  passed=True | tokens=1150 (prompt=857, completion=293, calls=2) | Pass@1=92/100=92.00%
+
+[humaneval] (101/159) HumanEval/104
+  passed=True | tokens=662 (prompt=309, completion=353, calls=1) | Pass@1=93/101=92.08%
+
+[humaneval] (102/159) HumanEval/106
+  passed=True | tokens=971 (prompt=799, completion=172, calls=2) | Pass@1=94/102=92.16%
+
+[humaneval] (103/159) HumanEval/107
+  passed=True | tokens=1276 (prompt=1024, completion=252, calls=2) | Pass@1=95/103=92.23%
+
+[humaneval] (104/159) HumanEval/108
+  passed=True | tokens=981 (prompt=806, completion=175, calls=2) | Pass@1=96/104=92.31%
+
+[humaneval] (105/159) HumanEval/109
+  passed=True | tokens=1362 (prompt=1169, completion=193, calls=2) | Pass@1=97/105=92.38%
+
+[humaneval] (106/159) HumanEval/110
+  passed=True | tokens=1365 (prompt=972, completion=393, calls=2) | Pass@1=98/106=92.45%
+
+[humaneval] (107/159) HumanEval/111
+  passed=True | tokens=1220 (prompt=971, completion=249, calls=2) | Pass@1=99/107=92.52%
+
+[humaneval] (108/159) HumanEval/112
+  passed=True | tokens=1250 (prompt=917, completion=333, calls=2) | Pass@1=100/108=92.59%
+
+[humaneval] (109/159) HumanEval/113
+  passed=True | tokens=1285 (prompt=1029, completion=256, calls=2) | Pass@1=101/109=92.66%
+
+[humaneval] (110/159) HumanEval/114
+  passed=True | tokens=963 (prompt=755, completion=208, calls=2) | Pass@1=102/110=92.73%
+
+[humaneval] (111/159) HumanEval/115
+  passed=True | tokens=1463 (prompt=1255, completion=208, calls=2) | Pass@1=103/111=92.79%
+
+[humaneval] (112/159) HumanEval/116
+  passed=False | tokens=1162 (prompt=968, completion=194, calls=2) | Pass@1=103/112=91.96%
+
+[humaneval] (113/159) HumanEval/117
+  passed=True | tokens=1310 (prompt=1015, completion=295, calls=2) | Pass@1=104/113=92.04%
+
+[humaneval] (114/159) HumanEval/118
+  passed=True | tokens=1311 (prompt=907, completion=404, calls=2) | Pass@1=105/114=92.11%
+
+[humaneval] (115/159) HumanEval/119
+  passed=True | tokens=1305 (prompt=910, completion=395, calls=2) | Pass@1=106/115=92.17%
+
+[humaneval] (116/159) HumanEval/120
+  passed=True | tokens=1134 (prompt=1000, completion=134, calls=2) | Pass@1=107/116=92.24%
+
+[humaneval] (117/159) HumanEval/121
+  passed=True | tokens=978 (prompt=774, completion=204, calls=2) | Pass@1=108/117=92.31%
+
+[humaneval] (118/159) HumanEval/122
+  passed=True | tokens=1057 (prompt=793, completion=264, calls=2) | Pass@1=109/118=92.37%
+
+[humaneval] (119/159) HumanEval/123
+  passed=True | tokens=1547 (prompt=1061, completion=486, calls=2) | Pass@1=110/119=92.44%
+
+[humaneval] (120/159) HumanEval/124
+  passed=True | tokens=967 (prompt=471, completion=496, calls=1) | Pass@1=111/120=92.50%
+
+[humaneval] (121/159) HumanEval/125
+  passed=True | tokens=1180 (prompt=858, completion=322, calls=2) | Pass@1=112/121=92.56%
+
+[humaneval] (122/159) HumanEval/126
+  passed=True | tokens=1116 (prompt=457, completion=659, calls=1) | Pass@1=113/122=92.62%
+
+[humaneval] (123/159) HumanEval/127
+  passed=True | tokens=1558 (prompt=1174, completion=384, calls=2) | Pass@1=114/123=92.68%
+
+[humaneval] (124/159) HumanEval/128
+  passed=True | tokens=1259 (prompt=863, completion=396, calls=2) | Pass@1=115/124=92.74%
+
+[humaneval] (125/159) HumanEval/129
+  passed=True | tokens=1119 (prompt=604, completion=515, calls=1) | Pass@1=116/125=92.80%
+
+[humaneval] (126/159) HumanEval/130
+  passed=False | tokens=1637 (prompt=1068, completion=569, calls=2) | Pass@1=116/126=92.06%
+
+[humaneval] (127/159) HumanEval/131
+  passed=True | tokens=969 (prompt=707, completion=262, calls=2) | Pass@1=117/127=92.13%
+
+[humaneval] (128/159) HumanEval/132
+  passed=False | tokens=627 (prompt=341, completion=286, calls=1) | Pass@1=117/128=91.41%
+
+[humaneval] (129/159) HumanEval/133
+  passed=True | tokens=1234 (prompt=911, completion=323, calls=2) | Pass@1=118/129=91.47%
+
+[humaneval] (130/159) HumanEval/134
+  passed=False | tokens=1239 (prompt=884, completion=355, calls=2) | Pass@1=118/130=90.77%
+
+[humaneval] (131/159) HumanEval/135
+  passed=True | tokens=998 (prompt=753, completion=245, calls=2) | Pass@1=119/131=90.84%
+
+[humaneval] (132/159) HumanEval/136
+  passed=True | tokens=1176 (prompt=913, completion=263, calls=2) | Pass@1=120/132=90.91%
+
+[humaneval] (133/159) HumanEval/137
+  passed=False | tokens=1258 (prompt=890, completion=368, calls=2) | Pass@1=120/133=90.23%
+
+[humaneval] (134/159) HumanEval/138
+  passed=True | tokens=979 (prompt=745, completion=234, calls=2) | Pass@1=121/134=90.30%
+
+[humaneval] (135/159) HumanEval/139
+  passed=True | tokens=876 (prompt=699, completion=177, calls=2) | Pass@1=122/135=90.37%
+
+[humaneval] (136/159) HumanEval/140
+  passed=True | tokens=1125 (prompt=811, completion=314, calls=2) | Pass@1=123/136=90.44%
+
+[humaneval] (137/159) HumanEval/141
+  passed=True | tokens=688 (prompt=423, completion=265, calls=1) | Pass@1=124/137=90.51%
+
+[humaneval] (138/159) HumanEval/142
+  passed=True | tokens=1143 (prompt=926, completion=217, calls=2) | Pass@1=125/138=90.58%
+
+[humaneval] (139/159) HumanEval/143
+  passed=True | tokens=1113 (prompt=877, completion=236, calls=2) | Pass@1=126/139=90.65%
+
+[humaneval] (140/159) HumanEval/144
+  passed=True | tokens=582 (prompt=363, completion=219, calls=1) | Pass@1=127/140=90.71%
+
+[humaneval] (141/159) HumanEval/145
+  passed=False | tokens=941 (prompt=789, completion=152, calls=2) | Pass@1=127/141=90.07%
+
+[humaneval] (142/159) HumanEval/146
+  passed=True | tokens=1112 (prompt=806, completion=306, calls=2) | Pass@1=128/142=90.14%
+
+[humaneval] (143/159) HumanEval/147
+  passed=True | tokens=1130 (prompt=899, completion=231, calls=2) | Pass@1=129/143=90.21%
+
+[humaneval] (144/159) HumanEval/148
+  passed=False | tokens=1420 (prompt=1093, completion=327, calls=2) | Pass@1=129/144=89.58%
+
+[humaneval] (145/159) HumanEval/149
+  passed=True | tokens=1303 (prompt=947, completion=356, calls=2) | Pass@1=130/145=89.66%
+
+[humaneval] (146/159) HumanEval/150
+  passed=True | tokens=949 (prompt=742, completion=207, calls=2) | Pass@1=131/146=89.73%
+
+[humaneval] (147/159) HumanEval/151
+  passed=True | tokens=1406 (prompt=981, completion=425, calls=2) | Pass@1=132/147=89.80%
+
+[humaneval] (148/159) HumanEval/152
+  passed=True | tokens=1204 (prompt=1052, completion=152, calls=2) | Pass@1=133/148=89.86%
+
+[humaneval] (149/159) HumanEval/153
+  passed=True | tokens=1458 (prompt=1177, completion=281, calls=2) | Pass@1=134/149=89.93%
+
+[humaneval] (150/159) HumanEval/154
+  passed=True | tokens=1188 (prompt=864, completion=324, calls=2) | Pass@1=135/150=90.00%
+
+[humaneval] (151/159) HumanEval/155
+  passed=True | tokens=1036 (prompt=741, completion=295, calls=2) | Pass@1=136/151=90.07%
+
+[humaneval] (152/159) HumanEval/156
+  passed=True | tokens=1346 (prompt=882, completion=464, calls=2) | Pass@1=137/152=90.13%
+
+[humaneval] (153/159) HumanEval/157
+  passed=True | tokens=987 (prompt=752, completion=235, calls=2) | Pass@1=138/153=90.20%
+
+[humaneval] (154/159) HumanEval/158
+  passed=True | tokens=1281 (prompt=942, completion=339, calls=2) | Pass@1=139/154=90.26%
+
+[humaneval] (155/159) HumanEval/159
+  passed=True | tokens=1378 (prompt=1162, completion=216, calls=2) | Pass@1=140/155=90.32%
+
+[humaneval] (156/159) HumanEval/160
+  passed=True | tokens=1079 (prompt=943, completion=136, calls=2) | Pass@1=141/156=90.38%
+
+[humaneval] (157/159) HumanEval/161
+  passed=True | tokens=1009 (prompt=760, completion=249, calls=2) | Pass@1=142/157=90.45%
+
+[humaneval] (158/159) HumanEval/162
+  passed=True | tokens=836 (prompt=666, completion=170, calls=2) | Pass@1=143/158=90.51%
+
+[humaneval] (159/159) HumanEval/163
+  passed=False | tokens=1281 (prompt=912, completion=369, calls=2) | Pass@1=143/159=89.94%
+
+[humaneval] Done. Pass@1=143/159 (89.9371%), total_tokens=173308
+Loaded MBPP (public-test aligned): 424
+
+===== Running mbpp: target=424/424 | k=1 =====
+
+[mbpp] (1/424) MBPP/116
+  passed=True | tokens=810 (prompt=638, completion=172, calls=2) | Pass@1=1/1=100.00%
+
+[mbpp] (2/424) MBPP/257
+  passed=True | tokens=700 (prompt=585, completion=115, calls=2) | Pass@1=2/2=100.00%
+
+[mbpp] (3/424) MBPP/435
+  passed=True | tokens=740 (prompt=603, completion=137, calls=2) | Pass@1=3/3=100.00%
+
+[mbpp] (4/424) MBPP/74
+  passed=True | tokens=571 (prompt=241, completion=330, calls=1) | Pass@1=4/4=100.00%
+
+[mbpp] (5/424) MBPP/138
+  passed=True | tokens=3635 (prompt=1587, completion=2048, calls=2) | Pass@1=5/5=100.00%
+
+[mbpp] (6/424) MBPP/734
+  passed=False | tokens=871 (prompt=664, completion=207, calls=2) | Pass@1=5/6=83.33%
+
+[mbpp] (7/424) MBPP/299
+  passed=False | tokens=868 (prompt=666, completion=202, calls=2) | Pass@1=5/7=71.43%
+
+[mbpp] (8/424) MBPP/430
+  passed=False | tokens=485 (prompt=243, completion=242, calls=1) | Pass@1=5/8=62.50%
+
+[mbpp] (9/424) MBPP/796
+  passed=True | tokens=398 (prompt=235, completion=163, calls=1) | Pass@1=6/9=66.67%
+
+[mbpp] (10/424) MBPP/592
+  passed=True | tokens=847 (prompt=659, completion=188, calls=2) | Pass@1=7/10=70.00%
+
+[mbpp] (11/424) MBPP/635
+  passed=True | tokens=997 (prompt=732, completion=265, calls=2) | Pass@1=8/11=72.73%
+
+[mbpp] (12/424) MBPP/619
+  passed=True | tokens=882 (prompt=664, completion=218, calls=2) | Pass@1=9/12=75.00%
+
+[mbpp] (13/424) MBPP/8
+  passed=True | tokens=742 (prompt=607, completion=135, calls=2) | Pass@1=10/13=76.92%
+
+[mbpp] (14/424) MBPP/91
+  passed=False | tokens=763 (prompt=630, completion=133, calls=2) | Pass@1=10/14=71.43%
+
+[mbpp] (15/424) MBPP/593
+  passed=True | tokens=930 (prompt=710, completion=220, calls=2) | Pass@1=11/15=73.33%
+
+[mbpp] (16/424) MBPP/631
+  passed=True | tokens=843 (prompt=657, completion=186, calls=2) | Pass@1=12/16=75.00%
+
+[mbpp] (17/424) MBPP/746
+  passed=True | tokens=791 (prompt=627, completion=164, calls=2) | Pass@1=13/17=76.47%
+
+[mbpp] (18/424) MBPP/558
+  passed=True | tokens=625 (prompt=240, completion=385, calls=1) | Pass@1=14/18=77.78%
+
+[mbpp] (19/424) MBPP/57
+  passed=False | tokens=527 (prompt=242, completion=285, calls=1) | Pass@1=14/19=73.68%
+
+[mbpp] (20/424) MBPP/776
+  passed=False | tokens=1012 (prompt=710, completion=302, calls=2) | Pass@1=14/20=70.00%
+
+[mbpp] (21/424) MBPP/256
+  passed=True | tokens=1109 (prompt=755, completion=354, calls=2) | Pass@1=15/21=71.43%
+
+[mbpp] (22/424) MBPP/599
+  passed=True | tokens=821 (prompt=635, completion=186, calls=2) | Pass@1=16/22=72.73%
+
+[mbpp] (23/424) MBPP/6
+  passed=True | tokens=1092 (prompt=794, completion=298, calls=2) | Pass@1=17/23=73.91%
+
+[mbpp] (24/424) MBPP/59
+  passed=True | tokens=758 (prompt=610, completion=148, calls=2) | Pass@1=18/24=75.00%
+
+[mbpp] (25/424) MBPP/627
+  passed=False | tokens=542 (prompt=242, completion=300, calls=1) | Pass@1=18/25=72.00%
+
+[mbpp] (26/424) MBPP/106
+  passed=False | tokens=420 (prompt=239, completion=181, calls=1) | Pass@1=18/26=69.23%
+
+[mbpp] (27/424) MBPP/742
+  passed=False | tokens=761 (prompt=617, completion=144, calls=2) | Pass@1=18/27=66.67%
+
+[mbpp] (28/424) MBPP/462
+  passed=False | tokens=734 (prompt=603, completion=131, calls=2) | Pass@1=18/28=64.29%
+
+[mbpp] (29/424) MBPP/111
+  passed=False | tokens=598 (prompt=252, completion=346, calls=1) | Pass@1=18/29=62.07%
+
+[mbpp] (30/424) MBPP/230
+  passed=True | tokens=804 (prompt=640, completion=164, calls=2) | Pass@1=19/30=63.33%
+
+[mbpp] (31/424) MBPP/808
+  passed=True | tokens=791 (prompt=630, completion=161, calls=2) | Pass@1=20/31=64.52%
+
+[mbpp] (32/424) MBPP/409
+  passed=False | tokens=625 (prompt=242, completion=383, calls=1) | Pass@1=20/32=62.50%
+
+[mbpp] (33/424) MBPP/71
+  passed=False | tokens=606 (prompt=234, completion=372, calls=1) | Pass@1=20/33=60.61%
+
+[mbpp] (34/424) MBPP/617
+  passed=False | tokens=1052 (prompt=734, completion=318, calls=2) | Pass@1=20/34=58.82%
+
+[mbpp] (35/424) MBPP/413
+  passed=True | tokens=1034 (prompt=761, completion=273, calls=2) | Pass@1=21/35=60.00%
+
+[mbpp] (36/424) MBPP/420
+  passed=True | tokens=924 (prompt=689, completion=235, calls=2) | Pass@1=22/36=61.11%
+
+[mbpp] (37/424) MBPP/68
+  passed=True | tokens=1008 (prompt=724, completion=284, calls=2) | Pass@1=23/37=62.16%
+
+[mbpp] (38/424) MBPP/11
+  passed=True | tokens=1095 (prompt=737, completion=358, calls=2) | Pass@1=24/38=63.16%
+
+[mbpp] (39/424) MBPP/784
+  passed=True | tokens=1150 (prompt=770, completion=380, calls=2) | Pass@1=25/39=64.10%
+
+[mbpp] (40/424) MBPP/471
+  passed=False | tokens=883 (prompt=668, completion=215, calls=2) | Pass@1=25/40=62.50%
+
+[mbpp] (41/424) MBPP/228
+  passed=False | tokens=593 (prompt=260, completion=333, calls=1) | Pass@1=25/41=60.98%
+
+[mbpp] (42/424) MBPP/171
+  passed=True | tokens=679 (prompt=573, completion=106, calls=2) | Pass@1=26/42=61.90%
+
+[mbpp] (43/424) MBPP/643
+  passed=False | tokens=958 (prompt=706, completion=252, calls=2) | Pass@1=26/43=60.47%
+
+[mbpp] (44/424) MBPP/780
+  passed=False | tokens=1386 (prompt=1126, completion=260, calls=3) | Pass@1=26/44=59.09%
+
+[mbpp] (45/424) MBPP/240
+  passed=False | tokens=916 (prompt=685, completion=231, calls=2) | Pass@1=26/45=57.78%
+
+[mbpp] (46/424) MBPP/235
+  passed=False | tokens=947 (prompt=700, completion=247, calls=2) | Pass@1=26/46=56.52%
+
+[mbpp] (47/424) MBPP/264
+  passed=False | tokens=717 (prompt=590, completion=127, calls=2) | Pass@1=26/47=55.32%
+
+[mbpp] (48/424) MBPP/612
+  passed=False | tokens=583 (prompt=237, completion=346, calls=1) | Pass@1=26/48=54.17%
+
+[mbpp] (49/424) MBPP/578
+  passed=True | tokens=910 (prompt=698, completion=212, calls=2) | Pass@1=27/49=55.10%
+
+[mbpp] (50/424) MBPP/285
+  passed=True | tokens=413 (prompt=245, completion=168, calls=1) | Pass@1=28/50=56.00%
+
+[mbpp] (51/424) MBPP/758
+  passed=False | tokens=445 (prompt=239, completion=206, calls=1) | Pass@1=28/51=54.90%
+
+[mbpp] (52/424) MBPP/781
+  passed=True | tokens=935 (prompt=686, completion=249, calls=2) | Pass@1=29/52=55.77%
+
+[mbpp] (53/424) MBPP/760
+  passed=False | tokens=779 (prompt=623, completion=156, calls=2) | Pass@1=29/53=54.72%
+
+[mbpp] (54/424) MBPP/281
+  passed=True | tokens=809 (prompt=638, completion=171, calls=2) | Pass@1=30/54=55.56%
+
+[mbpp] (55/424) MBPP/199
+  passed=True | tokens=1014 (prompt=738, completion=276, calls=2) | Pass@1=31/55=56.36%
+
+[mbpp] (56/424) MBPP/229
+  passed=False | tokens=431 (prompt=250, completion=181, calls=1) | Pass@1=31/56=55.36%
+
+[mbpp] (57/424) MBPP/787
+  passed=True | tokens=405 (prompt=241, completion=164, calls=1) | Pass@1=32/57=56.14%
+
+[mbpp] (58/424) MBPP/405
+  passed=True | tokens=478 (prompt=243, completion=235, calls=1) | Pass@1=33/58=56.90%
+
+[mbpp] (59/424) MBPP/730
+  passed=True | tokens=1001 (prompt=728, completion=273, calls=2) | Pass@1=34/59=57.63%
+
+[mbpp] (60/424) MBPP/565
+  passed=True | tokens=723 (prompt=604, completion=119, calls=2) | Pass@1=35/60=58.33%
+
+[mbpp] (61/424) MBPP/137
+  passed=False | tokens=449 (prompt=237, completion=212, calls=1) | Pass@1=35/61=57.38%
+
+[mbpp] (62/424) MBPP/457
+  passed=False | tokens=615 (prompt=234, completion=381, calls=1) | Pass@1=35/62=56.45%
+
+[mbpp] (63/424) MBPP/421
+  passed=False | tokens=784 (prompt=627, completion=157, calls=2) | Pass@1=35/63=55.56%
+
+[mbpp] (64/424) MBPP/126
+  passed=False | tokens=1102 (prompt=705, completion=397, calls=2) | Pass@1=35/64=54.69%
+
+[mbpp] (65/424) MBPP/414
+  passed=True | tokens=866 (prompt=664, completion=202, calls=2) | Pass@1=36/65=55.38%
+
+[mbpp] (66/424) MBPP/282
+  passed=True | tokens=487 (prompt=240, completion=247, calls=1) | Pass@1=37/66=56.06%
+
+[mbpp] (67/424) MBPP/242
+  passed=True | tokens=727 (prompt=597, completion=130, calls=2) | Pass@1=38/67=56.72%
+
+[mbpp] (68/424) MBPP/595
+  passed=True | tokens=778 (prompt=247, completion=531, calls=1) | Pass@1=39/68=57.35%
+
+[mbpp] (69/424) MBPP/633
+  passed=True | tokens=980 (prompt=722, completion=258, calls=2) | Pass@1=40/69=57.97%
+
+[mbpp] (70/424) MBPP/778
+  passed=True | tokens=652 (prompt=242, completion=410, calls=1) | Pass@1=41/70=58.57%
+
+[mbpp] (71/424) MBPP/788
+  passed=True | tokens=386 (prompt=240, completion=146, calls=1) | Pass@1=42/71=59.15%
+
+[mbpp] (72/424) MBPP/804
+  passed=False | tokens=964 (prompt=682, completion=282, calls=2) | Pass@1=42/72=58.33%
+
+[mbpp] (73/424) MBPP/306
+  passed=False | tokens=537 (prompt=272, completion=265, calls=1) | Pass@1=42/73=57.53%
+
+[mbpp] (74/424) MBPP/757
+  passed=True | tokens=479 (prompt=240, completion=239, calls=1) | Pass@1=43/74=58.11%
+
+[mbpp] (75/424) MBPP/723
+  passed=False | tokens=436 (prompt=243, completion=193, calls=1) | Pass@1=43/75=57.33%
+
+[mbpp] (76/424) MBPP/82
+  passed=True | tokens=759 (prompt=612, completion=147, calls=2) | Pass@1=44/76=57.89%
+
+[mbpp] (77/424) MBPP/266
+  passed=True | tokens=732 (prompt=598, completion=134, calls=2) | Pass@1=45/77=58.44%
+
+[mbpp] (78/424) MBPP/607
+  passed=False | tokens=452 (prompt=251, completion=201, calls=1) | Pass@1=45/78=57.69%
+
+[mbpp] (79/424) MBPP/786
+  passed=True | tokens=485 (prompt=242, completion=243, calls=1) | Pass@1=46/79=58.23%
+
+[mbpp] (80/424) MBPP/439
+  passed=True | tokens=885 (prompt=674, completion=211, calls=2) | Pass@1=47/80=58.75%
+
+[mbpp] (81/424) MBPP/440
+  passed=False | tokens=495 (prompt=241, completion=254, calls=1) | Pass@1=47/81=58.02%
+
+[mbpp] (82/424) MBPP/105
+  passed=True | tokens=786 (prompt=622, completion=164, calls=2) | Pass@1=48/82=58.54%
+
+[mbpp] (83/424) MBPP/232
+  passed=False | tokens=897 (prompt=689, completion=208, calls=2) | Pass@1=48/83=57.83%
+
+[mbpp] (84/424) MBPP/555
+  passed=True | tokens=850 (prompt=646, completion=204, calls=2) | Pass@1=49/84=58.33%
+
+[mbpp] (85/424) MBPP/753
+  passed=True | tokens=913 (prompt=703, completion=210, calls=2) | Pass@1=50/85=58.82%
+
+[mbpp] (86/424) MBPP/9
+  passed=False | tokens=467 (prompt=243, completion=224, calls=1) | Pass@1=50/86=58.14%
+
+[mbpp] (87/424) MBPP/790
+  passed=True | tokens=923 (prompt=688, completion=235, calls=2) | Pass@1=51/87=58.62%
+
+[mbpp] (88/424) MBPP/588
+  passed=True | tokens=843 (prompt=656, completion=187, calls=2) | Pass@1=52/88=59.09%
+
+[mbpp] (89/424) MBPP/286
+  passed=True | tokens=732 (prompt=259, completion=473, calls=1) | Pass@1=53/89=59.55%
+
+[mbpp] (90/424) MBPP/278
+  passed=False | tokens=966 (prompt=694, completion=272, calls=2) | Pass@1=53/90=58.89%
+
+[mbpp] (91/424) MBPP/16
+  passed=False | tokens=450 (prompt=241, completion=209, calls=1) | Pass@1=53/91=58.24%
+
+[mbpp] (92/424) MBPP/434
+  passed=True | tokens=430 (prompt=242, completion=188, calls=1) | Pass@1=54/92=58.70%
+
+[mbpp] (93/424) MBPP/222
+  passed=True | tokens=470 (prompt=240, completion=230, calls=1) | Pass@1=55/93=59.14%
+
+[mbpp] (94/424) MBPP/133
+  passed=True | tokens=462 (prompt=246, completion=216, calls=1) | Pass@1=56/94=59.57%
+
+[mbpp] (95/424) MBPP/450
+  passed=True | tokens=878 (prompt=674, completion=204, calls=2) | Pass@1=57/95=60.00%
+
+[mbpp] (96/424) MBPP/610
+  passed=False | tokens=530 (prompt=244, completion=286, calls=1) | Pass@1=57/96=59.38%
+
+[mbpp] (97/424) MBPP/297
+  passed=True | tokens=532 (prompt=233, completion=299, calls=1) | Pass@1=58/97=59.79%
+
+[mbpp] (98/424) MBPP/782
+  passed=True | tokens=494 (prompt=240, completion=254, calls=1) | Pass@1=59/98=60.20%
+
+[mbpp] (99/424) MBPP/452
+  passed=False | tokens=775 (prompt=616, completion=159, calls=2) | Pass@1=59/99=59.60%
+
+[mbpp] (100/424) MBPP/460
+  passed=True | tokens=431 (prompt=233, completion=198, calls=1) | Pass@1=60/100=60.00%
+
+[mbpp] (101/424) MBPP/401
+  passed=True | tokens=571 (prompt=251, completion=320, calls=1) | Pass@1=61/101=60.40%
+
+[mbpp] (102/424) MBPP/733
+  passed=True | tokens=638 (prompt=247, completion=391, calls=1) | Pass@1=62/102=60.78%
+
+[mbpp] (103/424) MBPP/143
+  passed=True | tokens=873 (prompt=667, completion=206, calls=2) | Pass@1=63/103=61.17%
+
+[mbpp] (104/424) MBPP/581
+  passed=True | tokens=811 (prompt=625, completion=186, calls=2) | Pass@1=64/104=61.54%
+
+[mbpp] (105/424) MBPP/293
+  passed=True | tokens=835 (prompt=653, completion=182, calls=2) | Pass@1=65/105=61.90%
+
+[mbpp] (106/424) MBPP/422
+  passed=True | tokens=996 (prompt=723, completion=273, calls=2) | Pass@1=66/106=62.26%
+
+[mbpp] (107/424) MBPP/274
+  passed=True | tokens=930 (prompt=706, completion=224, calls=2) | Pass@1=67/107=62.62%
+
+[mbpp] (108/424) MBPP/4
+  passed=True | tokens=885 (prompt=683, completion=202, calls=2) | Pass@1=68/108=62.96%
+
+[mbpp] (109/424) MBPP/161
+  passed=True | tokens=901 (prompt=691, completion=210, calls=2) | Pass@1=69/109=63.30%
+
+[mbpp] (110/424) MBPP/119
+  passed=False | tokens=758 (prompt=237, completion=521, calls=1) | Pass@1=69/110=62.73%
+
+[mbpp] (111/424) MBPP/441
+  passed=True | tokens=738 (prompt=600, completion=138, calls=2) | Pass@1=70/111=63.06%
+
+[mbpp] (112/424) MBPP/247
+  passed=True | tokens=649 (prompt=239, completion=410, calls=1) | Pass@1=71/112=63.39%
+
+[mbpp] (113/424) MBPP/165
+  passed=True | tokens=520 (prompt=249, completion=271, calls=1) | Pass@1=72/113=63.72%
+
+[mbpp] (114/424) MBPP/270
+  passed=False | tokens=568 (prompt=243, completion=325, calls=1) | Pass@1=72/114=63.16%
+
+[mbpp] (115/424) MBPP/622
+  passed=True | tokens=957 (prompt=691, completion=266, calls=2) | Pass@1=73/115=63.48%
+
+[mbpp] (116/424) MBPP/459
+  passed=True | tokens=686 (prompt=574, completion=112, calls=2) | Pass@1=74/116=63.79%
+
+[mbpp] (117/424) MBPP/166
+  passed=False | tokens=483 (prompt=241, completion=242, calls=1) | Pass@1=74/117=63.25%
+
+[mbpp] (118/424) MBPP/478
+  passed=True | tokens=772 (prompt=617, completion=155, calls=2) | Pass@1=75/118=63.56%
+
+[mbpp] (119/424) MBPP/118
+  passed=False | tokens=838 (prompt=691, completion=147, calls=2) | Pass@1=75/119=63.03%
+
+[mbpp] (120/424) MBPP/65
+  passed=False | tokens=865 (prompt=655, completion=210, calls=2) | Pass@1=75/120=62.50%
+
+[mbpp] (121/424) MBPP/83
+  passed=False | tokens=932 (prompt=702, completion=230, calls=2) | Pass@1=75/121=61.98%
+
+[mbpp] (122/424) MBPP/271
+  passed=True | tokens=897 (prompt=681, completion=216, calls=2) | Pass@1=76/122=62.30%
+
+[mbpp] (123/424) MBPP/246
+  passed=False | tokens=609 (prompt=245, completion=364, calls=1) | Pass@1=76/123=61.79%
+
+[mbpp] (124/424) MBPP/443
+  passed=False | tokens=459 (prompt=237, completion=222, calls=1) | Pass@1=76/124=61.29%
+
+[mbpp] (125/424) MBPP/412
+  passed=True | tokens=444 (prompt=236, completion=208, calls=1) | Pass@1=77/125=61.60%
+
+[mbpp] (126/424) MBPP/390
+  passed=False | tokens=826 (prompt=655, completion=171, calls=2) | Pass@1=77/126=61.11%
+
+[mbpp] (127/424) MBPP/117
+  passed=False | tokens=1098 (prompt=798, completion=300, calls=2) | Pass@1=77/127=60.63%
+
+[mbpp] (128/424) MBPP/640
+  passed=False | tokens=459 (prompt=236, completion=223, calls=1) | Pass@1=77/128=60.16%
+
+[mbpp] (129/424) MBPP/735
+  passed=True | tokens=1690 (prompt=1059, completion=631, calls=2) | Pass@1=78/129=60.47%
+
+[mbpp] (130/424) MBPP/461
+  passed=False | tokens=797 (prompt=629, completion=168, calls=2) | Pass@1=78/130=60.00%
+
+[mbpp] (131/424) MBPP/415
+  passed=False | tokens=601 (prompt=239, completion=362, calls=1) | Pass@1=78/131=59.54%
+
+[mbpp] (132/424) MBPP/747
+  passed=False | tokens=774 (prompt=252, completion=522, calls=1) | Pass@1=78/132=59.09%
+
+[mbpp] (133/424) MBPP/598
+  passed=True | tokens=445 (prompt=238, completion=207, calls=1) | Pass@1=79/133=59.40%
+
+[mbpp] (134/424) MBPP/249
+  passed=False | tokens=477 (prompt=240, completion=237, calls=1) | Pass@1=79/134=58.96%
+
+[mbpp] (135/424) MBPP/273
+  passed=True | tokens=956 (prompt=720, completion=236, calls=2) | Pass@1=80/135=59.26%
+
+[mbpp] (136/424) MBPP/591
+  passed=True | tokens=467 (prompt=237, completion=230, calls=1) | Pass@1=81/136=59.56%
+
+[mbpp] (137/424) MBPP/140
+  passed=False | tokens=502 (prompt=239, completion=263, calls=1) | Pass@1=81/137=59.12%
+
+[mbpp] (138/424) MBPP/739
+  passed=True | tokens=465 (prompt=237, completion=228, calls=1) | Pass@1=82/138=59.42%
+
+[mbpp] (139/424) MBPP/431
+  passed=True | tokens=439 (prompt=244, completion=195, calls=1) | Pass@1=83/139=59.71%
+
+[mbpp] (140/424) MBPP/579
+  passed=False | tokens=521 (prompt=248, completion=273, calls=1) | Pass@1=83/140=59.29%
+
+[mbpp] (141/424) MBPP/738
+  passed=False | tokens=436 (prompt=235, completion=201, calls=1) | Pass@1=83/141=58.87%
+
+[mbpp] (142/424) MBPP/458
+  passed=True | tokens=705 (prompt=583, completion=122, calls=2) | Pass@1=84/142=59.15%
+
+[mbpp] (143/424) MBPP/569
+  passed=True | tokens=916 (prompt=709, completion=207, calls=2) | Pass@1=85/143=59.44%
+
+[mbpp] (144/424) MBPP/620
+  passed=False | tokens=528 (prompt=237, completion=291, calls=1) | Pass@1=85/144=59.03%
+
+[mbpp] (145/424) MBPP/391
+  passed=False | tokens=490 (prompt=243, completion=247, calls=1) | Pass@1=85/145=58.62%
+
+[mbpp] (146/424) MBPP/446
+  passed=False | tokens=986 (prompt=748, completion=238, calls=2) | Pass@1=85/146=58.22%
+
+[mbpp] (147/424) MBPP/725
+  passed=True | tokens=822 (prompt=649, completion=173, calls=2) | Pass@1=86/147=58.50%
+
+[mbpp] (148/424) MBPP/785
+  passed=True | tokens=480 (prompt=235, completion=245, calls=1) | Pass@1=87/148=58.78%
+
+[mbpp] (149/424) MBPP/596
+  passed=False | tokens=749 (prompt=607, completion=142, calls=2) | Pass@1=87/149=58.39%
+
+[mbpp] (150/424) MBPP/253
+  passed=True | tokens=861 (prompt=659, completion=202, calls=2) | Pass@1=88/150=58.67%
+
+[mbpp] (151/424) MBPP/84
+  passed=False | tokens=601 (prompt=235, completion=366, calls=1) | Pass@1=88/151=58.28%
+
+[mbpp] (152/424) MBPP/17
+  passed=True | tokens=721 (prompt=593, completion=128, calls=2) | Pass@1=89/152=58.55%
+
+[mbpp] (153/424) MBPP/583
+  passed=True | tokens=462 (prompt=233, completion=229, calls=1) | Pass@1=90/153=58.82%
+
+[mbpp] (154/424) MBPP/393
+  passed=False | tokens=944 (prompt=716, completion=228, calls=2) | Pass@1=90/154=58.44%
+
+[mbpp] (155/424) MBPP/584
+  passed=False | tokens=858 (prompt=647, completion=211, calls=2) | Pass@1=90/155=58.06%
+
+[mbpp] (156/424) MBPP/563
+  passed=True | tokens=819 (prompt=644, completion=175, calls=2) | Pass@1=91/156=58.33%
+
+[mbpp] (157/424) MBPP/233
+  passed=True | tokens=837 (prompt=660, completion=177, calls=2) | Pass@1=92/157=58.60%
+
+[mbpp] (158/424) MBPP/312
+  passed=True | tokens=814 (prompt=640, completion=174, calls=2) | Pass@1=93/158=58.86%
+
+[mbpp] (159/424) MBPP/477
+  passed=True | tokens=704 (prompt=585, completion=119, calls=2) | Pass@1=94/159=59.12%
+
+[mbpp] (160/424) MBPP/605
+  passed=True | tokens=883 (prompt=657, completion=226, calls=2) | Pass@1=95/160=59.38%
+
+[mbpp] (161/424) MBPP/618
+  passed=True | tokens=431 (prompt=238, completion=193, calls=1) | Pass@1=96/161=59.63%
+
+[mbpp] (162/424) MBPP/638
+  passed=False | tokens=819 (prompt=628, completion=191, calls=2) | Pass@1=96/162=59.26%
+
+[mbpp] (163/424) MBPP/239
+  passed=True | tokens=614 (prompt=267, completion=347, calls=1) | Pass@1=97/163=59.51%
+
+[mbpp] (164/424) MBPP/775
+  passed=True | tokens=446 (prompt=239, completion=207, calls=1) | Pass@1=98/164=59.76%
+
+[mbpp] (165/424) MBPP/590
+  passed=False | tokens=946 (prompt=719, completion=227, calls=2) | Pass@1=98/165=59.39%
+
+[mbpp] (166/424) MBPP/793
+  passed=False | tokens=988 (prompt=716, completion=272, calls=2) | Pass@1=98/166=59.04%
+
+[mbpp] (167/424) MBPP/602
+  passed=True | tokens=795 (prompt=623, completion=172, calls=2) | Pass@1=99/167=59.28%
+
+[mbpp] (168/424) MBPP/445
+  passed=False | tokens=988 (prompt=735, completion=253, calls=2) | Pass@1=99/168=58.93%
+
+[mbpp] (169/424) MBPP/527
+  passed=False | tokens=1044 (prompt=751, completion=293, calls=2) | Pass@1=99/169=58.58%
+
+[mbpp] (170/424) MBPP/797
+  passed=True | tokens=967 (prompt=723, completion=244, calls=2) | Pass@1=100/170=58.82%
+
+[mbpp] (171/424) MBPP/294
+  passed=False | tokens=886 (prompt=644, completion=242, calls=2) | Pass@1=100/171=58.48%
+
+[mbpp] (172/424) MBPP/262
+  passed=True | tokens=485 (prompt=250, completion=235, calls=1) | Pass@1=101/172=58.72%
+
+[mbpp] (173/424) MBPP/407
+  passed=True | tokens=710 (prompt=245, completion=465, calls=1) | Pass@1=102/173=58.96%
+
+[mbpp] (174/424) MBPP/474
+  passed=True | tokens=785 (prompt=625, completion=160, calls=2) | Pass@1=103/174=59.20%
+
+[mbpp] (175/424) MBPP/444
+  passed=False | tokens=456 (prompt=239, completion=217, calls=1) | Pass@1=103/175=58.86%
+
+[mbpp] (176/424) MBPP/237
+  passed=False | tokens=509 (prompt=244, completion=265, calls=1) | Pass@1=103/176=58.52%
+
+[mbpp] (177/424) MBPP/244
+  passed=True | tokens=811 (prompt=643, completion=168, calls=2) | Pass@1=104/177=58.76%
+
+[mbpp] (178/424) MBPP/436
+  passed=False | tokens=689 (prompt=573, completion=116, calls=2) | Pass@1=104/178=58.43%
+
+[mbpp] (179/424) MBPP/749
+  passed=False | tokens=417 (prompt=239, completion=178, calls=1) | Pass@1=104/179=58.10%
+
+[mbpp] (180/424) MBPP/580
+  passed=False | tokens=593 (prompt=266, completion=327, calls=1) | Pass@1=104/180=57.78%
+
+[mbpp] (181/424) MBPP/251
+  passed=False | tokens=728 (prompt=596, completion=132, calls=2) | Pass@1=104/181=57.46%
+
+[mbpp] (182/424) MBPP/731
+  passed=True | tokens=429 (prompt=241, completion=188, calls=1) | Pass@1=105/182=57.69%
+
+[mbpp] (183/424) MBPP/227
+  passed=True | tokens=831 (prompt=648, completion=183, calls=2) | Pass@1=106/183=57.92%
+
+[mbpp] (184/424) MBPP/614
+  passed=True | tokens=448 (prompt=247, completion=201, calls=1) | Pass@1=107/184=58.15%
+
+[mbpp] (185/424) MBPP/259
+  passed=False | tokens=459 (prompt=239, completion=220, calls=1) | Pass@1=107/185=57.84%
+
+[mbpp] (186/424) MBPP/606
+  passed=True | tokens=800 (prompt=639, completion=161, calls=2) | Pass@1=108/186=58.06%
+
+[mbpp] (187/424) MBPP/90
+  passed=True | tokens=805 (prompt=627, completion=178, calls=2) | Pass@1=109/187=58.29%
+
+[mbpp] (188/424) MBPP/773
+  passed=False | tokens=516 (prompt=244, completion=272, calls=1) | Pass@1=109/188=57.98%
+
+[mbpp] (189/424) MBPP/115
+  passed=True | tokens=820 (prompt=641, completion=179, calls=2) | Pass@1=110/189=58.20%
+
+[mbpp] (190/424) MBPP/139
+  passed=True | tokens=775 (prompt=626, completion=149, calls=2) | Pass@1=111/190=58.42%
+
+[mbpp] (191/424) MBPP/455
+  passed=True | tokens=1037 (prompt=756, completion=281, calls=2) | Pass@1=112/191=58.64%
+
+[mbpp] (192/424) MBPP/394
+  passed=True | tokens=412 (prompt=238, completion=174, calls=1) | Pass@1=113/192=58.85%
+
+[mbpp] (193/424) MBPP/287
+  passed=True | tokens=801 (prompt=629, completion=172, calls=2) | Pass@1=114/193=59.07%
+
+[mbpp] (194/424) MBPP/18
+  passed=True | tokens=796 (prompt=636, completion=160, calls=2) | Pass@1=115/194=59.28%
+
+[mbpp] (195/424) MBPP/80
+  passed=True | tokens=412 (prompt=235, completion=177, calls=1) | Pass@1=116/195=59.49%
+
+[mbpp] (196/424) MBPP/70
+  passed=True | tokens=500 (prompt=251, completion=249, calls=1) | Pass@1=117/196=59.69%
+
+[mbpp] (197/424) MBPP/301
+  passed=True | tokens=432 (prompt=232, completion=200, calls=1) | Pass@1=118/197=59.90%
+
+[mbpp] (198/424) MBPP/269
+  passed=True | tokens=711 (prompt=588, completion=123, calls=2) | Pass@1=119/198=60.10%
+
+[mbpp] (199/424) MBPP/641
+  passed=True | tokens=778 (prompt=618, completion=160, calls=2) | Pass@1=120/199=60.30%
+
+[mbpp] (200/424) MBPP/585
+  passed=False | tokens=963 (prompt=727, completion=236, calls=2) | Pass@1=120/200=60.00%
+
+[mbpp] (201/424) MBPP/433
+  passed=True | tokens=789 (prompt=630, completion=159, calls=2) | Pass@1=121/201=60.20%
+
+[mbpp] (202/424) MBPP/164
+  passed=True | tokens=1022 (prompt=723, completion=299, calls=2) | Pass@1=122/202=60.40%
+
+[mbpp] (203/424) MBPP/97
+  passed=False | tokens=888 (prompt=702, completion=186, calls=2) | Pass@1=122/203=60.10%
+
+[mbpp] (204/424) MBPP/453
+  passed=True | tokens=974 (prompt=699, completion=275, calls=2) | Pass@1=123/204=60.29%
+
+[mbpp] (205/424) MBPP/763
+  passed=False | tokens=655 (prompt=244, completion=411, calls=1) | Pass@1=123/205=60.00%
+
+[mbpp] (206/424) MBPP/623
+  passed=True | tokens=877 (prompt=686, completion=191, calls=2) | Pass@1=124/206=60.19%
+
+[mbpp] (207/424) MBPP/311
+  passed=False | tokens=1098 (prompt=755, completion=343, calls=2) | Pass@1=124/207=59.90%
+
+[mbpp] (208/424) MBPP/87
+  passed=True | tokens=979 (prompt=744, completion=235, calls=2) | Pass@1=125/208=60.10%
+
+[mbpp] (209/424) MBPP/630
+  passed=False | tokens=502 (prompt=257, completion=245, calls=1) | Pass@1=125/209=59.81%
+
+[mbpp] (210/424) MBPP/417
+  passed=False | tokens=428 (prompt=237, completion=191, calls=1) | Pass@1=125/210=59.52%
+
+[mbpp] (211/424) MBPP/576
+  passed=False | tokens=540 (prompt=243, completion=297, calls=1) | Pass@1=125/211=59.24%
+
+[mbpp] (212/424) MBPP/470
+  passed=False | tokens=789 (prompt=631, completion=158, calls=2) | Pass@1=125/212=58.96%
+
+[mbpp] (213/424) MBPP/732
+  passed=True | tokens=855 (prompt=669, completion=186, calls=2) | Pass@1=126/213=59.15%
+
+[mbpp] (214/424) MBPP/7
+  passed=False | tokens=814 (prompt=648, completion=166, calls=2) | Pass@1=126/214=58.88%
+
+[mbpp] (215/424) MBPP/472
+  passed=True | tokens=959 (prompt=709, completion=250, calls=2) | Pass@1=127/215=59.07%
+
+[mbpp] (216/424) MBPP/762
+  passed=True | tokens=851 (prompt=661, completion=190, calls=2) | Pass@1=128/216=59.26%
+
+[mbpp] (217/424) MBPP/170
+  passed=True | tokens=509 (prompt=248, completion=261, calls=1) | Pass@1=129/217=59.45%
+
+[mbpp] (218/424) MBPP/438
+  passed=True | tokens=484 (prompt=234, completion=250, calls=1) | Pass@1=130/218=59.63%
+
+[mbpp] (219/424) MBPP/743
+  passed=False | tokens=571 (prompt=242, completion=329, calls=1) | Pass@1=130/219=59.36%
+
+[mbpp] (220/424) MBPP/425
+  passed=True | tokens=491 (prompt=243, completion=248, calls=1) | Pass@1=131/220=59.55%
+
+[mbpp] (221/424) MBPP/304
+  passed=False | tokens=1052 (prompt=736, completion=316, calls=2) | Pass@1=131/221=59.28%
+
+[mbpp] (222/424) MBPP/167
+  passed=True | tokens=995 (prompt=730, completion=265, calls=2) | Pass@1=132/222=59.46%
+
+[mbpp] (223/424) MBPP/586
+  passed=False | tokens=1022 (prompt=771, completion=251, calls=2) | Pass@1=132/223=59.19%
+
+[mbpp] (224/424) MBPP/427
+  passed=True | tokens=759 (prompt=599, completion=160, calls=2) | Pass@1=133/224=59.38%
+
+[mbpp] (225/424) MBPP/108
+  passed=False | tokens=1031 (prompt=775, completion=256, calls=2) | Pass@1=133/225=59.11%
+
+[mbpp] (226/424) MBPP/93
+  passed=True | tokens=761 (prompt=615, completion=146, calls=2) | Pass@1=134/226=59.29%
+
+[mbpp] (227/424) MBPP/75
+  passed=True | tokens=1033 (prompt=762, completion=271, calls=2) | Pass@1=135/227=59.47%
+
+[mbpp] (228/424) MBPP/557
+  passed=True | tokens=715 (prompt=592, completion=123, calls=2) | Pass@1=136/228=59.65%
+
+[mbpp] (229/424) MBPP/410
+  passed=True | tokens=894 (prompt=667, completion=227, calls=2) | Pass@1=137/229=59.83%
+
+[mbpp] (230/424) MBPP/208
+  passed=True | tokens=913 (prompt=684, completion=229, calls=2) | Pass@1=138/230=60.00%
+
+[mbpp] (231/424) MBPP/69
+  passed=True | tokens=537 (prompt=241, completion=296, calls=1) | Pass@1=139/231=60.17%
+
+[mbpp] (232/424) MBPP/632
+  passed=True | tokens=989 (prompt=725, completion=264, calls=2) | Pass@1=140/232=60.34%
+
+[mbpp] (233/424) MBPP/442
+  passed=False | tokens=949 (prompt=699, completion=250, calls=2) | Pass@1=140/233=60.09%
+
+[mbpp] (234/424) MBPP/476
+  passed=True | tokens=804 (prompt=636, completion=168, calls=2) | Pass@1=141/234=60.26%
+
+[mbpp] (235/424) MBPP/582
+  passed=True | tokens=716 (prompt=589, completion=127, calls=2) | Pass@1=142/235=60.43%
+
+[mbpp] (236/424) MBPP/292
+  passed=True | tokens=752 (prompt=602, completion=150, calls=2) | Pass@1=143/236=60.59%
+
+[mbpp] (237/424) MBPP/766
+  passed=True | tokens=858 (prompt=668, completion=190, calls=2) | Pass@1=144/237=60.76%
+
+[mbpp] (238/424) MBPP/265
+  passed=False | tokens=1034 (prompt=768, completion=266, calls=2) | Pass@1=144/238=60.50%
+
+[mbpp] (239/424) MBPP/109
+  passed=True | tokens=459 (prompt=242, completion=217, calls=1) | Pass@1=145/239=60.67%
+
+[mbpp] (240/424) MBPP/261
+  passed=True | tokens=901 (prompt=672, completion=229, calls=2) | Pass@1=146/240=60.83%
+
+[mbpp] (241/424) MBPP/252
+  passed=False | tokens=786 (prompt=639, completion=147, calls=2) | Pass@1=146/241=60.58%
+
+[mbpp] (242/424) MBPP/12
+  passed=True | tokens=761 (prompt=625, completion=136, calls=2) | Pass@1=147/242=60.74%
+
+[mbpp] (243/424) MBPP/624
+  passed=True | tokens=700 (prompt=584, completion=116, calls=2) | Pass@1=148/243=60.91%
+
+[mbpp] (244/424) MBPP/113
+  passed=True | tokens=403 (prompt=235, completion=168, calls=1) | Pass@1=149/244=61.07%
+
+[mbpp] (245/424) MBPP/594
+  passed=True | tokens=1156 (prompt=774, completion=382, calls=2) | Pass@1=150/245=61.22%
+
+[mbpp] (246/424) MBPP/20
+  passed=True | tokens=572 (prompt=240, completion=332, calls=1) | Pass@1=151/246=61.38%
+
+[mbpp] (247/424) MBPP/284
+  passed=True | tokens=807 (prompt=638, completion=169, calls=2) | Pass@1=152/247=61.54%
+
+[mbpp] (248/424) MBPP/86
+  passed=False | tokens=833 (prompt=644, completion=189, calls=2) | Pass@1=152/248=61.29%
+
+[mbpp] (249/424) MBPP/772
+  passed=True | tokens=438 (prompt=240, completion=198, calls=1) | Pass@1=153/249=61.45%
+
+[mbpp] (250/424) MBPP/722
+  passed=False | tokens=926 (prompt=691, completion=235, calls=2) | Pass@1=153/250=61.20%
+
+[mbpp] (251/424) MBPP/428
+  passed=False | tokens=734 (prompt=235, completion=499, calls=1) | Pass@1=153/251=60.96%
+
+[mbpp] (252/424) MBPP/572
+  passed=False | tokens=545 (prompt=239, completion=306, calls=1) | Pass@1=153/252=60.71%
+
+[mbpp] (253/424) MBPP/748
+  passed=True | tokens=445 (prompt=244, completion=201, calls=1) | Pass@1=154/253=60.87%
+
+[mbpp] (254/424) MBPP/637
+  passed=True | tokens=880 (prompt=682, completion=198, calls=2) | Pass@1=155/254=61.02%
+
+[mbpp] (255/424) MBPP/448
+  passed=False | tokens=715 (prompt=233, completion=482, calls=1) | Pass@1=155/255=60.78%
+
+[mbpp] (256/424) MBPP/418
+  passed=True | tokens=1054 (prompt=743, completion=311, calls=2) | Pass@1=156/256=60.94%
+
+[mbpp] (257/424) MBPP/424
+  passed=False | tokens=716 (prompt=592, completion=124, calls=2) | Pass@1=156/257=60.70%
+
+[mbpp] (258/424) MBPP/589
+  passed=True | tokens=936 (prompt=694, completion=242, calls=2) | Pass@1=157/258=60.85%
+
+[mbpp] (259/424) MBPP/770
+  passed=True | tokens=910 (prompt=687, completion=223, calls=2) | Pass@1=158/259=61.00%
+
+[mbpp] (260/424) MBPP/464
+  passed=False | tokens=827 (prompt=645, completion=182, calls=2) | Pass@1=158/260=60.77%
+
+[mbpp] (261/424) MBPP/800
+  passed=True | tokens=757 (prompt=615, completion=142, calls=2) | Pass@1=159/261=60.92%
+
+[mbpp] (262/424) MBPP/771
+  passed=True | tokens=492 (prompt=235, completion=257, calls=1) | Pass@1=160/262=61.07%
+
+[mbpp] (263/424) MBPP/597
+  passed=False | tokens=1298 (prompt=824, completion=474, calls=2) | Pass@1=160/263=60.84%
+
+[mbpp] (264/424) MBPP/559
+  passed=True | tokens=975 (prompt=707, completion=268, calls=2) | Pass@1=161/264=60.98%
+
+[mbpp] (265/424) MBPP/411
+  passed=False | tokens=444 (prompt=243, completion=201, calls=1) | Pass@1=161/265=60.75%
+
+[mbpp] (266/424) MBPP/291
+  passed=True | tokens=696 (prompt=266, completion=430, calls=1) | Pass@1=162/266=60.90%
+
+[mbpp] (267/424) MBPP/89
+  passed=True | tokens=718 (prompt=591, completion=127, calls=2) | Pass@1=163/267=61.05%
+
+[mbpp] (268/424) MBPP/429
+  passed=True | tokens=1027 (prompt=759, completion=268, calls=2) | Pass@1=164/268=61.19%
+
+[mbpp] (269/424) MBPP/398
+  passed=False | tokens=889 (prompt=686, completion=203, calls=2) | Pass@1=164/269=60.97%
+
+[mbpp] (270/424) MBPP/604
+  passed=True | tokens=734 (prompt=598, completion=136, calls=2) | Pass@1=165/270=61.11%
+
+[mbpp] (271/424) MBPP/475
+  passed=False | tokens=757 (prompt=607, completion=150, calls=2) | Pass@1=165/271=60.89%
+
+[mbpp] (272/424) MBPP/224
+  passed=True | tokens=875 (prompt=664, completion=211, calls=2) | Pass@1=166/272=61.03%
+
+[mbpp] (273/424) MBPP/99
+  passed=True | tokens=843 (prompt=645, completion=198, calls=2) | Pass@1=167/273=61.17%
+
+[mbpp] (274/424) MBPP/3
+  passed=True | tokens=987 (prompt=710, completion=277, calls=2) | Pass@1=168/274=61.31%
+
+[mbpp] (275/424) MBPP/794
+  passed=True | tokens=837 (prompt=659, completion=178, calls=2) | Pass@1=169/275=61.45%
+
+[mbpp] (276/424) MBPP/95
+  passed=True | tokens=498 (prompt=236, completion=262, calls=1) | Pass@1=170/276=61.59%
+
+[mbpp] (277/424) MBPP/132
+  passed=True | tokens=753 (prompt=607, completion=146, calls=2) | Pass@1=171/277=61.73%
+
+[mbpp] (278/424) MBPP/79
+  passed=True | tokens=419 (prompt=238, completion=181, calls=1) | Pass@1=172/278=61.87%
+
+[mbpp] (279/424) MBPP/479
+  passed=True | tokens=435 (prompt=237, completion=198, calls=1) | Pass@1=173/279=62.01%
+
+[mbpp] (280/424) MBPP/744
+  passed=True | tokens=759 (prompt=611, completion=148, calls=2) | Pass@1=174/280=62.14%
+
+[mbpp] (281/424) MBPP/160
+  passed=True | tokens=1060 (prompt=783, completion=277, calls=2) | Pass@1=175/281=62.28%
+
+[mbpp] (282/424) MBPP/639
+  passed=True | tokens=961 (prompt=709, completion=252, calls=2) | Pass@1=176/282=62.41%
+
+[mbpp] (283/424) MBPP/98
+  passed=False | tokens=796 (prompt=625, completion=171, calls=2) | Pass@1=176/283=62.19%
+
+[mbpp] (284/424) MBPP/721
+  passed=False | tokens=776 (prompt=252, completion=524, calls=1) | Pass@1=176/284=61.97%
+
+[mbpp] (285/424) MBPP/554
+  passed=True | tokens=451 (prompt=232, completion=219, calls=1) | Pass@1=177/285=62.11%
+
+[mbpp] (286/424) MBPP/454
+  passed=False | tokens=805 (prompt=636, completion=169, calls=2) | Pass@1=177/286=61.89%
+
+[mbpp] (287/424) MBPP/19
+  passed=True | tokens=825 (prompt=645, completion=180, calls=2) | Pass@1=178/287=62.02%
+
+[mbpp] (288/424) MBPP/611
+  passed=True | tokens=937 (prompt=704, completion=233, calls=2) | Pass@1=179/288=62.15%
+
+[mbpp] (289/424) MBPP/142
+  passed=False | tokens=1006 (prompt=718, completion=288, calls=2) | Pass@1=179/289=61.94%
+
+[mbpp] (290/424) MBPP/564
+  passed=True | tokens=923 (prompt=678, completion=245, calls=2) | Pass@1=180/290=62.07%
+
+[mbpp] (291/424) MBPP/296
+  passed=False | tokens=955 (prompt=692, completion=263, calls=2) | Pass@1=180/291=61.86%
+
+[mbpp] (292/424) MBPP/626
+  passed=False | tokens=808 (prompt=639, completion=169, calls=2) | Pass@1=180/292=61.64%
+
+[mbpp] (293/424) MBPP/803
+  passed=False | tokens=843 (prompt=650, completion=193, calls=2) | Pass@1=180/293=61.43%
+
+[mbpp] (294/424) MBPP/260
+  passed=False | tokens=739 (prompt=241, completion=498, calls=1) | Pass@1=180/294=61.22%
+
+[mbpp] (295/424) MBPP/600
+  passed=True | tokens=764 (prompt=617, completion=147, calls=2) | Pass@1=181/295=61.36%
+
+[mbpp] (296/424) MBPP/792
+  passed=True | tokens=872 (prompt=667, completion=205, calls=2) | Pass@1=182/296=61.49%
+
+[mbpp] (297/424) MBPP/616
+  passed=True | tokens=870 (prompt=672, completion=198, calls=2) | Pass@1=183/297=61.62%
+
+[mbpp] (298/424) MBPP/456
+  passed=True | tokens=810 (prompt=645, completion=165, calls=2) | Pass@1=184/298=61.74%
+
+[mbpp] (299/424) MBPP/100
+  passed=True | tokens=901 (prompt=666, completion=235, calls=2) | Pass@1=185/299=61.87%
+
+[mbpp] (300/424) MBPP/741
+  passed=True | tokens=774 (prompt=624, completion=150, calls=2) | Pass@1=186/300=62.00%
+
+[mbpp] (301/424) MBPP/96
+  passed=True | tokens=857 (prompt=646, completion=211, calls=2) | Pass@1=187/301=62.13%
+
+[mbpp] (302/424) MBPP/307
+  passed=False | tokens=876 (prompt=681, completion=195, calls=2) | Pass@1=187/302=61.92%
+
+[mbpp] (303/424) MBPP/397
+  passed=True | tokens=427 (prompt=235, completion=192, calls=1) | Pass@1=188/303=62.05%
+
+[mbpp] (304/424) MBPP/807
+  passed=True | tokens=914 (prompt=685, completion=229, calls=2) | Pass@1=189/304=62.17%
+
+[mbpp] (305/424) MBPP/395
+  passed=True | tokens=898 (prompt=663, completion=235, calls=2) | Pass@1=190/305=62.30%
+
+[mbpp] (306/424) MBPP/300
+  passed=False | tokens=892 (prompt=678, completion=214, calls=2) | Pass@1=190/306=62.09%
+
+[mbpp] (307/424) MBPP/104
+  passed=True | tokens=750 (prompt=619, completion=131, calls=2) | Pass@1=191/307=62.21%
+
+[mbpp] (308/424) MBPP/94
+  passed=False | tokens=969 (prompt=695, completion=274, calls=2) | Pass@1=191/308=62.01%
+
+[mbpp] (309/424) MBPP/720
+  passed=True | tokens=880 (prompt=690, completion=190, calls=2) | Pass@1=192/309=62.14%
+
+[mbpp] (310/424) MBPP/447
+  passed=True | tokens=806 (prompt=641, completion=165, calls=2) | Pass@1=193/310=62.26%
+
+[mbpp] (311/424) MBPP/465
+  passed=True | tokens=894 (prompt=685, completion=209, calls=2) | Pass@1=194/311=62.38%
+
+[mbpp] (312/424) MBPP/63
+  passed=False | tokens=581 (prompt=239, completion=342, calls=1) | Pass@1=194/312=62.18%
+
+[mbpp] (313/424) MBPP/608
+  passed=True | tokens=1092 (prompt=719, completion=373, calls=2) | Pass@1=195/313=62.30%
+
+[mbpp] (314/424) MBPP/290
+  passed=False | tokens=983 (prompt=722, completion=261, calls=2) | Pass@1=195/314=62.10%
+
+[mbpp] (315/424) MBPP/567
+  passed=True | tokens=423 (prompt=238, completion=185, calls=1) | Pass@1=196/315=62.22%
+
+[mbpp] (316/424) MBPP/399
+  passed=True | tokens=923 (prompt=704, completion=219, calls=2) | Pass@1=197/316=62.34%
+
+[mbpp] (317/424) MBPP/764
+  passed=True | tokens=779 (prompt=620, completion=159, calls=2) | Pass@1=198/317=62.46%
+
+[mbpp] (318/424) MBPP/587
+  passed=True | tokens=733 (prompt=604, completion=129, calls=2) | Pass@1=199/318=62.58%
+
+[mbpp] (319/424) MBPP/644
+  passed=True | tokens=942 (prompt=722, completion=220, calls=2) | Pass@1=200/319=62.70%
+
+[mbpp] (320/424) MBPP/473
+  passed=False | tokens=1035 (prompt=766, completion=269, calls=2) | Pass@1=200/320=62.50%
+
+[mbpp] (321/424) MBPP/603
+  passed=False | tokens=1121 (prompt=728, completion=393, calls=2) | Pass@1=200/321=62.31%
+
+[mbpp] (322/424) MBPP/277
+  passed=True | tokens=901 (prompt=685, completion=216, calls=2) | Pass@1=201/322=62.42%
+
+[mbpp] (323/424) MBPP/255
+  passed=True | tokens=879 (prompt=738, completion=141, calls=2) | Pass@1=202/323=62.54%
+
+[mbpp] (324/424) MBPP/279
+  passed=True | tokens=785 (prompt=625, completion=160, calls=2) | Pass@1=203/324=62.65%
+
+[mbpp] (325/424) MBPP/737
+  passed=True | tokens=403 (prompt=240, completion=163, calls=1) | Pass@1=204/325=62.77%
+
+[mbpp] (326/424) MBPP/168
+  passed=True | tokens=450 (prompt=236, completion=214, calls=1) | Pass@1=205/326=62.88%
+
+[mbpp] (327/424) MBPP/750
+  passed=False | tokens=729 (prompt=600, completion=129, calls=2) | Pass@1=205/327=62.69%
+
+[mbpp] (328/424) MBPP/141
+  passed=True | tokens=576 (prompt=236, completion=340, calls=1) | Pass@1=206/328=62.80%
+
+[mbpp] (329/424) MBPP/628
+  passed=True | tokens=818 (prompt=664, completion=154, calls=2) | Pass@1=207/329=62.92%
+
+[mbpp] (330/424) MBPP/426
+  passed=False | tokens=886 (prompt=681, completion=205, calls=2) | Pass@1=207/330=62.73%
+
+[mbpp] (331/424) MBPP/231
+  passed=False | tokens=903 (prompt=656, completion=247, calls=2) | Pass@1=207/331=62.54%
+
+[mbpp] (332/424) MBPP/809
+  passed=True | tokens=490 (prompt=252, completion=238, calls=1) | Pass@1=208/332=62.65%
+
+[mbpp] (333/424) MBPP/62
+  passed=True | tokens=788 (prompt=625, completion=163, calls=2) | Pass@1=209/333=62.76%
+
+[mbpp] (334/424) MBPP/396
+  passed=False | tokens=427 (prompt=242, completion=185, calls=1) | Pass@1=209/334=62.57%
+
+[mbpp] (335/424) MBPP/123
+  passed=True | tokens=1022 (prompt=686, completion=336, calls=2) | Pass@1=210/335=62.69%
+
+[mbpp] (336/424) MBPP/226
+  passed=True | tokens=435 (prompt=241, completion=194, calls=1) | Pass@1=211/336=62.80%
+
+[mbpp] (337/424) MBPP/560
+  passed=True | tokens=964 (prompt=730, completion=234, calls=2) | Pass@1=212/337=62.91%
+
+[mbpp] (338/424) MBPP/724
+  passed=True | tokens=991 (prompt=727, completion=264, calls=2) | Pass@1=213/338=63.02%
+
+[mbpp] (339/424) MBPP/172
+  passed=False | tokens=755 (prompt=656, completion=99, calls=2) | Pass@1=213/339=62.83%
+
+[mbpp] (340/424) MBPP/802
+  passed=False | tokens=1035 (prompt=738, completion=297, calls=2) | Pass@1=213/340=62.65%
+
+[mbpp] (341/424) MBPP/127
+  passed=True | tokens=436 (prompt=238, completion=198, calls=1) | Pass@1=214/341=62.76%
+
+[mbpp] (342/424) MBPP/310
+  passed=False | tokens=743 (prompt=614, completion=129, calls=2) | Pass@1=214/342=62.57%
+
+[mbpp] (343/424) MBPP/72
+  passed=True | tokens=553 (prompt=244, completion=309, calls=1) | Pass@1=215/343=62.68%
+
+[mbpp] (344/424) MBPP/736
+  passed=True | tokens=490 (prompt=242, completion=248, calls=1) | Pass@1=216/344=62.79%
+
+[mbpp] (345/424) MBPP/562
+  passed=False | tokens=565 (prompt=236, completion=329, calls=1) | Pass@1=216/345=62.61%
+
+[mbpp] (346/424) MBPP/283
+  passed=True | tokens=510 (prompt=241, completion=269, calls=1) | Pass@1=217/346=62.72%
+
+[mbpp] (347/424) MBPP/280
+  passed=False | tokens=460 (prompt=241, completion=219, calls=1) | Pass@1=217/347=62.54%
+
+[mbpp] (348/424) MBPP/295
+  passed=False | tokens=855 (prompt=652, completion=203, calls=2) | Pass@1=217/348=62.36%
+
+[mbpp] (349/424) MBPP/308
+  passed=True | tokens=902 (prompt=679, completion=223, calls=2) | Pass@1=218/349=62.46%
+
+[mbpp] (350/424) MBPP/791
+  passed=True | tokens=812 (prompt=634, completion=178, calls=2) | Pass@1=219/350=62.57%
+
+[mbpp] (351/424) MBPP/120
+  passed=False | tokens=623 (prompt=242, completion=381, calls=1) | Pass@1=219/351=62.39%
+
+[mbpp] (352/424) MBPP/406
+  passed=False | tokens=765 (prompt=613, completion=152, calls=2) | Pass@1=219/352=62.22%
+
+[mbpp] (353/424) MBPP/799
+  passed=False | tokens=472 (prompt=238, completion=234, calls=1) | Pass@1=219/353=62.04%
+
+[mbpp] (354/424) MBPP/85
+  passed=True | tokens=772 (prompt=622, completion=150, calls=2) | Pass@1=220/354=62.15%
+
+[mbpp] (355/424) MBPP/268
+  passed=False | tokens=804 (prompt=627, completion=177, calls=2) | Pass@1=220/355=61.97%
+
+[mbpp] (356/424) MBPP/726
+  passed=True | tokens=852 (prompt=652, completion=200, calls=2) | Pass@1=221/356=62.08%
+
+[mbpp] (357/424) MBPP/124
+  passed=False | tokens=906 (prompt=693, completion=213, calls=2) | Pass@1=221/357=61.90%
+
+[mbpp] (358/424) MBPP/14
+  passed=True | tokens=803 (prompt=635, completion=168, calls=2) | Pass@1=222/358=62.01%
+
+[mbpp] (359/424) MBPP/783
+  passed=True | tokens=913 (prompt=240, completion=673, calls=1) | Pass@1=223/359=62.12%
+
+[mbpp] (360/424) MBPP/432
+  passed=True | tokens=450 (prompt=245, completion=205, calls=1) | Pass@1=224/360=62.22%
+
+[mbpp] (361/424) MBPP/751
+  passed=False | tokens=1146 (prompt=762, completion=384, calls=2) | Pass@1=224/361=62.05%
+
+[mbpp] (362/424) MBPP/101
+  passed=False | tokens=1020 (prompt=739, completion=281, calls=2) | Pass@1=224/362=61.88%
+
+[mbpp] (363/424) MBPP/267
+  passed=True | tokens=791 (prompt=626, completion=165, calls=2) | Pass@1=225/363=61.98%
+
+[mbpp] (364/424) MBPP/404
+  passed=True | tokens=746 (prompt=602, completion=144, calls=2) | Pass@1=226/364=62.09%
+
+[mbpp] (365/424) MBPP/272
+  passed=True | tokens=423 (prompt=238, completion=185, calls=1) | Pass@1=227/365=62.19%
+
+[mbpp] (366/424) MBPP/765
+  passed=True | tokens=1051 (prompt=724, completion=327, calls=2) | Pass@1=228/366=62.30%
+
+[mbpp] (367/424) MBPP/568
+  passed=True | tokens=683 (prompt=572, completion=111, calls=2) | Pass@1=229/367=62.40%
+
+[mbpp] (368/424) MBPP/745
+  passed=True | tokens=897 (prompt=678, completion=219, calls=2) | Pass@1=230/368=62.50%
+
+[mbpp] (369/424) MBPP/250
+  passed=True | tokens=417 (prompt=241, completion=176, calls=1) | Pass@1=231/369=62.60%
+
+[mbpp] (370/424) MBPP/463
+  passed=False | tokens=557 (prompt=240, completion=317, calls=1) | Pass@1=231/370=62.43%
+
+[mbpp] (371/424) MBPP/629
+  passed=True | tokens=910 (prompt=688, completion=222, calls=2) | Pass@1=232/371=62.53%
+
+[mbpp] (372/424) MBPP/162
+  passed=True | tokens=906 (prompt=685, completion=221, calls=2) | Pass@1=233/372=62.63%
+
+[mbpp] (373/424) MBPP/805
+  passed=True | tokens=911 (prompt=700, completion=211, calls=2) | Pass@1=234/373=62.73%
+
+[mbpp] (374/424) MBPP/129
+  passed=True | tokens=714 (prompt=232, completion=482, calls=1) | Pass@1=235/374=62.83%
+
+[mbpp] (375/424) MBPP/419
+  passed=True | tokens=887 (prompt=675, completion=212, calls=2) | Pass@1=236/375=62.93%
+
+[mbpp] (376/424) MBPP/728
+  passed=True | tokens=867 (prompt=666, completion=201, calls=2) | Pass@1=237/376=63.03%
+
+[mbpp] (377/424) MBPP/615
+  passed=False | tokens=451 (prompt=238, completion=213, calls=1) | Pass@1=237/377=62.86%
+
+[mbpp] (378/424) MBPP/806
+  passed=True | tokens=481 (prompt=241, completion=240, calls=1) | Pass@1=238/378=62.96%
+
+[mbpp] (379/424) MBPP/437
+  passed=False | tokens=761 (prompt=614, completion=147, calls=2) | Pass@1=238/379=62.80%
+
+[mbpp] (380/424) MBPP/276
+  passed=True | tokens=791 (prompt=631, completion=160, calls=2) | Pass@1=239/380=62.89%
+
+[mbpp] (381/424) MBPP/130
+  passed=True | tokens=440 (prompt=238, completion=202, calls=1) | Pass@1=240/381=62.99%
+
+[mbpp] (382/424) MBPP/125
+  passed=False | tokens=1027 (prompt=722, completion=305, calls=2) | Pass@1=240/382=62.83%
+
+[mbpp] (383/424) MBPP/77
+  passed=False | tokens=516 (prompt=239, completion=277, calls=1) | Pass@1=240/383=62.66%
+
+[mbpp] (384/424) MBPP/238
+  passed=True | tokens=832 (prompt=648, completion=184, calls=2) | Pass@1=241/384=62.76%
+
+[mbpp] (385/424) MBPP/42
+  passed=False | tokens=1001 (prompt=719, completion=282, calls=2) | Pass@1=241/385=62.60%
+
+[mbpp] (386/424) MBPP/128
+  passed=True | tokens=434 (prompt=241, completion=193, calls=1) | Pass@1=242/386=62.69%
+
+[mbpp] (387/424) MBPP/451
+  passed=True | tokens=803 (prompt=636, completion=167, calls=2) | Pass@1=243/387=62.79%
+
+[mbpp] (388/424) MBPP/752
+  passed=True | tokens=983 (prompt=707, completion=276, calls=2) | Pass@1=244/388=62.89%
+
+[mbpp] (389/424) MBPP/56
+  passed=True | tokens=880 (prompt=680, completion=200, calls=2) | Pass@1=245/389=62.98%
+
+[mbpp] (390/424) MBPP/556
+  passed=True | tokens=931 (prompt=689, completion=242, calls=2) | Pass@1=246/390=63.08%
+
+[mbpp] (391/424) MBPP/408
+  passed=False | tokens=1478 (prompt=924, completion=554, calls=2) | Pass@1=246/391=62.92%
+
+[mbpp] (392/424) MBPP/2
+  passed=False | tokens=504 (prompt=244, completion=260, calls=1) | Pass@1=246/392=62.76%
+
+[mbpp] (393/424) MBPP/61
+  passed=False | tokens=461 (prompt=244, completion=217, calls=1) | Pass@1=246/393=62.60%
+
+[mbpp] (394/424) MBPP/755
+  passed=True | tokens=971 (prompt=687, completion=284, calls=2) | Pass@1=247/394=62.69%
+
+[mbpp] (395/424) MBPP/574
+  passed=False | tokens=814 (prompt=644, completion=170, calls=2) | Pass@1=247/395=62.53%
+
+[mbpp] (396/424) MBPP/102
+  passed=True | tokens=765 (prompt=617, completion=148, calls=2) | Pass@1=248/396=62.63%
+
+[mbpp] (397/424) MBPP/305
+  passed=False | tokens=442 (prompt=242, completion=200, calls=1) | Pass@1=248/397=62.47%
+
+[mbpp] (398/424) MBPP/135
+  passed=True | tokens=768 (prompt=615, completion=153, calls=2) | Pass@1=249/398=62.56%
+
+[mbpp] (399/424) MBPP/400
+  passed=False | tokens=1025 (prompt=750, completion=275, calls=2) | Pass@1=249/399=62.41%
+
+[mbpp] (400/424) MBPP/573
+  passed=True | tokens=924 (prompt=686, completion=238, calls=2) | Pass@1=250/400=62.50%
+
+[mbpp] (401/424) MBPP/131
+  passed=True | tokens=565 (prompt=238, completion=327, calls=1) | Pass@1=251/401=62.59%
+
+[mbpp] (402/424) MBPP/145
+  passed=False | tokens=864 (prompt=664, completion=200, calls=2) | Pass@1=251/402=62.44%
+
+[mbpp] (403/424) MBPP/740
+  passed=True | tokens=775 (prompt=623, completion=152, calls=2) | Pass@1=252/403=62.53%
+
+[mbpp] (404/424) MBPP/67
+  passed=True | tokens=1089 (prompt=721, completion=368, calls=2) | Pass@1=253/404=62.62%
+
+[mbpp] (405/424) MBPP/769
+  passed=True | tokens=829 (prompt=648, completion=181, calls=2) | Pass@1=254/405=62.72%
+
+[mbpp] (406/424) MBPP/389
+  passed=True | tokens=588 (prompt=237, completion=351, calls=1) | Pass@1=255/406=62.81%
+
+[mbpp] (407/424) MBPP/309
+  passed=True | tokens=734 (prompt=596, completion=138, calls=2) | Pass@1=256/407=62.90%
+
+[mbpp] (408/424) MBPP/88
+  passed=True | tokens=460 (prompt=236, completion=224, calls=1) | Pass@1=257/408=62.99%
+
+[mbpp] (409/424) MBPP/392
+  passed=True | tokens=1060 (prompt=763, completion=297, calls=2) | Pass@1=258/409=63.08%
+
+[mbpp] (410/424) MBPP/798
+  passed=True | tokens=743 (prompt=603, completion=140, calls=2) | Pass@1=259/410=63.17%
+
+[mbpp] (411/424) MBPP/223
+  passed=True | tokens=523 (prompt=241, completion=282, calls=1) | Pass@1=260/411=63.26%
+
+[mbpp] (412/424) MBPP/756
+  passed=True | tokens=761 (prompt=613, completion=148, calls=2) | Pass@1=261/412=63.35%
+
+[mbpp] (413/424) MBPP/801
+  passed=False | tokens=423 (prompt=241, completion=182, calls=1) | Pass@1=261/413=63.20%
+
+[mbpp] (414/424) MBPP/566
+  passed=True | tokens=734 (prompt=596, completion=138, calls=2) | Pass@1=262/414=63.29%
+
+[mbpp] (415/424) MBPP/64
+  passed=True | tokens=655 (prompt=562, completion=93, calls=2) | Pass@1=263/415=63.37%
+
+[mbpp] (416/424) MBPP/92
+  passed=True | tokens=888 (prompt=668, completion=220, calls=2) | Pass@1=264/416=63.46%
+
+[mbpp] (417/424) MBPP/577
+  passed=True | tokens=914 (prompt=677, completion=237, calls=2) | Pass@1=265/417=63.55%
+
+[mbpp] (418/424) MBPP/234
+  passed=True | tokens=676 (prompt=568, completion=108, calls=2) | Pass@1=266/418=63.64%
+
+[mbpp] (419/424) MBPP/163
+  passed=True | tokens=867 (prompt=669, completion=198, calls=2) | Pass@1=267/419=63.72%
+
+[mbpp] (420/424) MBPP/754
+  passed=True | tokens=1059 (prompt=756, completion=303, calls=2) | Pass@1=268/420=63.81%
+
+[mbpp] (421/424) MBPP/103
+  passed=True | tokens=654 (prompt=242, completion=412, calls=1) | Pass@1=269/421=63.90%
+
+[mbpp] (422/424) MBPP/248
+  passed=False | tokens=445 (prompt=235, completion=210, calls=1) | Pass@1=269/422=63.74%
+
+[mbpp] (423/424) MBPP/66
+  passed=True | tokens=426 (prompt=233, completion=193, calls=1) | Pass@1=270/423=63.83%
+
+[mbpp] (424/424) MBPP/58
+  passed=True | tokens=447 (prompt=242, completion=205, calls=1) | Pass@1=271/424=63.92%
+
+[mbpp] Done. Pass@1=271/424 (63.9151%), total_tokens=322173
+
+All summaries saved to /data/llm/zjy/OpenHands-main/Output/repeat/run_01/overall_gpt-4o-mini_openhands_k1_summary.json

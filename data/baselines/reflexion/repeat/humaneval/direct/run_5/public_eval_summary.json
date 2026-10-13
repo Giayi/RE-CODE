@@ -1,0 +1,9 @@
+{
+  "results_path": "/workspace/Output/repeat/humaneval/direct/run_5/gen/human-eval._simple_10_gpt-4o-mini_pass_at_k_1_py.jsonl",
+  "public_test_path": "./benchmarks/humaneval/humaneval_public_test.jsonl",
+  "output_path": "/workspace/Output/repeat/humaneval/direct/run_5/public_eval.jsonl",
+  "passed": 140,
+  "total": 159,
+  "pass_at_1": 0.8805,
+  "missing_solutions": []
+}

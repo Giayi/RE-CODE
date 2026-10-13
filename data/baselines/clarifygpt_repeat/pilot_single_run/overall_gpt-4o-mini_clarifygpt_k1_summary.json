@@ -1,0 +1,65 @@
+[
+  {
+    "dataset": "humaneval",
+    "model": "gpt-4o-mini",
+    "framework": "ClarifyGPT",
+    "k_value": 1,
+    "n_samples": 1,
+    "inference_type": "three_shot",
+    "num_problems": 159,
+    "num_passed": 139,
+    "pass_at_1": 87.4214,
+    "completed": 159,
+    "num_clarified": 34,
+    "token_usage": {
+      "prompt_tokens": 206470,
+      "completion_tokens": 38427,
+      "total_tokens": 244897,
+      "api_calls": 261
+    },
+    "elapsed_sec": 813.734,
+    "output_file": "/data/llm/zjy/ClarifyGPT-main/output1/humaneval_gpt-4o-mini_clarifygpt_k1_results.json"
+  },
+  {
+    "dataset": "mbpp_public",
+    "model": "gpt-4o-mini",
+    "framework": "ClarifyGPT",
+    "k_value": 1,
+    "n_samples": 1,
+    "inference_type": "three_shot",
+    "num_problems": 427,
+    "num_passed": 331,
+    "pass_at_1": 77.5176,
+    "completed": 427,
+    "num_clarified": 158,
+    "token_usage": {
+      "prompt_tokens": 607824,
+      "completion_tokens": 103596,
+      "total_tokens": 711420,
+      "api_calls": 901
+    },
+    "elapsed_sec": 2479.37,
+    "output_file": "/data/llm/zjy/ClarifyGPT-main/output1/mbpp_public_gpt-4o-mini_clarifygpt_k1_results.json"
+  },
+  {
+    "dataset": "mbpp_test",
+    "model": "gpt-4o-mini",
+    "framework": "ClarifyGPT",
+    "k_value": 1,
+    "n_samples": 1,
+    "inference_type": "three_shot",
+    "num_problems": 974,
+    "num_passed": 706,
+    "pass_at_1": 72.4846,
+    "completed": 974,
+    "num_clarified": 427,
+    "token_usage": {
+      "prompt_tokens": 1651459,
+      "completion_tokens": 277820,
+      "total_tokens": 1929279,
+      "api_calls": 2255
+    },
+    "elapsed_sec": 6319.589,
+    "output_file": "/data/llm/zjy/ClarifyGPT-main/output1/mbpp_test_gpt-4o-mini_clarifygpt_k1_results.json"
+  }
+]

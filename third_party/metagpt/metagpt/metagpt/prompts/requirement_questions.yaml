@@ -1,0 +1,42 @@
+- id: product_name
+  phase: 1
+  dimension: product
+  optional: false
+  prompt: "请给这个产品起一个简洁清晰的名称（例如：团队任务与 OKR 助手、在线课程管理平台等），并用一句话概括它的定位。"
+
+- id: target_user
+  phase: 1
+  dimension: user
+  optional: false
+  prompt: "基于当前需求 {requirement}，请描述典型目标用户画像？（可直接选择：A. 普通消费者 B. 企业内部员工 C. 专业开发者 D. 其他，请补充；也可以自由描述）"
+
+- id: core_scenario
+  phase: 1
+  dimension: scenario
+  optional: false
+  prompt: "这个产品的核心使用场景是什么？（可直接选择：A. 日常工具类 B. 协作办公类 C. 内容创作类 D. 数据分析类 E. 其他，请补充；也可以自由描述）"
+
+- id: must_features
+  phase: 2
+  dimension: feature
+  optional: false
+  prompt: "请列出必须实现的核心功能（Must Have），可以按“功能名：一句说明”的方式给出，也可以从推荐项中选择：A. 用户注册登录 B. 核心业务流程（请具体说明）C. 数据存储与查询 D. 权限与角色管理 E. 其他（请补充）。"
+
+- id: optional_features
+  phase: 2
+  dimension: feature
+  optional: true
+  prompt: "请列出可选但重要的功能（Should/Nice to Have），可直接选择：A. 通知与订阅 B. 报表与可视化 C. 多语言支持 D. 第三方集成 E. 其他（请补充），或自由描述。"
+
+- id: boundary_exclusions
+  phase: 3
+  dimension: scope
+  optional: false
+  prompt: "请明确哪些功能属于 Not In Scope（明确排除）？可以参考：A. 不涉及支付收单 B. 不做移动端原生 App C. 不包含复杂 AI 训练能力 D. 其他（请补充），也可以自由描述。"
+
+- id: success_metrics
+  phase: 4
+  dimension: success_metrics
+  optional: true
+  prompt: "如何衡量本产品是否成功？可以从以下维度中选择或自由组合：A. DAU/MAU 指标 B. 转化率 C. 付费率或营收 D. 任务完成效率提升比例 E. 用户满意度评分 F. 其他（请补充）。"
+

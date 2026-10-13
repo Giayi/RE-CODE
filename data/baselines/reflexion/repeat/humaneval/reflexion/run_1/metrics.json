@@ -1,0 +1,38 @@
+{
+  "dataset": "humaneval",
+  "method": "reflexion",
+  "round": 1,
+  "model": "gpt-4o-mini",
+  "status": "ok",
+  "exit_code_generation": 0,
+  "exit_code_evaluation": 0,
+  "started_at": "2026-10-11T15:12:27+08:00",
+  "ended_at": "2026-10-11T15:44:23+08:00",
+  "wall_time_seconds": 1915.06,
+  "generation_wall_time_seconds": 1914.99,
+  "evaluation_wall_time_seconds": 0.07,
+  "pass_at_1": 0.8428,
+  "passed": 134,
+  "total": 159,
+  "missing_solutions": [],
+  "token_consumption": {
+    "n_problems": 164,
+    "total_prompt_tokens": 479828,
+    "total_completion_tokens": 91677,
+    "total_tokens": 571505,
+    "mean_tokens_per_problem": 3484.79,
+    "median_tokens_per_problem": 703.0,
+    "std_tokens_per_problem": 7451.9,
+    "mean_prompt_tokens_per_problem": 2925.78,
+    "mean_completion_tokens_per_problem": 559.01,
+    "mean_llm_calls_per_problem": 4.1,
+    "approx_cost_usd_gpt4o_mini": 0.127
+  },
+  "paths": {
+    "generation": "humaneval/reflexion/run_1/gen/human-eval._reflexion_10_gpt-4o-mini_pass_at_k_1_py.jsonl",
+    "public_eval": "humaneval/reflexion/run_1/public_eval.jsonl",
+    "public_eval_summary": "humaneval/reflexion/run_1/public_eval_summary.json",
+    "generation_log": "humaneval/reflexion/run_1/generation.log",
+    "evaluation_log": "humaneval/reflexion/run_1/evaluation.log"
+  }
+}
